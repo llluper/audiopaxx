@@ -1,0 +1,45 @@
+{
+  "socialMediaLinks": {
+    "facebook": "https://www.facebook.com/carmadamusic/",
+    "instagram": "https://www.instagram.com/carmadamusic/",
+    "snapchat": "https://www.snapchat.com/carmadamusic/",
+    "twitter": "https://twitter.com/carmadamusic",
+    "youtube": "https://www.youtube.com/channel/UCq4rR-A4Xhr9vbrUwP1Y9Cg"
+  },
+  "music": {
+    "spotify": "https://open.spotify.com/embed/artist/4R3mzuQZhfwDkjdE1wx31O",
+    "youtube": "https://www.youtube.com/embed/d1h3-KATTrM"
+  },
+  "shows": {
+    "songkickId": "8415963"
+  },
+  "social": {
+    "instagram": {
+      "access_token": "1421953105.54da896.d80595e4c8a04ddfb5808c258ff7fe48"
+    }
+  },
+  "contact": {
+    "contacts": [
+      {
+        "title": "Management",
+        "name": "Thomas Granger",
+        "email": "tom@audiopaxx.com"
+      },
+      {
+        "title": "Bookings (Australiasia)",
+        "name": "Dominic Furber",
+        "email": "dom@audiopaxx.com"
+      },
+      {
+        "title": "Bookings (NA/SA)",
+        "name": "Tynan Conroy",
+        "email": "tynan@madison-house.com"
+      },
+      {
+        "title": "Bookings (EU)",
+        "name": "Paul Sandilands",
+        "email": "paul@mbartists.co.uk"
+      }
+    ]
+  }
+}

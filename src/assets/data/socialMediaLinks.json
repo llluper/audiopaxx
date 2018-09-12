@@ -1,0 +1,16 @@
+{
+  "socialMediaLinks": {
+    "facebook": {
+      "link": "https://www.facebook.com/carmadamusic/",
+      "icon": "facebook"
+    },
+    "instagram": {
+      "link": "https://www.instagram.com/carmadamusic/",
+      "icon": "instagram"
+    },
+    "twitter": {
+      "link": "https://twitter.com/carmadamusic",
+      "icon": "twitter"
+    }
+  }
+}
