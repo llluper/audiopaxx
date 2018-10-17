@@ -47,9 +47,9 @@ a {
 }
 a.white {
   color: #fff;
-  &:hover {
-    // color: #fbec56;
-  }
+  // &:hover {
+  //   // color: #fbec56;
+  // }
 }
 a, a:hover {
   transition: color 1s;
@@ -88,6 +88,6 @@ a.snapchat:hover,
 a.twitter:hover,
 a.youtube:hover,
 a.spotify:hover {
-  color: #fbec56;
+  color: #323232;
 }
 </style>

@@ -1,19 +1,24 @@
 <template>
   <div id="app">
-    <div id="mySidenav" :class="{ 'sidenav': true, 'open': open }" @click="open = !open">
-      <div class="brand">
-        <img src="./assets/audiopaxx-logo.png" alt="Audiopaxx Logo" :class="{'menu': true}">
+    <div id="mySidenav" :class="{ 'sidenav': true, 'open': open }" >
+      <div class="is-relative">
+      <div class="brand" @click="open = !open">
+        <img src="./assets/audiopaxx-A-white.png" alt="Audiopaxx Logo" :class="{'logo menu': true, 'is-hidden': open}">
+        <img src="./assets/audiopaxx-white.png" alt="Audiopaxx Logo" :class="{'logo menu openA': true, 'is-hidden': !open}">
       </div>
       <!-- <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a> -->
       <!-- <a href="javascript:void(0)" class="" @click="openNav()">&plus;</a> -->
-      <div :class="{'menu': true, 'menuClosed' : !open}">
-      <a class="menu-item" href="#">Domestic</a>
-      <a class="menu-item" href="#">International</a>
-      <a class="menu-item" href="#">Events</a>
-      <a class="menu-item" href="#">About</a>
-      <a class="menu-item" href="#">Contact</a>
+      <div :class="{'menu': true, 'menuClosed' : !open}" @click="getWindowWidth()">
+      <div class="cont">
+      <router-link class="menu-item" to="/"><span :class="{'active-menu': this.$route.path== '/'}">Domestic</span></router-link><br>
+      <router-link class="menu-item" to="/international"><span :class="{'active-menu': this.$route.path== '/international'}">International</span></router-link><br>
+      <router-link class="menu-item" to="/events"><span :class="{'active-menu': this.$route.path== '/events'}">Events</span></router-link><br>
+      <router-link class="menu-item" to="/about"><span :class="{'active-menu': this.$route.path== '/about'}">About</span></router-link><br>
+      <router-link class="menu-item" to="/contact"><span :class="{'active-menu': this.$route.path== '/contact'}">Contact</span></router-link><br>
+      </div>
       </div>
       <SocialMediaIcons :class="{'social menu': true, 'menuClosed' : !open}"/>
+    </div>
     </div>
 
 <!-- Use any element to open the sidenav -->
@@ -29,7 +34,8 @@ export default {
   },
   data () {
     return {
-      open: false
+      open: false,
+      mobile: false
     }
   },
   methods: {
@@ -46,12 +52,30 @@ export default {
       // document.getElementById("main").style.marginLeft = "0";
       // document.body.style.backgroundColor = "white";
       this.open = false
+    },
+    getWindowWidth () {
+      let w = window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth
+      this.mobile = w > 768
+      this.open = this.mobile
     }
+  },
+  mounted () {
+    // this.getWindowWidth()
   }
 }
 </script>
 
 <style lang="scss">
+html {
+    overflow-y: hidden !important;
+  @media screen and (max-height: 768px) {
+    overflow-y: auto !important;
+  }
+  overflow-x: auto !important;
+  background: #111;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -80,19 +104,36 @@ export default {
   left: 0;
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 30px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.menu {
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* The navigation menu links */
 .sidenav a.menu-item {
-  padding: 8px 8px 8px 0px;
+  padding: 6px;
   text-decoration: none;
   font-size: 16px;
   color: #818181;
+  color: rgba(255, 255, 255, 0.701);
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  display:inline-block;
+  // margin-left: 60px;
+}
+.cont {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -122,6 +163,9 @@ export default {
 }
 .open {
   width: 280px;
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
 }
 
 .view {
@@ -131,24 +175,74 @@ export default {
 }
 .openView {
   margin-left: 280px;
-  transition: 0.3s;
-}
-.menu {
   transition: 0.5s;
 }
+.menu {
+  transition: 0.3s;
+}
 .menuClosed {
-  opacity: 0;
+  display: none;
   transition: 0.3s;
 }
 .social {
-  margin-top: 30vh;
+  position: absolute;
+  bottom: 5%;
+  // top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%);
+  a {
+    color: #fff;
+  }
 }
 .brand {
-  height: 80px;
+  display: block;
+  // height: 80px;
+  padding: 0 16px 45px;
+  .openA {
+    padding-top: 25px;
+  }
 }
 .brand img {
-  width: 100%;
+  width: 100px;
   height: auto;
-  padding: 25px;
+}
+h1.is-size-3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+#mySidenav {
+  height: 100vh;
+}
+.title {
+  text-transform: uppercase;
+}
+section:not(.VueCarousel) {
+  height: 100vh;
+}
+.columns {
+  margin: 0 !important;
+}
+p {
+  font-size: 0.8rem;
+  text-align: left;
+}
+.scroller {
+  position:relative;
+  overflow: scroll;
+  height: 100vh;
+}
+// .view > .columns > .is-4 {
+// //  height: 100vh;
+// }
+.active-menu,
+.sidenav a.menu-item span:hover {
+  background-color: #666;
+}
+button.VueCarousel-navigation-prev,
+button.VueCarousel-navigation-next {
+  transform: translateY(-50%) translateX(0%) !important;
+}
+section.view {
+  overflow: auto;
 }
 </style>

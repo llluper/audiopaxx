@@ -8,9 +8,9 @@
     <div class="column is-12">
 
     <div class="field">
-  <!-- <label class="label has-text-light">Name</label> -->
+  <label class="label has-text-dark">Name: *</label>
   <div class="control has-icons-right">
-    <input v-model="name" class="input" type="text" placeholder="Name" required>
+    <input v-model="name" class="input" type="text" placeholder="" required>
     <span class="icon is-small is-right">
       <i class="fas fa-address-book"></i>
     </span>
@@ -20,9 +20,9 @@
 
               <div class="column is-12">
 <div class="field">
-  <!-- <label class="label has-text-light">Email</label> -->
+  <label class="label has-text-dark">Email Address: *</label>
   <div class="control has-icons-right">
-    <input v-model="email" class="input" type="email" placeholder="Email" required>
+    <input v-model="email" class="input" type="email" placeholder="" required>
     <span class="icon is-small is-right">
       <i class="fas fa-envelope"></i>
     </span>
@@ -33,9 +33,9 @@
     <div class="column is-12">
 
 <div class="field">
-  <!-- <label class="label has-text-light">Subject</label> -->
+  <label class="label has-text-dark">Subject: *</label>
   <div class="control has-icons-right">
-    <input v-model="subject" class="input" type="text" placeholder="Subject" required>
+    <input v-model="subject" class="input" type="text" placeholder="" required>
               <span class="icon is-small is-right">
       <i class="fas fa-phone"></i>
     </span>
@@ -47,9 +47,9 @@
 
     <div class="column">
 <div class="field">
-  <!-- <label class="label has-text-light">Your Message</label> -->
+  <label class="label has-text-dark">Message: *</label>
   <div class="control">
-    <textarea v-model="message" class="textarea" placeholder="Your Message" required></textarea>
+    <textarea v-model="message" class="textarea" placeholder="" required></textarea>
   </div>
 </div>
 
@@ -57,9 +57,9 @@
   <div class="control">
     <button type="submit" class="button is-prim">Send</button>
   </div>
-  <div class="control">
+  <!-- <div class="control">
     <button @click="clear" class="button is-prim">Clear</button>
-  </div>
+  </div> -->
 </div>
     </div></div>
 </form>
@@ -134,8 +134,15 @@ export default {
 .contactForm {
   max-width: 800px;
   // margin: 40px auto;
-  padding: 0 20px;
+  padding: 0;
   color: #222;
+  .label {
+    text-align: left;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-size: 0.6rem;
+  }
 }
 .button.is-prim {
   border-color: #3273dc;
@@ -143,10 +150,10 @@ export default {
   color: #3273dc;
   background: transparent;
   &:hover {
-    // background-color: #trans;
+    background-color: #3273dc;
     // border-top-color:#3273dc;
-    border-color:#222;
-    // color: #fff;
+    // border-color:#222;
+    color: #222;
   }
   &.is-active {
     color: #fff;
@@ -156,38 +163,45 @@ export default {
 }
 input, textarea {
   border-radius: 0;
+  background: rgb(203, 203, 203);
+  border-color: #999;
 }
 .status {
   padding: 10px;
 }
 
-input {
-  background: transparent !important;
-  padding: 10px 0;
-  border: none;
-  border-bottom: 1px solid rgba(255,255,255, .15);
-  height: 44px;
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin: 5px 0 0;
-  border-radius: 0;
-  outline: 0;
-  resize: none;
-  line-height: 17px;
-  // background-color: #fff;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  box-shadow: none;
-}
-textarea {
-  border: 1px solid rgba(255,255,255, .15);
-  min-height: 158px;
-  font-size: 13px;
-  resize: vertical;
-  background: transparent !important;
-  font-weight: 400;
-  text-transform: none;
-  color: #fff;
+// input {
+//   background: transparent !important;
+//   padding: 10px 0;
+//   border: none;
+//   border-bottom: 1px solid rgba(255,255,255, .15);
+//   height: 44px;
+//   font-size: 17px;
+//   font-weight: 400;
+//   text-transform: uppercase;
+//   margin: 5px 0 0;
+//   border-radius: 0;
+//   outline: 0;
+//   resize: none;
+//   line-height: 17px;
+//   // background-color: #fff;
+//   color: #fff;
+//   font-family: 'Raleway', sans-serif;
+//   box-shadow: none;
+// }
+// textarea {
+//   border: 1px solid rgba(255,255,255, .15);
+//   min-height: 158px;
+//   font-size: 13px;
+//   resize: vertical;
+//   background: transparent !important;
+//   font-weight: 400;
+//   text-transform: none;
+//   color: #fff;
+// }
+.column {
+  padding-left: 0;
+  padding-right: 0;
+  padding: 3px 0;
 }
 </style>
