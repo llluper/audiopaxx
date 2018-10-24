@@ -51,15 +51,15 @@ export default {
   // }
 }
 .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 img {
-    // background: #3A6F9A;
-    vertical-align: middle;
-    // max-height: 25px;
-    // max-width: 160px;
+  // background: #3A6F9A;
+  vertical-align: middle;
+  // max-height: 25px;
+  // max-width: 160px;
 }
 </style>

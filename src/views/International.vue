@@ -2,13 +2,18 @@
   <section class="international">
     <div class="columns">
       <div class="column is-4 section">
-        <h1 class="is-size-3 title">{{title}}</h1>
-        <p>{{text}}</p>
+        <div v-if="!$route.params.Pid">
+          <h1 class="is-size-3 title">{{title}}</h1>
+          <p>{{text}}</p>
+        </div>
+        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')">
+         <p>{{product.name}}</p>
+        </div>
       </div>
       <div class="column is-8">
         <div class="scroller">
         <ul class="">
-          <li :key="'icon-'+key" v-for="(value, key) in artists">{{value.name}}</li>
+          <li @click="goToDetail(value.name.replace(/\s+/g, '-'))" :key="'icon-'+key" v-for="(value, key) in artists">{{value.name}}</li>
         </ul>
         </div>
       </div>
@@ -27,8 +32,12 @@ export default {
       text: International.text,
       artists: artists
     }
+  },
+  methods: {
+    goToDetail (proId) {
+      this.$router.push({ name: 'international-artist', params: { Pid: proId } })
+    }
   }
-  // components: { ContactForm }
 }
 </script>
 
@@ -58,5 +67,8 @@ ul {
 }
 .is-4 {
   background-color: #fff;
+}
+li {
+  cursor: pointer;
 }
 </style>

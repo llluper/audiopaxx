@@ -6,7 +6,7 @@
         <div class="columns is-gapless is-multiline is-flex">
             <div class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in artists">
             <!-- <div class="is-one-quart"  style="background-image: url('../assets/x.jpg')"> -->
-              <img :src="require('../../public/img/domestic/' + value.folder + '/' + value.images[0])" alt="">
+              <img @click="goToDetail(value.folder.replace(/\s+/g, '-'))" :src="require('../../public/img/domestic/' + value.folder + '/' + value.images[0])" :alt="value.folder">
               <!-- <img :src="require('../../public/domestic/' + value.name.toLowercase() + 'jpg')" alt=""> -->
             <!-- </div> -->
             <!-- <p>{{value.name}}</p> -->
@@ -34,6 +34,11 @@ export default {
       title: Domestic.title,
       text: Domestic.text,
       artists: Domestic.artists
+    }
+  },
+  methods: {
+    goToDetail (proId) {
+      this.$router.push({ name: 'domestic-artist', params: { Pid: proId } })
     }
   }
   // components: { ContactForm }

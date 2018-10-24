@@ -43,6 +43,18 @@ export default new Router({
       name: 'events',
       component: () =>
         import('./views/Events.vue')
+    },
+    {
+      path: '/domestic/:Pid',
+      name: 'domestic-artist',
+      component: () =>
+        import('./components/DomesticArtist.vue')
+    },
+    {
+      path: '/international/:Pid',
+      name: 'international-artist',
+      component: () =>
+        import('./views/International.vue')
     }
   ]
 })
