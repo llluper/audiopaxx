@@ -3,7 +3,7 @@
     <div class="field is-grouped">
       <p class="control">
         <a :key="'icon-'+key" v-for="(value, key) in links" target="_blank" rel="noopener" :href="value.link" :class="keyClass(key, white)">
-          <i :class="'fab is-small fa-' + value.icon"></i>
+          <i :class="'fab fa-2x fa-' + value.icon"></i>
         </a>
       </p>
     </div>
@@ -38,6 +38,12 @@ a {
   color: #323232;
   font-weight: normal;
   padding: 3px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  i {
+    font-size: 1.7em;
+  }
 }
 a.white {
   color: #fff;
@@ -68,9 +74,9 @@ a.spotify:hover {
 }
 .control {
   width: 100%;
-  text-align: center;
+  text-align: left;
   @media screen and (max-width: 768px) {
-    text-align: center !important;
+    text-align: left !important;
   }
 }
 .control span {
@@ -82,6 +88,6 @@ a.snapchat:hover,
 a.twitter:hover,
 a.youtube:hover,
 a.spotify:hover {
-  color: #323232;
+  color: #fff;
 }
 </style>

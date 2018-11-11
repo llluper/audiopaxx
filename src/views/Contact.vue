@@ -2,7 +2,7 @@
   <section class="contact">
     <div class="columns">
       <div class="column is-4 section">
-        <h1 class="is-size-3 title">{{title}}</h1>
+        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
         <p>{{text}}</p>
         <ContactForm class="contactF"/>
       </div>
@@ -46,14 +46,15 @@ iframe {
   padding: 0;
   /* min-width: 1000px; */
   background: linear-gradient(
-      rgba(0, 0, 0, 0.85), 
-      rgba(0, 0, 0, 0.85), 
-      rgba(0, 0, 0, 0.85), 
-      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
     ),url('../../public/img/contact/mapback.png');
   background-position: center;
   background-size: cover;
+  background-color: #000;
 }
 /* .is-4 {
   min-width: 600px;
