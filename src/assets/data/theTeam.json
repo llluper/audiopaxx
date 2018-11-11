@@ -1,47 +1,72 @@
 {
   "teamList": [
     {
-      "name": "DOMINIC FURBER",
-      "position": "Managing Director / Artist Manager",
+      "name": "Dom Furber",
+      "position": "CEO",
       "email": "dom@audiopaxx.com"
     },
     {
-"name": "IGNACIO GARCIA",
+"name": "Ignacio Garcia",
     "position": "Director",
     "email": "ignacio@audiopaxx.com"
 }, {
-  "name": "HADI J",
+  "name": "Hadi Joweihan",
     "position": "Director",
     "email": "hadi@audiopaxx.com"
   }, 
   {
-    "name": "THOMAS GRANGER",
+    "name": "Tom Granger",
     "position": "General Manager",
     "email": "tom@audiopaxx.com"
-}, {
-  "name": "ELI BURY",
-    "position": "Artist Manager / Touring Agent",
-    "email": "eli@audiopaxx.com"
-}, {
-  "name": "DANIEL FARLEY",
-  "position": "Touring Agent",
-  "email": "daniel@audiopaxx.com"
-}, {
-  "name": "ALEX TATE",
-  "position": "Artist Manager / Touring Agent",
+}, 
+{
+  "name": "Helena Ho",
+  "position": "Head of Touring / Domestic Agent",
+  "email": "helena@audiopaxx.com"
+},
+{
+  "name": "Oscar Collingwood-Smith",
+  "position": "Partner of Corporate (USA)",
+  "email": "oscar@audiopaxx.com"
+},
+{
+  "name": "Alex Tate",
+  "position": "Touring Agent / Domestic Agent (QLD)",
   "email": "alex@audiopaxx.com"
+},
+{
+  "name": "Hannah Rigley",
+  "position": "Touring Agent (QLD)",
+  "email": "hannah@audiopaxx.com"
+},
+{
+  "name": "Josh Gilliand",
+  "position": "Touring Agent (VIC)",
+  "email": "josh@audiopaxx.com"
+},
+{
+  "name": "Daniel Farley",
+  "position": "Touring Agent (NZ)",
+  "email": "daniel@audiopaxx.com"
+},
+{
+  "name": "Blake Gilchrist",
+  "position": "Touring Agent (Adelaide)",
+  "email": "blake@audiopaxx.com"
+},
+{
+  "name": "Henry Wilson",
+  "position": "Touring / Domestic Agent",
+  "email": "henry@audiopaxx.com"
+},
+{
+  "name": "Stacey Queefert",
+    "position": "Domestic Agent",
+    "email": "stacey@audiopaxx.com"
 }, {
-  "name": "HELENA HO ",
-   "position": "Head of Touring / Artist Manager",
-   "email": "helena@audiopaxx.com"
-}, {
-  "name": "STACEY QUEFFERT",
-   "position": "Artist Manager / Management Assistant",
-   "email": "stacey@audiopaxx.com"
-}, {
-  "name": "ANTHONY MAZEVSKI",
-   "position": "Designer",
-   "email": "anthony@audiopaxx.com "
-    }
+  "name": "Edward Watson",
+  "position": "Domestic Agent",
+  "email": "ed@audiopaxx.com"
+}
   ]
 }
