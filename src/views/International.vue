@@ -3,8 +3,10 @@
     <div class="columns">
       <div class="column is-4 section">
         <div v-if="!$route.params.Pid">
-          <h1 class="is-size-3 title">{{title}}</h1>
-          <p>{{text}}</p>
+          <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+          <p v-for="(product, index) in text.split('\n')" :key="'international-text-'+index">
+            {{product}}
+          </p>
         </div>
         <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')">
          <p>{{product.name}}</p>
@@ -70,5 +72,8 @@ ul {
 }
 li {
   cursor: pointer;
+}
+p {
+  padding-bottom: 20px;
 }
 </style>

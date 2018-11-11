@@ -15,9 +15,10 @@
         </div>
       </div>
       <div class="column is-4 section">
-        <h1 class="is-size-3 title">{{title}}</h1>
-        <p>{{text}}</p>
-
+        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+        <p v-for="(product, index) in text.split('\n')" :key="'domestic-artist-bio'+index">
+          {{product}}
+        </p>
       </div>
     </div>
   </section>
@@ -48,6 +49,9 @@ export default {
 <style scoped lang="scss">
 .domestic {
   background: #DFDFDF;
+  img {
+    cursor: pointer;
+  }
 }
 
 .is-one-quarter {
@@ -72,10 +76,13 @@ export default {
 }
 .is-8 {
   padding: 0;
-  // background-color: #fff;
+  background-color: #000;
 }
 
 .columns {
   // min-height: 100%;
+}
+p {
+  padding-bottom: 20px;
 }
 </style>

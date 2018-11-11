@@ -2,9 +2,10 @@
   <section class="events">
     <div class="columns is-multiline">
       <div class="column is-12-tablet is-4-desktop section">
-        <h1 class="is-size-3 title">{{title}}</h1>
-        <p>{{text}}</p>
-
+        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+          <p v-for="(product, index) in text.split('\n')" :key="'events-text-'+index">
+            {{product}}
+          </p>
       </div>
       <div class="column is-12-tablet is-8-desktop">
         <carousel :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
@@ -58,8 +59,11 @@ export default {
 
 img {
   // background: #3A6F9A;
-  vertical-align: middle;
+  vertical-align: top;
   // max-height: 25px;
   // max-width: 160px;
+}
+p {
+  padding-bottom: 20px;
 }
 </style>
