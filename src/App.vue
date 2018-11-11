@@ -69,10 +69,11 @@ export default {
 
 <style lang="scss">
 html {
-    overflow-y: hidden !important;
+  overflow-y: hidden !important;
   @media screen and (max-height: 768px) {
-    overflow-y: auto !important;
+    overflow-y: scroll !important;
   }
+  -webkit-overflow-scrolling: touch;
   overflow-x: auto !important;
   background: #111;
 }
@@ -113,6 +114,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 2s;
 }
 
 /* The navigation menu links */
@@ -178,7 +180,7 @@ html {
   transition: 0.5s;
 }
 .menu {
-  transition: 0.3s;
+  transition: 2.3s;
 }
 .menuClosed {
   display: none;
@@ -205,8 +207,9 @@ html {
 .brand img {
   width: 100px;
   height: auto;
+  transition: all 2s;
 }
-h1.is-size-3 {
+h1.is-size-2 is-size-3-mobile {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
@@ -244,5 +247,10 @@ button.VueCarousel-navigation-next {
 }
 section.view {
   overflow: auto;
+}
+.is-4, .is-8, .is-4-desktop, .is-8desktop {
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 </style>
