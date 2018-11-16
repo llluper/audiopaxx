@@ -518,26 +518,6 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Lipless',
-    //   bio: 'Long surpassing the use of voice as a method of communication, Lipless comes from a place exceeding perception of the physical realm, a place that connects at an entirely existential level through music. Once operating exclusively in the audible dimension, you’ll find this sonic entity captivating your thoughts and elevating you to a level of aural euphoria like never before.\n' +
-    //     'Lipless has spent his time in our universe listening, experiencing and feeling sounds for what can only be described as an eternity.Reaching a new chapter in existence, He now enters the physical world by taking the form of something not dissimilar to the human form.It’ s the indistinguishable mask that sets this being aside from you or I, with several large, neon X’ s marking where the elements of a face once may, or may not have been.Bringing a wealth of sonic learnings to our planet, the human race has become intrigued with the enigmatic nature of what Lipless has to offer.',
-    //   images: ['Lipless.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: '',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: '',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: '',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
       folder: 'The Lulu Raes',
       bio: ``,
@@ -831,18 +811,6 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'SAYYA',
-    //   bio: 'Sam Marynissen, a young gun hailing from Sydney taking inspiration from the likes of Lido and Willow Beats, is at the helm of big things and a very welcome addition to the Audiopaxx team. Winning a Stoney Roads Producer competition brought Marynissen the opportunity to work with one of Australia’s finest electronic acts, Motez, to produce his debut single ‘Down’, later released on Stoney Roads Records. SΛYYΛ’s music is an eclectic mix of sounds that swim together perfectly to create some forward thinking music, and definitely one to keep an eye out for in the lead-up to the release of his debut EP set for early next year.',
-    //   images: ['SAYYA.jpg']
-    // },
-    // {
-    //   folder: 'Miguel Campbell',
-    //   bio: 'Miguel has been galvanised by the house music scene since the early 90’s and has also been a DJ since that time. Miguel began producing his own music as one ‘half’ of the underground duo HCB.\n' +
-    //     'In 2006 he founded his own label Outcross Records, which became a home for his music.Teaming up with fellow Leeds resident Matt Hughes to form MAM, a duo that has remixed the likes of the Imany, Deadmau5 and Flight Facilities, as well as putting out releases via Wolf + Lamb, Future Classic and Outcross itself.\n' +
-    //     'In 2010 he became the newest addition to the Hot Creations team and went on to pick up international recognition, capturing the imaginations of party people the world over.',
-    //   images: ['Miguel Campbell.jpg']
-    // },
     {
       folder: 'The Zilzies',
       bio: `Bright eyed 5 piece melodic groove machine The Zilzies spent 2017 solidifying what they started the year before, cementing themselves as one of the hottest new talents in the country, and earning the respect of many a fellow crowd pleasing act. With a national tour and sold out shows under their belt, the boys are looking to kick off the cycle all over again with a follow up single in the works for release in mid 2018.
@@ -966,36 +934,42 @@ export const Events = {
   title: 'Australian & International Events',
   text: 'Audiopaxx books an array of events exclusively, but also places its artists on the biggest festivals and corporate events in the country.\n' +
     'Exclusive events include your paradise, snow tunes, hidden, courtyard, Marco Polo.Festivals include Splendour In The Grass, Listen Out, Field Day, ORIGIN, Rhythm & Vines, Bay Dreams.',
-  images: [
-    'ACCESS-Afloat.jpg',
-    'DEADSET.jpg',
-    'HARDSYD.jpg',
-    'Elrow.jpg',
-    'JAUZhardticketshow.jpg',
-    'DEADSETSCARY.jpg',
-    'YPproposalxskrillex.jpg',
-    'Mainstage.jpg',
-    'ACCESS-event.jpg',
-    'Malamala.jpg',
-    'HaikuHouse.jpg',
-    'PlantationIsland.jpg',
-    'BiggestPartytever.jpg',
-    'CourtyardLIVE.jpg',
-    'CourtyardSummerseries.jpg',
-    'Courtyard.jpg',
-    'EVERAfter-USETHISVERSION.jpg',
-    'Changeroom.jpg',
-    'EstablishmentSaturdaysftSeanKingston.jpg',
-    'EverAfter.jpg',
-    'HARD-SYD-2.jpg',
-    'MarcoPolo.jpg',
-    'MountainMeetsSea.jpg',
-    'PURE.jpg',
-    'ShipFacedCruise.jpg',
-    'ShipFaced.jpg',
-    'THIS.jpg',
-    'WSNATRAKhardticktshow.jpg'
-  ]
+  images: ['event-20.jpg', 'events-13.jpg', 'events-2.jpg', 'events-27.jpg', 'events-5.jpg',
+    'event-26.jpg', 'events-15.jpg', 'events-21.jpg', 'events-28.jpg', 'events-6.jpg',
+    'event14.jpg', 'events-16.jpg', 'events-22.jpg', 'events-29.jpg', 'events-7.jpg',
+    'events-10.jpg', 'events-23.jpg', 'events-3.jpg', 'events-8.jpg',
+    'events-11.jpg', 'events-18.jpg', 'events-24.jpg', 'events-30.jpg', 'events-9.jpg',
+    'events-12.jpg', 'events-19.jpg', 'events-25.jpg', 'events-4.jpg' ]
+  //   images: [
+  //   'ACCESS-Afloat.jpg',
+  //   'DEADSET.jpg',
+  //   'HARDSYD.jpg',
+  //   'Elrow.jpg',
+  //   'JAUZhardticketshow.jpg',
+  //   'DEADSETSCARY.jpg',
+  //   'YPproposalxskrillex.jpg',
+  //   'Mainstage.jpg',
+  //   'ACCESS-event.jpg',
+  //   'Malamala.jpg',
+  //   'HaikuHouse.jpg',
+  //   'PlantationIsland.jpg',
+  //   'BiggestPartytever.jpg',
+  //   'CourtyardLIVE.jpg',
+  //   'CourtyardSummerseries.jpg',
+  //   'Courtyard.jpg',
+  //   'EVERAfter-USETHISVERSION.jpg',
+  //   'Changeroom.jpg',
+  //   'EstablishmentSaturdaysftSeanKingston.jpg',
+  //   'EverAfter.jpg',
+  //   'HARD-SYD-2.jpg',
+  //   'MarcoPolo.jpg',
+  //   'MountainMeetsSea.jpg',
+  //   'PURE.jpg',
+  //   'ShipFacedCruise.jpg',
+  //   'ShipFaced.jpg',
+  //   'THIS.jpg',
+  //   'WSNATRAKhardticktshow.jpg'
+  // ]
 }
 
 export const About = {
@@ -1006,7 +980,8 @@ export const About = {
   Utilising knowledge, relationships and contacts accumulated from over 20 years combined experience in the entertainment industry, we work closely with our artists, maintaining a sharp focus on the paramount goal to effectively express and connect their brand to the public, maximising potential and achieving longterm sustainable success.\n\
   In addition to breaking new Australian acts, we book tours for the most cutting edge international DJs and producers touring them throughout various countries in Australasia.\n\
   The Audiopaxx roster has established presence at major Australian and International music festivals such as HARD LA, Your Paradise Fiji, Future Music Festival, Stereosonic, Splendour in the Grass and Field Day, and have also performed and toured across North America, Europe & Australasia.\n\
-  In addition, we have worked in conjunction with global brands such as Red Bull, Microsoft, SFX Totem, OWSLA, Sony Music Entertainment, Universal, William Morris Endeavor and Windish.'
+  In addition, we have worked in conjunction with global brands such as Red Bull, Microsoft, SFX Totem, OWSLA, Sony Music Entertainment, Universal, William Morris Endeavor and Windish.',
+  images: ['about-1.jpg']
 }
 
 export const Contact = {
