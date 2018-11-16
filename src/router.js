@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Domestic from './views/Domestic.vue'
+import DomesticArtist from './components/DomesticArtist.vue'
+import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -9,9 +11,19 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
+      path: '/x',
+      name: 'homex',
+      component: Home
+    },
+    {
       path: '/',
       name: 'home',
       component: Domestic
+    },
+    {
+      path: '/domestic/:Pid',
+      name: 'domestic-artist',
+      component: DomesticArtist
     },
     {
       path: '/about',
@@ -43,12 +55,6 @@ export default new Router({
       name: 'events',
       component: () =>
         import('./views/Events.vue')
-    },
-    {
-      path: '/domestic/:Pid',
-      name: 'domestic-artist',
-      component: () =>
-        import('./components/DomesticArtist.vue')
     },
     {
       path: '/international/:Pid',

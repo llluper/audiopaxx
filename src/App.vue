@@ -3,19 +3,20 @@
     <div id="mySidenav" :class="{ 'sidenav': true, 'open': open }" >
       <div class="is-relative">
       <div class="brand" @click="open = !open">
-        <img src="./assets/audiopaxx-A-white.png" alt="Audiopaxx Logo" :class="{'logo menu': true, 'is-hidden': open}">
-        <img src="./assets/audiopaxx-white.png" alt="Audiopaxx Logo" :class="{'logo menu openA': true, 'is-hidden': !open}">
+        <img src="./assets/audiopaxx-A-white.png" alt="Audiopaxx Logo" :class="{'logo menu': true, 'is-hiddn': open}">
+        <!-- <img src="./assets/audiopaxx-white.png" alt="Audiopaxx Logo" :class="{'logo menu openA': true, 'is-hidden': !open}"> -->
+        <a :class="{'menu-item': true, 'menuClosed' : !open}" to="/"><img src="./assets/audiopaxx-white-word.png" alt="Audiopaxx Logo" :class="{'logo menu': true, 'is-hiddn': open}"></a><br>
       </div>
       <!-- <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a> -->
       <!-- <a href="javascript:void(0)" class="" @click="openNav()">&plus;</a> -->
       <div :class="{'menu': true, 'menuClosed' : !open}" @click="getWindowWidth()">
-      <div class="cont">
-      <router-link class="menu-item" to="/"><span :class="{'active-menu': this.$route.path== '/'}">Domestic</span></router-link><br>
-      <router-link class="menu-item" to="/international"><span :class="{'active-menu': this.$route.path== '/international'}">International</span></router-link><br>
-      <router-link class="menu-item" to="/events"><span :class="{'active-menu': this.$route.path== '/events'}">Events</span></router-link><br>
-      <router-link class="menu-item" to="/about"><span :class="{'active-menu': this.$route.path== '/about'}">About</span></router-link><br>
-      <router-link class="menu-item" to="/contact"><span :class="{'active-menu': this.$route.path== '/contact'}">Contact</span></router-link><br>
-      </div>
+        <div class="cont">
+          <router-link class="menu-item" to="/"><span :class="{'active-menu': this.$route.path== '/'}">Domestic</span></router-link><br>
+          <router-link class="menu-item" to="/international"><span :class="{'active-menu': this.$route.path== '/international'}">International</span></router-link><br>
+          <router-link class="menu-item" to="/events"><span :class="{'active-menu': this.$route.path== '/events'}">Events</span></router-link><br>
+          <router-link class="menu-item" to="/about"><span :class="{'active-menu': this.$route.path== '/about'}">About</span></router-link><br>
+          <router-link class="menu-item" to="/contact"><span :class="{'active-menu': this.$route.path== '/contact'}">Contact</span></router-link><br>
+        </div>
       </div>
       <SocialMediaIcons :class="{'social menu': true, 'menuClosed' : !open}"/>
     </div>
@@ -136,6 +137,7 @@ html {
 .cont {
   display: inline-block;
   margin: 0 auto;
+  // max-width: 50%;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -183,7 +185,7 @@ html {
   transition: 2.3s;
 }
 .menuClosed {
-  display: none;
+  display: none !important;
   transition: 0.3s;
 }
 .social {
@@ -202,6 +204,9 @@ html {
   padding: 0 16px 45px;
   .openA {
     padding-top: 25px;
+  }
+  a.menu-item {
+    padding-top: 7px;
   }
 }
 .brand img {
@@ -253,4 +258,18 @@ section.view {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
+.slider-size {
+  height: 100vh; /* This is your slider height */
+  // width: calc(100vh * (1920/1080));
+  width: auto;
+  // min-width: 50vh;
+  // overflow: scroll;
+}
+.VueCarousel {
+  width: 100%;
+}
+// .VueCarousel-slide {
+//   overflow: auto;
+// }
+
 </style>

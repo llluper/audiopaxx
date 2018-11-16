@@ -87,7 +87,10 @@ a.instagram:hover,
 a.snapchat:hover,
 a.twitter:hover,
 a.youtube:hover,
+a.soundcloud:hover,
+a.website:hover,
+a.bandcamp:hover,
 a.spotify:hover {
-  color: #fff;
+  color: #fff !important;
 }
 </style>
