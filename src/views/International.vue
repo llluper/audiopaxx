@@ -74,6 +74,6 @@ li {
   cursor: pointer;
 }
 p {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 </style>

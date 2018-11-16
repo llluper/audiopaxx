@@ -8,9 +8,11 @@
           </p>
       </div>
       <div class="column is-12-tablet is-8-desktop">
-        <carousel :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
+        <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
           <slide :key="'events-'+index" v-for="(image, index) in images">
-            <span class="helper"></span><img :src="require('../../public/img/events/'+image)">
+            <!-- <span class="helper"></span><img :src="require('../../public/img/events/'+image)"> -->
+            <div :style="{ background: 'url('+require('../../public/img/events/' + image)+') center center no-repeat', backgroundSize:'cover'}" class="slider-size">
+            </div>
           </slide>
         </carousel>
       </div>
@@ -27,6 +29,14 @@ export default {
       title: Events.title,
       text: Events.text,
       images: Events.images
+    }
+  },
+  computed: {
+    prev () {
+      return `<i class="fas fa-5x fa-angle-left"></i>`
+    },
+    next () {
+      return `<i class="fas fa-5x fa-angle-right"></i>`
     }
   }
 }
@@ -64,6 +74,13 @@ img {
   // max-width: 160px;
 }
 p {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+}
+.slider-size {
+  width: calc(100vh * (1920/1080));
+  overflow: scroll;
+}
+.VueCarousel-slide {
+  overflow: auto;
 }
 </style>

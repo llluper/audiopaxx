@@ -30,9 +30,9 @@
 
       </div>
       <div class="column is-12-tablet is-8-desktop">
-        <carousel :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
+        <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
           <slide :key="'events-'+index" v-for="(image, index) in images">
-            <span class="helper"></span><img :src="require('../../public/img/events/'+image)">
+            <span class="helper"></span><img :src="require('../../public/img/about/'+image)">
           </slide>
         </carousel>
       </div>
@@ -41,7 +41,7 @@
 </template>
 <script>
 // import ContactForm from '@/components/ContactForm.vue'
-import { About, Events } from '../assets/data/statics.js'
+import { About } from '../assets/data/statics.js'
 import { teamList } from '../assets/data/theTeam.json'
 
 export default {
@@ -53,14 +53,22 @@ export default {
       text: About.text,
       textArray: [],
       team: teamList,
-      images: Events.images
+      images: About.images
     }
   },
   created () {
-    console.log(this.team)
+    // console.log(this.team)
   },
   mounted () {
     this.textArray = this.text.split('\n')
+  },
+  computed: {
+    prev () {
+      return `<i class="fas fa-5x fa-angle-left"></i>`
+    },
+    next () {
+      return `<i class="fas fa-5x fa-angle-right"></i>`
+    }
   }
   // components: { ContactForm }
 }
