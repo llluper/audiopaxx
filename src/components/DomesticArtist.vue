@@ -3,10 +3,12 @@
     <div class="columns" v-for="(product,index) in artists" :key="'domestic-artist-'+index" v-if="proId == product.folder.replace(/\s+/g, '-')">
       <div class="column is-8 is-8-desktop">
         <div class="columns is-gapless">
-          <carousel :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
+          <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="3000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
             <slide :key="'domest-artist-carousel-'+index" v-for="(image, index) in product.images">
-              <span class="helper"></span>
-              <img :src="require('../../public/img/domestic/' + product.folder + '/' + image)">
+              <!-- <span class="helper"></span> -->
+              <div :style="{ background: 'url('+require('../../public/img/domestic/' + product.folder + '/' + image)+') center center no-repeat', backgroundSize:'cover'}" class="slider-size">
+              </div>
+              <!-- <img :src="require('../../public/img/domestic/' + product.folder + '/' + image)"> -->
               <!-- <SVG-filter-image :src="require('../../public/img/domestic/' + product.folder + '/' + image)" :src-placeholder="require('../../public/img/domestic/' + product.folder + '/' + image)"></SVG-filter-image> -->
             </slide>
           </carousel>
@@ -54,6 +56,14 @@ export default {
       this.loaded = true
     },
     3000)
+  },
+  computed: {
+    prev () {
+      return `<i class="fas fa-5x fa-angle-left"></i>`
+    },
+    next () {
+      return `<i class="fas fa-5x fa-angle-right"></i>`
+    }
   }
 }
 </script>
@@ -88,6 +98,38 @@ img {
   // margin: 0 auto;
 }
 p {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
+.VueCarousel-slide {
+  // visibility: visible;
+  // flex-basis: 100%;
+  // width: 100%;
+  // @media only screen and (min-width: 1024px) {
+  //   flex-basis: 33%;
+  //   width: 33%;
+  // }
+}
+// .center-cropped {
+//   width: 100%;
+//   height: auto;
+//   position: relative;
+//   overflow: hidden;
+//   margin: 0 auto;
+// }
+
+// img {
+//   position: absolute;
+//   top: 50%; left: 50%;
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   -o-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+// }
+// .peopleCarouselImg img {
+//   width: auto;
+//   height: 225px;
+//   max-height: 225px;
+// }
+
 </style>

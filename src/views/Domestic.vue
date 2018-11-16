@@ -6,7 +6,7 @@
         <div class="columns is-gapless is-multiline is-flex">
             <div class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in artists">
             <!-- <div class="is-one-quart"  style="background-image: url('../assets/x.jpg')"> -->
-              <img @click="goToDetail(value.folder.replace(/\s+/g, '-'))" :src="require('../../public/img/domestic/' + value.folder + '/' + value.images[0])" :alt="value.folder">
+              <img @click="goToDetail(value.folder.replace(/\s+/g, '-'))" :src="require('../../public/img/domestic/' + value.folder + '/' + value.folder.replace(/\s+/g, '').toUpperCase() + '_THUMB.jpg')" :alt="value.folder">
               <!-- <img :src="require('../../public/domestic/' + value.name.toLowercase() + 'jpg')" alt=""> -->
             <!-- </div> -->
             <!-- <p>{{value.name}}</p> -->
@@ -56,16 +56,31 @@ export default {
 
 .is-one-quarter {
   // height: calc(100vh / 4);
+  min-height: 100%;
+
   img {
     min-height: 100%;
     width: auto;
   }
-  max-height: 200px;
+  max-height: 300px;
+
   @media only screen and (min-width: 600px) {
     height: 200px;
   }
-  @media only screen and (max-width: 599px) {
-    max-height: 160px;
+  @media only screen and (min-width: 768px) {
+    height: 240px;
+  }
+  @media only screen and (min-width: 1480px) {
+    height: 300px;
+  }
+  @media only screen and (min-width: 1280px) {
+    height: 260px;
+  }
+  @media only screen and (max-width: 400px) {
+    max-height: 200px;
+  }
+  @media only screen and (max-width: 600px) {
+    max-height: 180px;
   }
   // display: inline-block;
   // height: 0;
@@ -83,6 +98,6 @@ export default {
   // min-height: 100%;
 }
 p {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 </style>
