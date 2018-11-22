@@ -3,13 +3,13 @@
     <div class="columns is-multiline">
       <div class="column is-12-tablet is-4-desktop section">
         <div class="aboutSection">
-        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+        <h1 class="is-size-3 is-size-3-mobile title">{{title}}</h1>
         <p :key="'abouttext-'+index" v-for="(text, index) in textArray">
           {{text}}<br><br>
         </p>
         </div>
         <div class="teamSection">
-          <h1 class="is-size-2 is-size-3-mobile title">{{titleTwo}}</h1>
+          <h1 class="is-size-3 is-size-3-mobile title">{{titleTwo}}</h1>
           <div class="the-team">
             <div class="columns is-multiline is-gapless is-mobile">
               <div :key="'icon-'+key" v-for="(value, key) in team" class="column is-3">

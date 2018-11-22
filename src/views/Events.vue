@@ -2,7 +2,7 @@
   <section class="events">
     <div class="columns is-multiline">
       <div class="column is-12-tablet is-4-desktop section">
-        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+        <h1 class="is-size-3 is-size-4-mobile title">{{title}}</h1>
           <p v-for="(product, index) in text.split('\n')" :key="'events-text-'+index">
             {{product}}
           </p>
@@ -76,11 +76,12 @@ img {
 p {
   padding-bottom: 15px;
 }
-.slider-size {
-  width: calc(100vh * (1920/1080));
-  overflow: scroll;
-}
-.VueCarousel-slide {
-  overflow: auto;
-}
+//CODE TO MAKE CAROUSEL PICTURES SCROLLABLE
+// .slider-size {
+//   width: calc(100vh * (1920/1080));
+//   overflow: scroll;
+// }
+// .VueCarousel-slide {
+//   overflow: auto;
+// }
 </style>

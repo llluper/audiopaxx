@@ -16,7 +16,7 @@
       </div>
 
       <div class="column is-4 is-4-desktop section">
-        <h1 class="is-size-2 is-size-3-mobile title has-text-left">{{product.folder}}</h1>
+        <h1 class="is-size-3 is-size-4-mobile title has-text-left">{{product.folder}}</h1>
         <p v-for="(product,index) in product.bio.split('\n')" :key="'domestic-artist-bio'+index">{{product ? product :
           'Bio coming soon...'}}
         </p>

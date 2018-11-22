@@ -214,9 +214,10 @@ html {
   height: auto;
   transition: all 2s;
 }
-h1.is-size-2 is-size-3-mobile {
+h1.is-size-3, .is-size-4-mobile {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
+  letter-spacing: 3px;
 }
 #mySidenav {
   height: 100vh;

@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="column is-4 section">
-        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+        <h1 class="is-size-3 is-size-4-mobile title">{{title}}</h1>
         <p v-for="(product, index) in text.split('\n')" :key="'domestic-artist-bio'+index">
           {{product}}
         </p>

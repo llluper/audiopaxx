@@ -2,7 +2,7 @@
   <section class="contact">
     <div class="columns">
       <div class="column is-4 section">
-        <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+        <h1 class="is-size-3 is-size-4-mobile title">{{title}}</h1>
         <p>{{text}}</p>
         <ContactForm class="contactF"/>
       </div>
