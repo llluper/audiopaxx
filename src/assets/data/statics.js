@@ -7,12 +7,12 @@ export const Domestic = {
       folder: 'AKOUO',
       bio: 'Launceston, Tasmania-based producer Akouo (ah-koo-oh) was locally recognized as a beatmaker and DJ in Australia’s underground hip-hop scene before gaining national and worldwide attention as a solo act in 2013.\n' +
         'His breakthrough came after his reworks of Flume and Childish Gambino effortlessly floated into Hype Machine’ s top 5 most popular charts, and he has since become an in -demand remixer, appearing on official releases by ZHU, SAFIA, Indian Summer and more.\n' +
-        'Beyond his remix capabilities, Akouo has proven his worth as an artist with his debut EP, “Mesa” climbing straight to #1 on iTunes’ electronic albums chart upon release. Lead by the infectious single “Last Time”, “Mesa” is a soulful, downtempo journey into the post-hip-hop inspired world of Akouo, featuring spaced out synths, cleverly crafted percussion, and brilliant hooks sung by himself.\n' +
-        '“Maybe you caught his startling productions on the radio, or even found yourself holding your phone aloft in the middle of a dancefloor trying to Shazam what on earth he’s spinning. It could have been any of these things, because at this very moment Akouo is probably appearing on all three, carving out a reputation as one of the hardest working electronic producers in Australia.” – THUMP\n' +
-        '“The Tasmania-based producer combines brilliant reverberance with hip-hop sensibilities in a way that few other can match.” – Kick Kick Snare\n' +
-        '“His influences are moody, deep and emotional at times – from Sampha to Drake, you start to get the sense of where he would like to take his career. The type of music he creates is certainly not within the typical electronic production structure.” – DJ Mag Australia\n' +
-        '“’Last Time’ is a shimmering, head-nod inducing slice of future beat laced with an airy, sparse vocal hook that keeps the song from floating off into the slipstream of noodling Soundcloud production.” – Pigeons & Planes\n' +
-        '“Akouo is like the little devil that pops up on the shoulder of a tune and encourages it to do naughty things.” – Stoney Roads',
+        'Beyond his remix capabilities, Akouo has proven his worth as an artist with his debut EP, "Mesa" climbing straight to #1 on iTunes’ electronic albums chart upon release. Lead by the infectious single "Last Time", "Mesa" is a soulful, downtempo journey into the post-hip-hop inspired world of Akouo, featuring spaced out synths, cleverly crafted percussion, and brilliant hooks sung by himself.\n' +
+        '"Maybe you caught his startling productions on the radio, or even found yourself holding your phone aloft in the middle of a dancefloor trying to Shazam what on earth he’s spinning. It could have been any of these things, because at this very moment Akouo is probably appearing on all three, carving out a reputation as one of the hardest working electronic producers in Australia." – THUMP\n' +
+        '"The Tasmania-based producer combines brilliant reverberance with hip-hop sensibilities in a way that few other can match." – Kick Kick Snare\n' +
+        '"His influences are moody, deep and emotional at times – from Sampha to Drake, you start to get the sense of where he would like to take his career. The type of music he creates is certainly not within the typical electronic production structure." – DJ Mag Australia\n' +
+        '"’Last Time’ is a shimmering, head-nod inducing slice of future beat laced with an airy, sparse vocal hook that keeps the song from floating off into the slipstream of noodling Soundcloud production." – Pigeons & Planes\n' +
+        '"Akouo is like the little devil that pops up on the shoulder of a tune and encourages it to do naughty things." – Stoney Roads',
       images: ['AKOUO1.jpg', 'AKOUO2.jpg', 'AKOUO3.jpg'],
       social: {
         facebook: {
@@ -166,7 +166,7 @@ export const Domestic = {
     {
       folder: 'Bajillionaire',
       bio: '',
-      images: ['Bajillionaire.jpg'],
+      images: ['BAJILLIONAIRE1.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/bajillionaire',
@@ -184,7 +184,9 @@ export const Domestic = {
     },
     {
       folder: 'Cabu',
-      bio: '',
+      bio: `Cabu is an artist/producer hailing from Sydney, Australia who has had recent releases and has been featured on Triple J, Dj Complexion’s Future beats radio, Soundistyle, 12 Tracks Tape, ThisSongIsSick, Majestic casual, Soulection Radio, BBC 1xtra, Pilerats, Maison Kitsune and many more.
+        Cabu’s original "Gold Feat.Akacia" was his first major success with the help of Majestic Casual where it gained a lot traction along with streams and new ears and fans to Cabu's music.
+        Shortly after Cabu has had the opportunity to remix "Stay lost" by Joe Hertz which was an instant success when it released in mid 2016 where it has amassed over 10 million streams across multiple music platforms.`,
       images: ['CABU1.jpg', 'CABU2.jpg', 'CABU3.jpg'],
       social: {
         facebook: {
@@ -274,7 +276,7 @@ export const Domestic = {
     {
       folder: 'Commandeur',
       bio: ``,
-      images: ['Commandeur.jpg'],
+      images: ['COMMANDEUR_THUMB.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/commandeurmusic/',
@@ -304,7 +306,10 @@ export const Domestic = {
     },
     {
       folder: 'Dallas Woods',
-      bio: ``,
+      bio: `24 year old Dallas Woods’ got this special something about him when he raps. He lures you in with his cheeky vibe, inspires you with a positive skew and just as you’re smiling along  he’ll pack you with a punch to the guts rapping about confronting subjects in a manner so lightly you kinda feel confused. 
+        The provocative film clip accompanying his debut track 9 times out of 10 was filmed at the Castlemaine Gaol, has a cameo appearance by his best mate Baker Boy and comes with the blessings of ex-Don Dale detainee Dylan Voller. "The fact that Dallas and the mob at Grand Trine bothered to talk to me before making this clip, and for Dallas and them to put their necks on the line is very powerful for us young fellas. We’re really grateful.  It shows us they care about us and our future," says Dylan Voller
+        At a young age Dallas Woods developed the uncanny ability to find humour in the most unlikely places. Poverty, suicide, abuses of all kinds are a common theme in his life yet its relentless exposure has provided him with the mettle to cut-through society’s demons so he can apply words to his tsunami of feelings and thoughts. Dallas writes with a wealth of humility, knowledge and experience; it’s his coping mechanism.
+        Debut track 9 times out of 10 raps about the power-trip police have in remote Aboriginal communities and how their overt presence is a normal occurrence to him and the residents living there. Dallas Woods raps with clever humour about the stigma of being young, black and breaking the cycle of oppression from within community.`,
       images: ['DALLASWOODS1.jpg', 'DALLASWOODS2.jpg', 'DALLASWOODS3.jpg'],
       social: {
         facebook: {
@@ -335,7 +340,7 @@ export const Domestic = {
     },
     {
       folder: 'Dugong Jr',
-      bio: `The Melbourne borne multi-disciplinary creative Dugong Jr’s sound has been described as “Like water dripping off a dinosaur’s back under a waterfall, something unheard of in history”.
+      bio: `The Melbourne borne multi-disciplinary creative Dugong Jr’s sound has been described as "Like water dripping off a dinosaur’s back under a waterfall, something unheard of in history".
       In his young career Dugong’s work has taken him across the globe and seen him play at major festivals and events like Splendour In The Grass, Brownies & Lemonade & Groovin The Moo. His work has been plastered over all corners of the internet, and has received widespread support from tastemakers such as BBC Radio1, Vice, Triple J, and Complex to name a few.
       Whether it be his contemporary take on soulful electronic beats, or forward thinking visual art, Dugong Jr has found himself sitting at the forefront of an innovative worldwide electronica scene.`,
       images: ['DUGONGJR1.jpg', 'DUGONGJR2.jpg', 'DUGONGJR3.jpg'],
@@ -382,7 +387,11 @@ export const Domestic = {
     },
     {
       folder: 'Go Freek',
-      bio: ``,
+      bio: `Australian global dance exports, Go Freek, are about as fond as generic club music as they are correct spelling. After founding their signature "Gutter Tech", it was not long before the duo were playing boat parties in Croatia alongside the likes of Claude VonStroke and hitting stages at festival such as EDC Las Vegas, Paradisco and Beyond Wonderland.
+        Signing early to electronic label, and global tastemaker in dance music, Sweat It Out, it didn’t take long before some of the worlds biggest artists took note as Go Freek shot from label young bloods, to Sweat It Out main men.
+        With multiple ARIA Club Chart Top 10s, including their record breaking #1 collaboration with Dom Dolla on ‘Define’ and #2 on ‘Call Out’ and ‘Put It Down’ in 2016 and 2017 respectively,Go Freek show no signs of slowing down after releasing new single, "Love Is The Weapon". After receiving early playlist support from the likes of New Music Friday, Best Of The Week, New Dance Beats & Monster Dance Beats, it did not take long for radio to follow suit with plays on The Martin Garrix Show and rotation adds on Triple J and EDC iHeart Radio.
+        With all of this success, it wasn’t long before some of the worlds highest profile artists and labels came knocking for the Gutter Tech touch; with the boys being hand picked to work with icon’s like Crookers, Steve Aoki, Astonomar, and Bart B More, to remixes on industry juggernaughts like Mad Decent, Dim Mak, and Ministry of Sound.
+        Having received consistent support from the likes of Idris Elba, FISHER, Camelphat, Claptone, Anna Lunoe, Christian Martin, Porter Robinson and Diplo to name a few, Go Freek have readily filled a gap in modern dance music with their own unique sound and an unforgettable live presence. With a 13 date AU & NZ tour and massive EP in the works, the future looks bright for Go Freek.`,
       images: ['GOFREEK1.jpg', 'GOFREEK2.jpg', 'GOFREEK3.jpg'],
       social: {
         facebook: {
@@ -425,7 +434,7 @@ export const Domestic = {
       bio: 'If anyone’s got a Midas touch for pop music, it’s Australian producer Jesse Porsches.\n' +
         'With his knack for head - bopping hooks and a strong pop subtlety, Jesse Porsches is no stranger to delivering earworms that encompass both traditional structures and futuristic melodies.The Sydney - based DJ and producer is responsible for penning a myriad of hits over the past years; ' +
         'from Flume’ s debut single‘ Sleepless’ in 2011, to the 2015 breakthrough smash‘ Horses’ under his first duo project Porsches, and its follow - up single‘ Karate’– both latter tracks amassing over a million plays on Spotify alone.\n' +
-        '2017 saw Jesse leap into the spotlight as a solo artist, with the release of his shimmery dance - pop jam‘ The Weekend’ featuring Xavier Dunn.The track garnered over 300 k streams on Spotify alone and received acclaim from major local blogs including Pilerats, who declared“ Jesse’ s Porsches’ new clip will make you pray for summer’s return.”' +
+        '2017 saw Jesse leap into the spotlight as a solo artist, with the release of his shimmery dance - pop jam‘ The Weekend’ featuring Xavier Dunn.The track garnered over 300 k streams on Spotify alone and received acclaim from major local blogs including Pilerats, who declared" Jesse’ s Porsches’ new clip will make you pray for summer’s return."' +
         'Industry stalwarts began to pay attention– which led to inked deals with major tastemaker labels including Dew Process / Universal in Australia, as well as a worldwide publishing deal with BMG.\n' +
         'Not straying from his penchant for collaboration, 2017 also saw Jesse launch is second duo project Super Cruel with Adelaide producer Tigerilla.Their debut single‘ November’, featuring the unmistakeable Lisa Mitchell, amassed over 2 million Spotify streams and was added to full rotation on triple J.\n' +
         'As a duo, Porsches has toured with the likes of Skepta, Tkay Maidza, Booka Shade and Tensnake, whilst Super Cruel was added to the Splendour In The Grass bill in 2017. As a solo act, Jesse Porsches continues to move from strength to strength– with production credits on tracks ' +
@@ -448,11 +457,11 @@ export const Domestic = {
     },
     {
       folder: 'Kayex',
-      bio: 'Expertly walking the line between a myriad of electronic music tangents, Sydney duo Kayex recently signed with Audiopaxx for management and WME for bookings for Australasia, compel with their approach to sonic delivery. Tom Derickx and Palassi Kailis joined forces last year and released their debut single, “My Friends”, which has clocked over 1 million streams on Spotify and 253k listens on Soundcloud, the track was also added onto Triple J spot rotation. The pair were also lucky enough to be given the opportunity to play at their first major festival in 2017 at Sydney’s Listen Out and Vansfest in Forbes.\n' +
+      bio: 'Expertly walking the line between a myriad of electronic music tangents, Sydney duo Kayex recently signed with Audiopaxx for management and WME for bookings for Australasia, compel with their approach to sonic delivery. Tom Derickx and Palassi Kailis joined forces last year and released their debut single, "My Friends", which has clocked over 1 million streams on Spotify and 253k listens on Soundcloud, the track was also added onto Triple J spot rotation. The pair were also lucky enough to be given the opportunity to play at their first major festival in 2017 at Sydney’s Listen Out and Vansfest in Forbes.\n' +
       'Laying down an indie electronic - esque vision, they carry with them a solid vision, embracing a humble relationship with life, culture and experience via their music.From 4 - foot school friends to studio partners, the Kayex fundamental truly embraces the epitome of art, fusing electronic music with the daily facets of humanity, while engaging a plethora of widely talented icons within the music industry.\n' +
       'Powerful and rich, yet humble and welcoming, Kayex’ s Palassi Kailis and Tom Derickx introduce their music with a timeless, fluid and thought provoking aura where the abundance of cross - coveted genres from indie pop to funky electronic notions speak volumes.Delving into the ideas pool, the pair introduces their debut single‘ My Friends’ shaping the slice of life of an individual who has overcome adversity through family, friendship and union, leaving listeners with a funky, glowing record.Co - written by Dennis Dowlut(Deutsch Duke), Lionel Towers(Gypsy & The Cat), mixed by Peter Mayes(Pnau) and mastered by Mike Marsh(The Exchange)‘ My Friends’ radiates warmth and uniqueness.\n' +
       'Exchanging cultural experimentation with creativity, Kayex are true to their emotionally dense intention and in turn bear enthusiasts distinct studio output.This year, they will be working a follow up single and a potential debut tour!',
-      images: ['Kayex.jpg'],
+      images: ['KAYEX1.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/kayexlife',
@@ -471,7 +480,7 @@ export const Domestic = {
     {
       folder: 'LDRU',
       bio: 'Hailing from Sydney’s sunny Northern Beaches, L D R U – AKA Drew Carmody – turned to music production after suffering a debilitating back injury during his late teens. In his recovery, L D R U spent enough time finely tuning his compositions and ultimately engineered his distinct sound that would eventually go on to captivate his city, his country, and fans from all corners.\n' +
-        'This distinct sound, what L D R U describes as“ trapical, ”bounced through his debut 2013 single The Tropics, released via Sydney’ s Future Classic label.It was this breakthrough single that made waves and caught the attention of artists including Skrillex, A - Track, Diplo and What So Not.Since then L D R U has released official remixes for Flume, Lorde, Jack Ü and Miami Horror.Never resting, he collaborated with Yahtzel to release The Only One and eventually the two of them formed the OWSLA duo Carmada and earn themselves a Gold Record(ARIA) for Maybe.From one record to another, L D R U soon released Keeping Score featuring the defined vocals of Paige IV, soaring to Platinum Accreditation(ARIA) and coming in at a hot #22 on triple j’s 2015 Hottest 100.',
+        'This distinct sound, what L D R U describes as" trapical, "bounced through his debut 2013 single The Tropics, released via Sydney’ s Future Classic label.It was this breakthrough single that made waves and caught the attention of artists including Skrillex, A - Track, Diplo and What So Not.Since then L D R U has released official remixes for Flume, Lorde, Jack Ü and Miami Horror.Never resting, he collaborated with Yahtzel to release The Only One and eventually the two of them formed the OWSLA duo Carmada and earn themselves a Gold Record(ARIA) for Maybe.From one record to another, L D R U soon released Keeping Score featuring the defined vocals of Paige IV, soaring to Platinum Accreditation(ARIA) and coming in at a hot #22 on triple j’s 2015 Hottest 100.',
       images: ['LDRU1.jpg', 'LDRU2.jpg', 'LDRU3.jpg'],
       social: {
         facebook: {
@@ -491,7 +500,7 @@ export const Domestic = {
     {
       folder: 'Leotrix',
       bio: `2018 finds 18 year old Blue Mountains local, Leotrix on an exciting tip: tearing up the standard Bass Music blueprint and digging into his experimental core. Known for pushing the boundaries of sound design as we know it, the youngster is irrepressibly drawn to this creative axis as a prodigy and as a rebel.
-        Producing since the age of 12, he has honed his skills to display a signature sound that encompasses infectious topline leads, crunching drum patterns and luscious melodic soundscapes. The message in his music is clear “I try to show everything around me through my music and ultimately I want to take people on an emotional journey to different places and memories.. I want them to FEEL something and overall I want it to always be fun”
+        Producing since the age of 12, he has honed his skills to display a signature sound that encompasses infectious topline leads, crunching drum patterns and luscious melodic soundscapes. The message in his music is clear "I try to show everything around me through my music and ultimately I want to take people on an emotional journey to different places and memories.. I want them to FEEL something and overall I want it to always be fun"
         His upcoming release ‘Swimboy’ is being premiered on Triple J & see’s him head off on his debut Australian tour. Following from that release he backs it right up with an Enschway collaboration ‘Stay Here’ via Sweat It Out plus a steady flow of originals and collabs with some of the world’s hottest electronic acts.
         With huge dreams and aspirations, Leotrix is undoubtedly one to watch and the beauty of it all is that this is just the beginning for this inspired young talent.`,
       images: ['LEOTRIX1.jpg', 'LEOTRIX2.jpg'],
@@ -536,7 +545,7 @@ export const Domestic = {
     {
       folder: 'Naations',
       bio: ``,
-      images: ['Naations.jpg'],
+      images: ['NAATIONS_THUMB.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/naationsofficial/',
@@ -554,8 +563,12 @@ export const Domestic = {
     },
     {
       folder: 'Nick Thayer',
-      bio: ``,
-      images: ['Nick Thayer.jpg'],
+      bio: `Nick Thayer is known in the industry as a "DJ’s DJ". Hand-picked by Skrillex to join OWLSA whilst the label was still in its infancy, Thayer’s ‘Like Boom’ EP showcased his ability to draw disparate genres together seamlessly. He soon followed this up with the equally supercharged ‘Worlds Collide’ EP.
+        Thayer’s constantly smashing it out at global festivals like Shambhala, Creamfields, Stereosonic &amp; HARD Summer. He’s also joined friends Zedd &amp; Porter Robinson on the Poseidon tour as well as a full European tour with Skrillex and an Australian tour with Mat Zo. Gracing the finest venues in the world from Avalon in LA to Webster Hall in NYC, Fabric in London he’s also been awarded a long standing residency at the infamous Revolver in Melbourne. Thayer's club sets are an aural feast, as energetic as they are versatile. Nick's classical training and rock-band chops all shine along with impeccable production and a sparkling attention to detail. His skills as a producer are inherently sort after by the very best in the business.
+        2015 sees Nick taking his talent to a new level with the string of hit releases. So far this year every track from 'Get Got' to 'The Stick Up' has thrashed the Beatport Glitch Hop charts. Next up is the instant classic 'Fly Shit'. A collaboration with Mötley Crüe wild child Tommy Lee that contains Mikill Pane’s grime laden vocal and is guaranteed to get your body moving.
+        "Nick is one of the most versatile producers I know... taking everything from house to drum and bass to moombahton and putting his own forward-thinking spin on it. Not genre bound, just music bound." - Skrillex
+        "It's really rare that when two people collaborate on a project that there's a constant knowing of what each other is hearing or feeling!! Nick is that!! Working with Nick is always an honor, a challenge, and successful!..... Oh and really fucking loud!!" - Tommy Lee (Mötley Crüe)`,
+      images: ['NICKTHAYER1.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/nickthayermelbourne',
@@ -573,8 +586,11 @@ export const Domestic = {
     },
     {
       folder: 'Nicky Night Time',
-      bio: ``,
-      images: ['NICKYNIGHTTIME1.jpg'],
+      bio: `Nicky Night Time former frontman to indie band Van She and now producer and beat maker for LA Based group NAATIONS, has been working on new dance records in between working with the likes of iLoveMakkonen, Baby Daddy from Scissor Sisters, Alex Metric and a plethora of other artists. 
+        Responsible for the huge Ibiza 2017 anthem ‘Real Life’ (32 million Spotify streams) with Gorgon City & Duke Dumont, his group NAATIONS followed up the success of the track with their own single ‘Want Me More’, which propelled itself into the Top 20 UK Shazam Dance Chart following a wave of huge support from BBC Radio 1 & 1Xtra, with plays from Pete Tong, Danny Howard and Mistajam. 
+        Having also this year co written and produced Elderbrooks new single Capricorn and released a NAATIONS EP, Nicky has managed to put some time aside create some dance floor heaters with the likes of Cutnsake, Ali Love, Nick Littlemore from PNAU, emerging new underground artist Victoriahhh, as well as former band mate Touch Sensitive. 
+        Expect more to come from Nicky Night Time!`,
+      images: ['NAATIONS_THUMB.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/NickyNightTime/',
@@ -615,7 +631,9 @@ export const Domestic = {
     },
     {
       folder: 'NOY',
-      bio: ``,
+      bio: `NOY, the Brisbane bass native is quickly ascending the Australian dance music scene and transcending musical boundaries with his bass-predominant beats. 
+        NOY has featured on some of Australia's biggest festival stages and club lineups; billing with artists such as Yellow Claw, RL Grime, Excision, Jauz, Major Lazer to Marshmello. NOY is best known for his versatility and celebration of a BPM overload. 
+        Back in the studio NOY’s flips are firing in the clubs, boosted by his originals and remixes on Be Rich Records & other Australian record labels.With more new music forthcoming, NOY is undoubtedly one of Australia's most explosive artists on the rise.`,
       images: ['NOY1.jpg', 'NOY2.jpg'],
       social: {
         facebook: {
@@ -756,7 +774,10 @@ export const Domestic = {
     },
     {
       folder: 'Senor Roar',
-      bio: ``,
+      bio: `Senor Roar is a part of a new breed of artists following a refreshing approach to music. Not limited by boundaries, Señor Roar embraces an open format to both his production and performances. Encapsulating a kaleidoscope of sounds and all round certified club jams – it’s the kinda stuff that’s guaranteed to set the vibe high on the dance floor.
+        Slave to no BPM, Senor Roar channels his love of taking inspiration from various musical walks of life; clearly identifiable via his official remixes for the likes of Major Lazer, DJ Snake, Tchami & Malaa, Tiga & Boys Noize, Wuki, and Blonde. The Señor Roar originals resume does not read to badly either; mammoth club jams ‘Bang In The Club’, ‘Flash Bang’. ‘Trigga’, ‘Pop That‘ & ‘Jenga’ doing the business via imprints such as Dim Mak, Main Course & Onelove.
+        Señor Roar’s approach to club music has resonated super well in such a short span with Industry heavy hitters & tastemakers alike welcoming them with open arms. Dillon Francis, DJ Snake, Diplo, Wiwek, Tchami, Mightyfools, Astronomar & more are tried & tested supporters.
+        You never quite know what you are going to get next from Señor Roar… And that’s just the way he likes it.`,
       images: ['SENORROAR1.jpg', 'SENORROAR2.jpg'],
       social: {
         facebook: {
@@ -775,8 +796,8 @@ export const Domestic = {
     },
     {
       folder: 'Signal Noize',
-      bio: `Signal:Noize`,
-      images: ['Signal Noize.jpg'],
+      bio: `signal:noize is a project from Melbourne producer Nick Thayer. Showing that his musical influences draw upon an array of genres, signal:noize effortlessly blends the sounds of UK garage, 2 step, house, and breakbeat into a fusion that stands alone. After a debut release, Trunk, with Jay Fay on OWSLA's sister label, The Nest, signal:noize keeps this beast rolling with a four track EP, Home, charged with no-nonsense grooves. Title track Home recalls techno in its arrangement, with a warping bassline that refuses to sit still. Rudeboy has guts in excess, Tomorrow strips things back to the bare minimum, and Control Your Mind just oozes attitude. With a collaboration with SBCR / Bloody Beetroots about to drop, and a remix for Felix Cartal, there’s certainly no easing off the gas here. Turn up the signal. Wipe out the noize.`,
+      images: ['SIGNALNOIZE1.jpg'],
       social: {
         facebook: {
           link: 'http://www.facebook.com/signalnoize',
@@ -814,7 +835,7 @@ export const Domestic = {
     {
       folder: 'The Zilzies',
       bio: `Bright eyed 5 piece melodic groove machine The Zilzies spent 2017 solidifying what they started the year before, cementing themselves as one of the hottest new talents in the country, and earning the respect of many a fellow crowd pleasing act. With a national tour and sold out shows under their belt, the boys are looking to kick off the cycle all over again with a follow up single in the works for release in mid 2018.
-        The group’s first E.P. - &#39;Shell City&#39;, produced by Dylan Adams (Sticky Fingers, DMA&#39;S) was released in 2017, and garnered rave reviews from both independent blogs and Triple j alike. Taking influence from The Strokes, Tame Impala, Frank Ocean, Pink Floyd, Gang of Youths and SpongeBob SquarePants, and Backed up with TWO sold out single and E.P. launch shows at Wollongong’s &#39;Rad&#39; - the record oozes potential. Sparse yet intricate instrumentation with lyrics Telling stories of simplistic wisdom culminate in a thought provoking, reflective, and highly danceable Five-Track Release.
+        The group’s first E.P. - 'Shell City', produced by Dylan Adams (Sticky Fingers, DMA'S) was released in 2017, and garnered rave reviews from both independent blogs and Triple j alike. Taking influence from The Strokes, Tame Impala, Frank Ocean, Pink Floyd, Gang of Youths and SpongeBob SquarePants, and Backed up with TWO sold out single and E.P. launch shows at Wollongong’s 'Rad' - the record oozes potential. Sparse yet intricate instrumentation with lyrics Telling stories of simplistic wisdom culminate in a thought provoking, reflective, and highly danceable Five-Track Release.
         Having already shared the stage with fellow Australian acts Saskwatch, Jebediah, Lime Cordiale, The VANNS, and Tyne-James Organ, the band are showing no signs of collecting less accolades for the rest of the year.`,
       images: ['THEZILZIES1.jpg', 'THEZILZIES2.jpg'],
       social: {
@@ -902,8 +923,10 @@ export const Domestic = {
       }
     },
     {
-      folder: 'Yesyou',
-      bio: '',
+      folder: 'YesYou',
+      bio: `Australian electronic-soul duo YesYou present latest compelling single titled “Everybody’s Got To Learn Sometimes” set for release on September 21st via Onelove.  Originally written by English writer James Warren for 80’s act The Korgis and famously later covered by Beck for ‘Eternal Sunshine of the Spotless Mind’.  YesYou garnered an impressive 10 million collective streams to date as well as receving airplay on BBC 1’s Pete Tong and Australian radio station Triple J and garnering support from renowned tastemaker publications Consequence of Sound, Clash Mag, The Line Of Best Fit and Indie Shuffle.
+        Upon exploring their own intuitive, distinctive nostalgia drenched brand of electronic, RnB and soul inspired music, YesYou have also expanded on their journey thus far by collaborating or working closely with artists such as Jordan Rakei (Ninja Tune), Noah Slee (Majestic Casual), Michael Marshall (Timex Social Club) and Damon Trueitt (FKJ, Todd Edwards) among many others, furthering their creative and unique palette of heart-warming composition and stylistic production into its lusciously evolved state it stands for today.
+        Influenced by a wide-range of artists from Moby to Pretty Lights, and Fatboy Slim to Maribou State - YesYou’s signature atmospheric, and texture-based brand of indie-pop inspired electronic-RnB swims in delicate timbre, rendering the duo reminiscent of acts such as Romare or Ross From Friends with their ability to mix indie-danceable gems and funk-laden rhythms alongside multifaceted vocal techniques.`,
       images: ['YESYOU1.jpg', 'YESYOU2.jpg'],
       social: {
         facebook: {
@@ -927,7 +950,443 @@ export const International = {
   title: 'International Management & Bookings',
   text: 'Audiopaxx works with globally renowned international artists on a non-exclusive touring basis.\n' +
     'Territories include all of Australasia, but also limited to Australia, New Zealand and Asia pending the artist management and artist goals, expectations and prior setup.',
-  artists: ['A']
+  artists: [
+    {
+      name: '4B'
+    },
+    {
+      name: 'AB The Thief'
+    },
+    {
+      name: 'Alexis Raphael'
+    },
+    {
+      name: 'Amine Edge & Dance'
+    },
+    {
+      name: 'Antiserum'
+    },
+    {
+      name: 'Apashe'
+    },
+    {
+      name: 'Ardalan'
+    },
+    {
+      name: 'Astronaut'
+    },
+    {
+      name: 'AutoErotique'
+    },
+    {
+      name: 'Bakermat'
+    },
+    {
+      name: 'Barclay Crenshaw'
+    },
+    {
+      name: 'Bar9'
+    },
+    {
+      name: 'Barely Alive'
+    },
+    {
+      name: 'Bear Grillz'
+    },
+    {
+      name: 'Big Chocolate'
+    },
+    {
+      name: 'Billy Kenny'
+    },
+    {
+      name: 'Boston Bun'
+    },
+    {
+      name: 'Breakbot'
+    },
+    {
+      name: 'Bukez Finezt'
+    },
+    {
+      name: 'Buku'
+    },
+    {
+      name: 'Busy P'
+    },
+    {
+      name: 'Caked Up'
+    },
+    {
+      name: 'Caspa'
+    },
+    {
+      name: 'Catz N’ Dogz'
+    },
+    {
+      name: 'Cause & Affect'
+    },
+    {
+      name: 'Chris Lorenzo'
+    },
+    {
+      name: 'Christian Martin'
+    },
+    {
+      name: 'Claude VonStroke'
+    },
+    {
+      name: 'Colour Vision'
+    },
+    {
+      name: 'Dabow'
+    },
+    {
+      name: 'Dack Janiels'
+    },
+    {
+      name: 'Danger'
+    },
+    {
+      name: 'Detlef'
+    },
+    {
+      name: 'Dirtyphonics'
+    },
+    {
+      name: 'Diskord'
+    },
+    {
+      name: 'Distro'
+    },
+    {
+      name: 'Doctor P'
+    },
+    {
+      name: 'Dodge & Fuski'
+    },
+    {
+      name: 'Doorly'
+    },
+    {
+      name: 'Douster'
+    },
+    {
+      name: 'Dr.Ozi'
+    },
+    {
+      name: 'Dubloadz'
+    },
+    {
+      name: 'Dubsidia'
+    },
+    {
+      name: 'DUCKY'
+    },
+    {
+      name: 'ETC(!) ETC(!)'
+    },
+    {
+      name: 'Eptic'
+    },
+    {
+      name: 'Etnik'
+    },
+    {
+      name: 'Felix Jaehn'
+    },
+    {
+      name: 'Figure'
+    },
+    {
+      name: 'Fred Falke'
+    },
+    {
+      name: 'Gentlemans Club'
+    },
+    {
+      name: 'Getter'
+    },
+    {
+      name: 'Habstrakt'
+    },
+    {
+      name: 'Hannah Wants'
+    },
+    {
+      name: 'Helicopter Showdown'
+    },
+    {
+      name: 'Herobust'
+    },
+    {
+      name: 'His Majesty Andre'
+    },
+    {
+      name: 'Holt Blackheath'
+    },
+    {
+      name: 'Holy Ghost'
+    },
+    {
+      name: 'INFEKT'
+    },
+    {
+      name: 'Infinity Ink'
+    },
+    {
+      name: 'Inspector Dubplate'
+    },
+    {
+      name: 'Ivory'
+    },
+    {
+      name: 'Jackal'
+    },
+    {
+      name: 'Jacky'
+    },
+    {
+      name: 'Jayceeoh'
+    },
+    {
+      name: 'Jesse Slayter'
+    },
+    {
+      name: 'Josh Butler'
+    },
+    {
+      name: 'Josh Pan'
+    },
+    {
+      name: 'Juliet Fox'
+    },
+    {
+      name: 'Just Blaze'
+    },
+    {
+      name: 'Justin Martin'
+    },
+    {
+      name: 'JVST SAY YES'
+    },
+    {
+      name: 'Kissy Sell Out'
+    },
+    {
+      name: 'Klingande'
+    },
+    {
+      name: 'Kungs'
+    },
+    {
+      name: 'Kry Wolf'
+    },
+    {
+      name: 'Kyle Watson'
+    },
+    {
+      name: 'Lauren Lane'
+    },
+    {
+      name: 'Latmun'
+    },
+    {
+      name: 'Leftwing & Kody'
+    },
+    {
+      name: 'Liquid Stranger'
+    },
+    {
+      name: 'Lkid'
+    },
+    {
+      name: 'LOUDPVCK'
+    },
+    {
+      name: 'Manila Killa'
+    },
+    {
+      name: 'Mantis'
+    },
+    {
+      name: 'Maribou State'
+    },
+    {
+      name: 'Mason'
+    },
+    {
+      name: 'Mayhem'
+    },
+    {
+      name: 'Megalodon'
+    },
+    {
+      name: 'Miguel Campbel'
+    },
+    {
+      name: 'Mija'
+    },
+    {
+      name: 'Monxx'
+    },
+    {
+      name: 'Must Die'
+    },
+    {
+      name: 'Myro'
+    },
+    {
+      name: 'NAPT'
+    },
+    {
+      name: 'Ninetoes'
+    },
+    {
+      name: 'Noir'
+    },
+    {
+      name: 'Nora En Pure'
+    },
+    {
+      name: 'Pegboard Nerds'
+    },
+    {
+      name: 'Phazz'
+    },
+    {
+      name: 'Prok | Fitch'
+    },
+    {
+      name: 'Protohype'
+    },
+    {
+      name: 'Proxy'
+    },
+    {
+      name: 'Reid Speed'
+    },
+    {
+      name: 'Rickyxsan'
+    },
+    {
+      name: 'Riton'
+    },
+    {
+      name: 'Riva Starr'
+    },
+    {
+      name: 'Roger SeventyTwo'
+    },
+    {
+      name: 'Russ Yallop'
+    },
+    {
+      name: 'SHIFT K3Y'
+    },
+    {
+      name: 'Sam Feldt'
+    },
+    {
+      name: 'Santé'
+    },
+    {
+      name: 'Secondcity'
+    },
+    {
+      name: 'Shiba San'
+    },
+    {
+      name: 'Shiverz Da Butcher'
+    },
+    {
+      name: 'Sigala'
+    },
+    {
+      name: 'Sikdope'
+    },
+    {
+      name: 'Sinden'
+    },
+    {
+      name: 'SNBRN'
+    },
+    {
+      name: 'Sound Remedy'
+    },
+    {
+      name: 'Spag Heddy'
+    },
+    {
+      name: 'Stanton Warriors'
+    },
+    {
+      name: 'SteLouse'
+    },
+    {
+      name: 'Stööki Sound'
+    },
+    {
+      name: 'Sumthin Sumthin'
+    },
+    {
+      name: 'Superlover'
+    },
+    {
+      name: 'TÂCHES'
+    },
+    {
+      name: 'TAI'
+    },
+    {
+      name: 'Taiki Nulight'
+    },
+    {
+      name: 'Terravita'
+    },
+    {
+      name: 'Tha Trickaz'
+    },
+    {
+      name: 'Thomas Jack'
+    },
+    {
+      name: 'Trolley Snatcha'
+    },
+    {
+      name: 'TroyBoi'
+    },
+    {
+      name: 'Twine'
+    },
+    {
+      name: 'UZ'
+    },
+    {
+      name: 'Victor Niglio'
+    },
+    {
+      name: 'Virtual Riot'
+    },
+    {
+      name: 'Virus Syndicate'
+    },
+    {
+      name: 'Wuki'
+    },
+    {
+      name: 'YOOKiE'
+    },
+    {
+      name: 'Zeds Dead'
+    },
+    {
+      name: 'Zombie Nation'
+    },
+    {
+      name: 'Z - Trip'
+    }
+  ]
 }
 
 export const Events = {
@@ -981,7 +1440,69 @@ export const About = {
   In addition to breaking new Australian acts, we book tours for the most cutting edge international DJs and producers touring them throughout various countries in Australasia.\n\
   The Audiopaxx roster has established presence at major Australian and International music festivals such as HARD LA, Your Paradise Fiji, Future Music Festival, Stereosonic, Splendour in the Grass and Field Day, and have also performed and toured across North America, Europe & Australasia.\n\
   In addition, we have worked in conjunction with global brands such as Red Bull, Microsoft, SFX Totem, OWSLA, Sony Music Entertainment, Universal, William Morris Endeavor and Windish.',
-  images: ['about-1.jpg']
+  images: ['about-1.jpg'],
+  teamList: [
+    {
+      name: 'Dom Furber',
+      position: 'CEO',
+      email: 'dom@audiopaxx.com'
+    },
+    {
+      name: 'Ignacio Garcia',
+      position: 'Director',
+      email: 'ignacio@audiopaxx.com'
+    },
+    {
+      name: 'Hadi Joweihan',
+      position: 'Director',
+      email: 'hadi@audiopaxx.com'
+    },
+    {
+      name: 'Tom Granger',
+      position: 'General Manager',
+      email: 'tom@audiopaxx.com'
+    },
+    {
+      name: 'Helena Ho',
+      position: 'Head of Touring / Domestic Agent',
+      email: 'helena@audiopaxx.com'
+    },
+    {
+      name: 'Oscar Collingwood-Smith',
+      position: 'Partner of Corporate (USA)',
+      email: 'oscar@audiopaxx.com'
+    },
+    {
+      name: 'Alex Tate',
+      position: 'Touring Agent / Domestic Agent (QLD)',
+      email: 'alex@audiopaxx.com'
+    },
+    {
+      name: 'Josh Gilliand',
+      position: 'Touring Agent (VIC)',
+      email: 'josh@audiopaxx.com'
+    },
+    {
+      name: 'Daniel Farley',
+      position: 'Touring Agent (NZ)',
+      email: 'daniel@audiopaxx.com'
+    },
+    {
+      name: 'Blake Gilchrist',
+      position: 'Touring Agent (Adelaide)',
+      email: 'blake@audiopaxx.com'
+    },
+    {
+      name: 'Stacey Queefert',
+      position: 'Domestic Agent',
+      email: 'stacey@audiopaxx.com'
+    },
+    {
+      name: 'Edward Watson',
+      position: 'Domestic Agent',
+      email: 'ed@audiopaxx.com'
+    }
+  ]
 }
 
 export const Contact = {

@@ -6,67 +6,59 @@
       "email": "dom@audiopaxx.com"
     },
     {
-"name": "Ignacio Garcia",
-    "position": "Director",
-    "email": "ignacio@audiopaxx.com"
-}, {
-  "name": "Hadi Joweihan",
-    "position": "Director",
-    "email": "hadi@audiopaxx.com"
-  }, 
-  {
-    "name": "Tom Granger",
-    "position": "General Manager",
-    "email": "tom@audiopaxx.com"
-}, 
-{
-  "name": "Helena Ho",
-  "position": "Head of Touring / Domestic Agent",
-  "email": "helena@audiopaxx.com"
-},
-{
-  "name": "Oscar Collingwood-Smith",
-  "position": "Partner of Corporate (USA)",
-  "email": "oscar@audiopaxx.com"
-},
-{
-  "name": "Alex Tate",
-  "position": "Touring Agent / Domestic Agent (QLD)",
-  "email": "alex@audiopaxx.com"
-},
-{
-  "name": "Hannah Rigley",
-  "position": "Touring Agent (QLD)",
-  "email": "hannah@audiopaxx.com"
-},
-{
-  "name": "Josh Gilliand",
-  "position": "Touring Agent (VIC)",
-  "email": "josh@audiopaxx.com"
-},
-{
-  "name": "Daniel Farley",
-  "position": "Touring Agent (NZ)",
-  "email": "daniel@audiopaxx.com"
-},
-{
-  "name": "Blake Gilchrist",
-  "position": "Touring Agent (Adelaide)",
-  "email": "blake@audiopaxx.com"
-},
-{
-  "name": "Henry Wilson",
-  "position": "Touring / Domestic Agent",
-  "email": "henry@audiopaxx.com"
-},
-{
-  "name": "Stacey Queefert",
-    "position": "Domestic Agent",
-    "email": "stacey@audiopaxx.com"
-}, {
-  "name": "Edward Watson",
-  "position": "Domestic Agent",
-  "email": "ed@audiopaxx.com"
-}
+      "name": "Ignacio Garcia",
+      "position": "Director",
+      "email": "ignacio@audiopaxx.com"
+    }, 
+    {
+      "name": "Hadi Joweihan",
+      "position": "Director",
+      "email": "hadi@audiopaxx.com"
+    }, 
+    {
+      "name": "Tom Granger",
+      "position": "General Manager",
+      "email": "tom@audiopaxx.com"
+    }, 
+    {
+      "name": "Helena Ho",
+      "position": "Head of Touring / Domestic Agent",
+      "email": "helena@audiopaxx.com"
+    },
+    {
+      "name": "Oscar Collingwood-Smith",
+      "position": "Partner of Corporate (USA)",
+      "email": "oscar@audiopaxx.com"
+    },
+    {
+      "name": "Alex Tate",
+      "position": "Touring Agent / Domestic Agent (QLD)",
+      "email": "alex@audiopaxx.com"
+    },
+    {
+      "name": "Josh Gilliand",
+      "position": "Touring Agent (VIC)",
+      "email": "josh@audiopaxx.com"
+    },
+    {
+      "name": "Daniel Farley",
+      "position": "Touring Agent (NZ)",
+      "email": "daniel@audiopaxx.com"
+    },
+    {
+      "name": "Blake Gilchrist",
+      "position": "Touring Agent (Adelaide)",
+      "email": "blake@audiopaxx.com"
+    },
+    {
+      "name": "Stacey Queefert",
+      "position": "Domestic Agent",
+      "email": "stacey@audiopaxx.com"
+    }, 
+    {
+      "name": "Edward Watson",
+      "position": "Domestic Agent",
+      "email": "ed@audiopaxx.com"
+    }
   ]
 }
