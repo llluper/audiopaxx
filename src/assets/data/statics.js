@@ -87,7 +87,7 @@ export const Domestic = {
     {
       folder: 'Audiopaxx DJs',
       bio: ``,
-      images: ['Audiopaxx DJs.jpg'],
+      images: ['AUDIOPAXXDJS_THUMB.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/Audiopaxx',
@@ -275,7 +275,7 @@ export const Domestic = {
     },
     {
       folder: 'Commandeur',
-      bio: ``,
+      bio: `Artist / Drummer [Pnau] [Tkay Maidza]  / DJ`,
       images: ['COMMANDEUR_THUMB.jpg'],
       social: {
         facebook: {
@@ -529,8 +529,8 @@ export const Domestic = {
     },
     {
       folder: 'The Lulu Raes',
-      bio: ``,
-      images: ['The Lulu Raes.jpg'],
+      bio: `Eddie and Taras met when they were in highschool, at different highschools. Taras went to a highschool in the city that noone has ever heard of for some reason, and Ed went to pretty much the prison highschool of the Eastern Suburbs. they were pretty much in a cult together when they were young, doing heaps of intense "spiritual workshopping", but that ended sort of badly (and goodly, but it was overall probably a good learning curve). A while passed and they had a few bands, but then decided to be serious, real serious. they met marcus at the beach one day, at the boat ramp, and knew that he played bass and he was noticeable cuz of a huge scar going down where his heart is. plus he was just chilling a lot and going to AIM a bit so it was easy to nab him. Taras met toms sister in india, and she said her brother wanted to learn some piano, so he taught him some piano, but he (tom) was a sick drummer as well so they got him in as well cuz taras promised that he'd take him in if he ever started a band (it wasnt a movie-like promise, it was just tom was a real quick learner and could play heaps of instruments so it was a no brainer). angus came last, he was a friend of toms, and he was pretty much in when he helped the band cover that earth wind and fire song that goes "and gliiiiiiideeee like a seven-forty-seven" (their song titles always are jumbled in my mind).`,
+      images: ['THELULURAES.jpg'],
       social: {
         facebook: {
           link: 'https://www.facebook.com/theluluraes/',
@@ -544,7 +544,8 @@ export const Domestic = {
     },
     {
       folder: 'Naations',
-      bio: ``,
+      bio: `One part vocals, one part machines - NAATIONS consists of just that. A strong nod to an island grit and verses that delve into the human condition, sitting atop danceable rhythms and catchy hooks. A project spanning sounds as much as continents, NAATIONS shake up a sparkling cocktail of styles, melding melody with bass bin shaking bottom end. Nicky Night Time (Van She) & Nat Dunn’s musical chemistry was apparent from their first meeting and continued into a mutual muse relationship that is now NAATIONS.
+        ‘Kingdom’ is the duo’s first missive, a powerful statement of intent that outlines the duo’s realm. With a finely tuned swagger reminiscent of an M.I.A., Elliphant, Rihanna or Rudimental track, Dunn riffs on reality and ambition, promising to move the empire.`,
       images: ['NAATIONS_THUMB.jpg'],
       social: {
         facebook: {
@@ -1102,7 +1103,7 @@ export const International = {
       name: 'Fred Falke'
     },
     {
-      name: 'Gentlemans Club'
+      name: 'Gentlemens Club'
     },
     {
       name: 'Getter'
@@ -1222,7 +1223,7 @@ export const International = {
       name: 'Megalodon'
     },
     {
-      name: 'Miguel Campbel'
+      name: 'Miguel Campbell'
     },
     {
       name: 'Mija'
@@ -1384,7 +1385,7 @@ export const International = {
       name: 'Zombie Nation'
     },
     {
-      name: 'Z - Trip'
+      name: 'Z-Trip'
     }
   ]
 }
