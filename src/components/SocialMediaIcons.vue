@@ -43,7 +43,7 @@ export default {
 a {
   color: #323232;
   font-weight: normal;
-  padding: 3px;
+  padding: 3px 6px;
 }
 a.white {
   color: #fff;

@@ -3,12 +3,12 @@
     <div class="columns">
       <div :class="{'column is-4 section': true, 'column-custom': $route.params.Pid !== undefined}">
         <div v-if="!$route.params.Pid">
-          <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
+          <h1 class="is-size-3 is-size-4-mobile title">{{title}}</h1>
           <p v-for="(product, index) in text.split('\n')" :key="'international-text-'+index">
             {{product}}
           </p>
         </div>
-        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')" :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + '.png') + ') center center no-repeat', backgroundSize:'cover'}" class="international-artist">
+        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')" :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + '.jpg') + ') center center no-repeat', backgroundSize:'cover'}" class="international-artist">
           <!-- <p>{{product.name}}</p> -->
           <!-- <img :src="require(`../../public/img/international/${product.name.toUpperCase().replace(/\s+/g, '-')}.jpg`)" :alt="product.name"> -->
         </div>
@@ -82,5 +82,6 @@ p {
 }
 .column-custom {
   padding: 0;
+  background-color: #000;
 }
 </style>
