@@ -9,25 +9,22 @@
         </p>
         </div>
         <div class="teamSection">
+          <h1 class="is-size-2 is-size-3-mobile title">{{titleTwo}}</h1>
+          <div class="the-team">
+            <div class="columns is-multiline is-gapless is-mobile">
+              <div :key="'icon-'+key" v-for="(value, key) in team" class="column is-3">
+                <img :src="require('../../public/img/team/' + value.email.split('@')[0]+'.png')" :alt="value.name">
+                  <p class="has-text-centered"><span class="is-uppercase has-text-weight-bold">{{value.name}}</span><br>
+                  <span class="has-text-weight-bold">{{value.position}}</span><br>
+                  <a :href="'mailto:'+value.email">{{value.email}}</a>
+                </p>
+              </div>
+              <div class="team-text">
 
-        <h1 class="is-size-2 is-size-3-mobile title">{{titleTwo}}</h1>
-        <div class="the-team">
-          <div class="columns is-multiline is-gapless is-mobile">
-            <div :key="'icon-'+key" v-for="(value, key) in team" class="column is-3">
-              <img :src="require('../../public/img/team/' + value.email.split('@')[0]+'.png')" :alt="value.name">
-                <p class="has-text-centered"><span class="is-uppercase has-text-weight-bold">{{value.name}}</span><br>
-                <span class="has-text-weight-bold">{{value.position}}</span><br>
-                <a :href="'mailto:'+value.email">{{value.email}}</a>
-              </p>
-            </div>
-            <div class="team-text">
-
+              </div>
             </div>
           </div>
         </div>
-
-        </div>
-
       </div>
       <div class="column is-12-tablet is-8-desktop">
         <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
@@ -40,9 +37,7 @@
   </section>
 </template>
 <script>
-// import ContactForm from '@/components/ContactForm.vue'
 import { About } from '../assets/data/statics.js'
-import { teamList } from '../assets/data/theTeam.json'
 
 export default {
   name: 'about',
@@ -52,7 +47,7 @@ export default {
       titleTwo: About.titleTwo,
       text: About.text,
       textArray: [],
-      team: teamList,
+      team: About.teamList,
       images: About.images
     }
   },
@@ -70,7 +65,6 @@ export default {
       return `<i class="fas fa-5x fa-angle-right"></i>`
     }
   }
-  // components: { ContactForm }
 }
 </script>
 

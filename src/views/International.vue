@@ -1,15 +1,16 @@
 <template>
   <section class="international">
     <div class="columns">
-      <div class="column is-4 section">
+      <div :class="{'column is-4 section': true, 'column-custom': $route.params.Pid !== undefined}">
         <div v-if="!$route.params.Pid">
           <h1 class="is-size-2 is-size-3-mobile title">{{title}}</h1>
           <p v-for="(product, index) in text.split('\n')" :key="'international-text-'+index">
             {{product}}
           </p>
         </div>
-        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')">
-         <p>{{product.name}}</p>
+        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')" :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + '.png') + ') center center no-repeat', backgroundSize:'cover'}" class="international-artist">
+          <!-- <p>{{product.name}}</p> -->
+          <!-- <img :src="require(`../../public/img/international/${product.name.toUpperCase().replace(/\s+/g, '-')}.jpg`)" :alt="product.name"> -->
         </div>
       </div>
       <div class="column is-8">
@@ -24,7 +25,6 @@
 </template>
 <script>
 import { International } from '../assets/data/statics.js'
-import { artists } from '../assets/data/International.json'
 
 export default {
   name: 'international',
@@ -32,7 +32,7 @@ export default {
     return {
       title: International.title,
       text: International.text,
-      artists: artists
+      artists: International.artists
     }
   },
   methods: {
@@ -75,5 +75,12 @@ li {
 }
 p {
   padding-bottom: 15px;
+}
+.international-artist {
+  width: 100%;
+  height: 100%;
+}
+.column-custom {
+  padding: 0;
 }
 </style>
