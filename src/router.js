@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Domestic from './views/Domestic.vue'
 import DomesticArtist from './components/DomesticArtist.vue'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -10,11 +9,6 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    {
-      path: '/x',
-      name: 'homex',
-      component: Home
-    },
     {
       path: '/',
       name: 'home',
