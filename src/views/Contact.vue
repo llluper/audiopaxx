@@ -51,7 +51,7 @@ iframe {
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85)
-    ),url('../../public/img/contact/mapback.png');
+    ),url('../../public/img/contact/mapback.jpg');
   background-position: center;
   background-size: cover;
   background-color: #000;

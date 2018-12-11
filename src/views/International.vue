@@ -8,7 +8,14 @@
             {{product}}
           </p>
         </div>
-        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')" :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + '.jpg') + ') center center no-repeat', backgroundSize:'cover'}" class="international-artist">
+        <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')">
+          <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
+            <slide :key="'inter-events-'+index" v-for="index in (product.count != undefined ? product.count : 1)" :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + (index != 0 && index != 1 ? '-' + index : '') + '.jpg') + ') center center no-repeat', backgroundSize:'cover'}" class="international-artist"> -->
+              <!-- <span class="helper"></span><img :src="require('../../public/img/events/'+image)"> -->
+              <div :style="{ background: 'url('+require('../../public/img/international/' + product.name.toUpperCase().replace(/\s+/g, '-') + (index != 0 && index != 1 ? '-' + index : '') + '.jpg') + ') center center no-repeat', backgroundSize:'cover'}" class="slider-size">
+              </div>
+            </slide>
+          </carousel>
           <!-- <p>{{product.name}}</p> -->
           <!-- <img :src="require(`../../public/img/international/${product.name.toUpperCase().replace(/\s+/g, '-')}.jpg`)" :alt="product.name"> -->
         </div>
@@ -38,6 +45,14 @@ export default {
   methods: {
     goToDetail (proId) {
       this.$router.push({ name: 'international-artist', params: { Pid: proId } })
+    }
+  },
+  computed: {
+    prev () {
+      return `<i class="fas fa-5x fa-angle-left"></i>`
+    },
+    next () {
+      return `<i class="fas fa-5x fa-angle-right"></i>`
     }
   }
 }
