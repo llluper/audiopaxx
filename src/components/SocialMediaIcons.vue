@@ -4,12 +4,6 @@
       <p class="control">
         <a :key="'icon-'+key" v-for="(value, key) in links" target="_blank" rel="noopener" :href="value.link" :class="keyClass(key, white)">
           <i :class="'fab is-small fa-' + value.icon"></i>
-          <!-- <b-icon
-            pack="fab"
-            :icon="value.icon"
-            size="is-small"
-          >
-          </b-icon> -->
         </a>
       </p>
     </div>
@@ -41,16 +35,12 @@ export default {
 
 <style scoped lang="scss">
 a {
-  // color: #323232;
   color: #fff;
   font-weight: normal;
   padding: 3px 6px;
 }
 a.white {
   color: #fff;
-  // &:hover {
-  //   // color: #fbec56;
-  // }
 }
 a, a:hover {
   transition: color 1s;
@@ -89,7 +79,6 @@ a.snapchat:hover,
 a.twitter:hover,
 a.youtube:hover,
 a.spotify:hover {
-  // color: #323232;
   color: #666;
 }
 div.field.is-grouped {

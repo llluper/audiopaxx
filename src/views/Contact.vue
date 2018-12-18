@@ -35,7 +35,6 @@ export default {
   background: #DFDFDF;
 }
 iframe {
-  /* margin: 20px auto; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +43,6 @@ iframe {
 }
 .is-8 {
   padding: 0;
-  /* min-width: 1000px; */
   background: linear-gradient(
       rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.85),
@@ -56,9 +54,6 @@ iframe {
   background-size: cover;
   background-color: #000;
 }
-/* .is-4 {
-  min-width: 600px;
-} */
 .contactF {
   margin-top: 10px;
 }

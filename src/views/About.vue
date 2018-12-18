@@ -20,7 +20,6 @@
                 </p>
               </div>
               <div class="team-text">
-
               </div>
             </div>
           </div>
@@ -50,9 +49,6 @@ export default {
       team: About.teamList,
       images: About.images
     }
-  },
-  created () {
-    // console.log(this.team)
   },
   mounted () {
     this.textArray = this.text.split('\n')
@@ -85,17 +81,7 @@ p {
   padding: 0;
   max-height: 100vh;
   overflow: auto;
-  // @media only screen and (min-width: 1024px) {
-    background-color: #000;
-  // }
-}
-.teasmSection {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  // top: 50%;  /* position the top  edge of the element at the middle of the parent */
-  left: 50%; /* position the left edge of the element at the middle of the parent */
-  transform: translate(-50%);
+  background-color: #000;
 }
 .columns {
   height: 100%;
@@ -110,16 +96,13 @@ p {
 .teamSection {
   padding-top: 3rem;
   font-size: 0.1rem;
-  // background: #DFDFDF;
 }
 .helper {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-
 img {
   vertical-align: top;
 }
-
 </style>

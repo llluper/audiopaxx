@@ -47,9 +47,6 @@ a {
 }
 a.white {
   color: #fff;
-  // &:hover {
-  //   // color: #fbec56;
-  // }
 }
 a, a:hover {
   transition: color 1s;

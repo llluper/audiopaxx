@@ -49,7 +49,6 @@
       <div class="column is-12-tablet is-8-desktop">
         <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
           <slide :key="'events-'+index" v-for="(image, index) in images">
-            <!-- <span class="helper"></span><img :src="require('../../public/img/events/'+image)"> -->
             <div :style="{ background: 'url('+require('../../public/img/events/' + image)+') center center no-repeat', backgroundSize:'cover'}" class="slider-size">
             </div>
           </slide>
@@ -99,21 +98,15 @@ export default {
   padding: 0;
   max-height: 100vh;
   overflow: hidden;
-  // @media only screen and (max-width: 1023px) {
-    background-color: #000;
-  // }
+  background-color: #000;
 }
 .helper {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-
 img {
-  // background: #3A6F9A;
   vertical-align: top;
-  // max-height: 25px;
-  // max-width: 160px;
 }
 p {
   padding-bottom: 15px;
@@ -129,18 +122,16 @@ p {
 .sectio {
   padding-top: 30px;
 }
-
 li {
   font-size: 0.8rem;
   font-style: italic;
 }
 ul {
-list-style-type: none;
-@media only screen and (min-width: 580px) {
+  list-style-type: none;
+  @media only screen and (min-width: 580px) {
     padding: 0 0rem 1rem;
   }
   text-align: left;
-  // color: #fff;
   -moz-column-count: 3;
   -moz-column-gap: 20px;
   -webkit-column-count: 3;
