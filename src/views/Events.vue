@@ -132,11 +132,12 @@ p {
 
 li {
   font-size: 0.8rem;
+  font-style: italic;
 }
 ul {
-list-style-type: disc;
+list-style-type: none;
 @media only screen and (min-width: 580px) {
-    padding: 0 2rem 2rem;
+    padding: 0 0rem 1rem;
   }
   text-align: left;
   // color: #fff;

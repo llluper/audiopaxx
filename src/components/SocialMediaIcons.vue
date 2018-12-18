@@ -41,7 +41,8 @@ export default {
 
 <style scoped lang="scss">
 a {
-  color: #323232;
+  // color: #323232;
+  color: #fff;
   font-weight: normal;
   padding: 3px 6px;
 }
@@ -74,7 +75,7 @@ a.spotify:hover {
 }
 .control {
   width: 100%;
-  text-align: center;
+  text-align: left;
   @media screen and (max-width: 768px) {
     text-align: center !important;
   }
@@ -88,6 +89,10 @@ a.snapchat:hover,
 a.twitter:hover,
 a.youtube:hover,
 a.spotify:hover {
-  color: #323232;
+  // color: #323232;
+  color: #666;
+}
+div.field.is-grouped {
+  margin-right: auto;
 }
 </style>
