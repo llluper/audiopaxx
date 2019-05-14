@@ -8,12 +8,19 @@
             {{product}}
           </p>
         </div>
-        <div class="sectio">
+
+        <div class="sectio bot20">
+          <h1 class="is-size-3 is-size-4-mobile title">Events</h1>
+          <p>Audiopaxx Agents &amp; Promoters book the following events exclusively;</p>
+          <ul>
+            <li @click="goToDetail(value.name.replace(/\s+/g, '-'))" :key="'icon-'+key" v-for="(value, key) in events">{{value}}</li>
+          </ul>
+          <img :src="require('../../public/img/events/events-13.jpg')" alt="Audiopaxx Events">
+        </div>
+                <div class="sectio">
           <h1 class="is-size-3 is-size-4-mobile title">Venues</h1>
-          <p>Audiopaxx books the following unique and highly exclusive venues in Australasia like nothing else in the world.</p>
-          <p class="has-text-weight-bold top20">- The Sydney Glass Island</p>
-          <img :src="require('../../public/img/events/glasshouse.jpg')" alt="Audiopaxx Events">
-          <p class="top20">The ultimate Sydney Harbour venue for your dance party, celebration or corporate event. The Sydney Glass Island is a magnificent venue for dining &amp; celebrations, in one of the world's most spectacular settings - Sydney Harbour. With an unrestricted 360 degree outlook, you will be captivated by breathtaking harbour views throughout the duration of your event.</p>
+          <p>Audiopaxx books the following venues on a exclusive and non exclusive basis;</p>
+
           <p class="has-text-weight-bold top20">- Cloud 9, Fiji</p>
           <img :src="require('../../public/img/events/cloud.jpg')" alt="Audiopaxx Events">
           <p class="top20">
@@ -22,14 +29,11 @@
             picturesque Fijian Pacific Ocean. The venue serves delicious wood fire pizzas and world famous cocktails on reclining day chairs with some of the biggest DJs in the world listed this as their favourite venue. Perfect for corporates, album launches and takeovers
             <a href="https://www.cloud9.com.fj/">https://www.cloud9.com.fj/</a>
           </p>
-        </div>
-        <div class="sectio bot20">
-          <h1 class="is-size-3 is-size-4-mobile title">Events</h1>
-          <p>Audiopaxx domestic and international Agents book the following events;</p>
-          <ul>
-            <li @click="goToDetail(value.name.replace(/\s+/g, '-'))" :key="'icon-'+key" v-for="(value, key) in events">{{value}}</li>
-          </ul>
-          <img :src="require('../../public/img/events/events-13.jpg')" alt="Audiopaxx Events">
+
+          <p class="has-text-weight-bold top20">- The Sydney Glass Island</p>
+          <img :src="require('../../public/img/events/glasshouse.jpg')" alt="Audiopaxx Events">
+          <p class="top20">The ultimate Sydney Harbour venue for your dance party, celebration or corporate event. The Sydney Glass Island is a magnificent venue for dining &amp; celebrations, in one of the world's most spectacular settings - Sydney Harbour. With an unrestricted 360 degree outlook, you will be captivated by breathtaking harbour views throughout the duration of your event.</p>
+
         </div>
         <div class="sectio">
           <h1 class="is-size-3 is-size-4-mobile title">Festivals</h1>
@@ -38,13 +42,13 @@
             <li @click="goToDetail(value.name.replace(/\s+/g, '-'))" :key="'icon-'+key" v-for="(value, key) in festivals">{{value}}</li>
           </ul>
         </div>
-        <div class="sectio">
+        <!-- <div class="sectio">
           <h1 class="is-size-3 is-size-4-mobile title">Corporate</h1>
           <p>Audiopaxx team of Agents have placed Artists with the following corporate brands;</p>
           <ul>
             <li @click="goToDetail(value.name.replace(/\s+/g, '-'))" :key="'icon-'+key" v-for="(value, key) in corporate">{{value}}</li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <div class="column is-12-tablet is-8-desktop">
         <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
