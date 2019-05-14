@@ -1,23 +1,47 @@
 <template>
   <div id="app">
-    <div id="mySidenav" :class="{ 'sidenav': true, 'open': open }" >
+    <div id="mySidenav" :class="{ 'sidenav': true, 'open': open }">
       <div class="is-relative">
-      <div class="brand" @click="getWindowWidth(true)">
-        <div v-if="svgLoaded" :class="{'lottie': true, 'opened' : open}"></div>
-        <img v-else src="./assets/audiopaxx-A-white.png" alt="Audiopaxx Logo" :class="{'logo menu': true, 'is-hiddn': open}">
-      </div>
-      <div :class="{'menu menC': true, 'menuClosedC' : !open2}" @click="getWindowWidth(false)">
-        <div class="cont">
-          <div class="lottie2" :class="{'menu-item': true, 'menuClosed' : !open2}"></div>
-          <router-link class="menu-item" to="/"><span :class="{'active-menu': this.$route.path== '/'}">Domestic</span></router-link><br>
-          <router-link class="menu-item" to="/international"><span :class="{'active-menu': this.$route.path== '/international'}">International</span></router-link><br>
-          <router-link class="menu-item" to="/events"><span :class="{'active-menu': this.$route.path== '/events'}">Events</span></router-link><br>
-          <router-link class="menu-item" to="/about"><span :class="{'active-menu': this.$route.path== '/about'}">About</span></router-link><br>
-          <router-link class="menu-item" to="/contact"><span :class="{'active-menu': this.$route.path== '/contact'}">Contact</span></router-link><br>
-          <SocialMediaIcons :class="{'social menu': true, 'menuClosed' : !open2}"/>
+        <div class="brand" @click="getWindowWidth(true)">
+          <div v-if="svgLoaded" :class="{'lottie': true, 'opened' : open}"></div>
+          <img
+            v-else
+            src="./assets/audiopaxx-A-white.png"
+            alt="Audiopaxx Logo"
+            :class="{'logo menu': true, 'is-hiddn': open}"
+          >
+        </div>
+        <div :class="{'menu menC': true, 'menuClosedC' : !open2}" @click="getWindowWidth(false)">
+          <div class="cont">
+            <div class="lottie2" :class="{'menu-item': true, 'menuClosed' : !open2}"></div>
+            <router-link class="menu-item" to="/">
+              <span :class="{'active-menu': this.$route.path== '/'}">Artists</span>
+            </router-link>
+            <br>
+            <router-link class="menu-item" to="/tours">
+              <span :class="{'active-menu': this.$route.path== '/tours'}">Tours</span>
+            </router-link>
+            <br>
+            <router-link class="menu-item" to="/events">
+              <span :class="{'active-menu': this.$route.path== '/events'}">Events &amp; Venues</span>
+            </router-link>
+            <br>
+            <router-link class="menu-item" to="/corporate">
+              <span :class="{'active-menu': this.$route.path== '/corporate'}">Corporate</span>
+            </router-link>
+            <br>
+            <router-link class="menu-item" to="/about">
+              <span :class="{'active-menu': this.$route.path== '/about'}">About</span>
+            </router-link>
+            <br>
+            <router-link class="menu-item" to="/contact">
+              <span :class="{'active-menu': this.$route.path== '/contact'}">Contact</span>
+            </router-link>
+            <br>
+            <SocialMediaIcons :class="{'social menu': true, 'menuClosed' : !open2}"/>
+          </div>
         </div>
       </div>
-    </div>
     </div>
 
     <transition name="slide-fade" mode="out-in">
@@ -42,7 +66,8 @@ export default {
   },
   methods: {
     getWindowWidth (logoClick) {
-      let w = window.innerWidth ||
+      let w =
+        window.innerWidth ||
         document.documentElement.clientWidth ||
         document.body.clientWidth
       this.desktop = w > 768
@@ -77,17 +102,19 @@ export default {
 </script>
 
 <style lang="scss">
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 1.4s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 .slide-fade-enter-active {
-  transition: all 1.0s ease;
+  transition: all 1s ease;
 }
 .slide-fade-leave-active {
-  transition: all 1.5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all 1.5s cubic-bezier(1, 0.5, 0.8, 1);
   @media screen and (max-width: 768px) {
     // transition: all 0s cubic-bezier(1.0, 0.5, 0.8, 1.0);
     transition: none;
@@ -103,8 +130,8 @@ export default {
   opacity: 0;
 }
 .slide-fade-enter {
-    transform: translateX(100vw);
-    opacity: 0;
+  transform: translateX(100vw);
+  opacity: 0;
 }
 html {
   overflow-y: hidden !important;
@@ -116,7 +143,7 @@ html {
   background: #111;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -171,7 +198,7 @@ html {
   font-weight: 500;
   text-align: left;
   white-space: nowrap;
-  display:inline-block;
+  display: inline-block;
 }
 .cont {
   display: inline-block;
@@ -205,14 +232,18 @@ html {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 .open {
   width: 280px;
@@ -257,7 +288,8 @@ html {
   height: auto;
   transition: all 2s;
 }
-h1.is-size-3, .is-size-4-mobile {
+h1.is-size-3,
+.is-size-4-mobile {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -282,7 +314,7 @@ p {
   text-align: left;
 }
 .scroller {
-  position:relative;
+  position: relative;
   overflow: scroll;
   height: 100vh;
 }
@@ -297,7 +329,10 @@ button.VueCarousel-navigation-next {
 section.view {
   overflow: auto;
 }
-.is-4, .is-8, .is-4-desktop, .is-8desktop {
+.is-4,
+.is-8,
+.is-4-desktop,
+.is-8desktop {
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
@@ -310,7 +345,7 @@ section.view {
   width: 100%;
 }
 .lottie {
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   min-height: 147px;
 }
 .lottie.opened {

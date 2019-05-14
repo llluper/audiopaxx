@@ -5,6 +5,7 @@ import Contact from './views/Contact.vue'
 import Domestic from './views/Domestic.vue'
 import DomesticArtist from './components/DomesticArtist.vue'
 import Events from './views/Events.vue'
+import Corporate from './views/Corporate.vue'
 import International from './views/International.vue'
 
 Vue.use(Router)
@@ -53,8 +54,8 @@ export default new Router({
     //     import('./views/Domestic.vue')
     // },
     {
-      path: '/international',
-      name: 'international',
+      path: '/tours',
+      name: 'tours',
       component: International
       // component: () => import('./views/International.vue')
     },
@@ -65,7 +66,13 @@ export default new Router({
       // component: () => import('./views/Events.vue')
     },
     {
-      path: '/international/:Pid',
+      path: '/corporate',
+      name: 'corporate',
+      component: Corporate
+      // component: () => import('./views/Events.vue')
+    },
+    {
+      path: '/tours/:Pid',
       name: 'international-artist',
       component: International
       // component: () => import('./views/International.vue')

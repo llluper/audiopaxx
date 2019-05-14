@@ -1,35 +1,38 @@
 export const Domestic = {
-  title: 'Domestic Artists',
-  text: 'Audiopaxx is the exclusive booker for an array of Australasian and international Artists.\n' +
-    'Territories include all of Australasia, but also limited to Australia, New Zealand and Asia pending the artist management and artist goals, expectations and prior setup.',
+  title: 'Artists',
+  text: 'Audiopaxx manages and or exclusively books an array of domestic and international Artists ranging all genres.\n' +
+  'The team’s management clients have achieved multi-platinum recording certifications, received GRAMMY and ARIA nominations, and sold out shows across the world.\n' +
+  'Booking territories include all of Australasia, but also limited to either Australia, New Zealand and or Asia pending the artist management and artist goals, expectations and prior setup.',
   artists: [
+    // {
+    //   folder: 'AKOUO',
+    //   bio: 'Launceston, Tasmania-based producer Akouo (ah-koo-oh) was locally recognized as a beatmaker and DJ in Australia’s underground hip-hop scene before gaining national and worldwide attention as a solo act in 2013.\n' +
+    //     'His breakthrough came after his reworks of Flume and Childish Gambino effortlessly floated into Hype Machine’ s top 5 most popular charts, and he has since become an in -demand remixer, appearing on official releases by ZHU, SAFIA, Indian Summer and more.\n' +
+    //     'Beyond his remix capabilities, Akouo has proven his worth as an artist with his debut EP, "Mesa" climbing straight to #1 on iTunes’ electronic albums chart upon release. Lead by the infectious single "Last Time", "Mesa" is a soulful, downtempo journey into the post-hip-hop inspired world of Akouo, featuring spaced out synths, cleverly crafted percussion, and brilliant hooks sung by himself.\n' +
+    //     '"Maybe you caught his startling productions on the radio, or even found yourself holding your phone aloft in the middle of a dancefloor trying to Shazam what on earth he’s spinning. It could have been any of these things, because at this very moment Akouo is probably appearing on all three, carving out a reputation as one of the hardest working electronic producers in Australia." – THUMP\n' +
+    //     '"The Tasmania-based producer combines brilliant reverberance with hip-hop sensibilities in a way that few other can match." – Kick Kick Snare\n' +
+    //     '"His influences are moody, deep and emotional at times – from Sampha to Drake, you start to get the sense of where he would like to take his career. The type of music he creates is certainly not within the typical electronic production structure." – DJ Mag Australia\n' +
+    //     '"’Last Time’ is a shimmering, head-nod inducing slice of future beat laced with an airy, sparse vocal hook that keeps the song from floating off into the slipstream of noodling Soundcloud production." – Pigeons & Planes\n' +
+    //     '"Akouo is like the little devil that pops up on the shoulder of a tune and encourages it to do naughty things." – Stoney Roads',
+    //   images: ['AKOUO1.jpg', 'AKOUO2.jpg', 'AKOUO3.jpg'],
+    //   social: {
+    //     facebook: {
+    //       link: 'https://www.facebook.com/akouo',
+    //       icon: 'facebook'
+    //     },
+    //     spotify: {
+    //       link: 'https://open.spotify.com/artist/5L6DQbqDEUmR92z68SjWd9?si=hTpq2aBNTsKG8jjgMvFIAA',
+    //       icon: 'spotify'
+    //     },
+    //     soundcloud: {
+    //       link: 'https://soundcloud.com/akouo',
+    //       icon: 'soundcloud'
+    //     }
+    //   }
+    // },
     {
-      folder: 'AKOUO',
-      bio: 'Launceston, Tasmania-based producer Akouo (ah-koo-oh) was locally recognized as a beatmaker and DJ in Australia’s underground hip-hop scene before gaining national and worldwide attention as a solo act in 2013.\n' +
-        'His breakthrough came after his reworks of Flume and Childish Gambino effortlessly floated into Hype Machine’ s top 5 most popular charts, and he has since become an in -demand remixer, appearing on official releases by ZHU, SAFIA, Indian Summer and more.\n' +
-        'Beyond his remix capabilities, Akouo has proven his worth as an artist with his debut EP, "Mesa" climbing straight to #1 on iTunes’ electronic albums chart upon release. Lead by the infectious single "Last Time", "Mesa" is a soulful, downtempo journey into the post-hip-hop inspired world of Akouo, featuring spaced out synths, cleverly crafted percussion, and brilliant hooks sung by himself.\n' +
-        '"Maybe you caught his startling productions on the radio, or even found yourself holding your phone aloft in the middle of a dancefloor trying to Shazam what on earth he’s spinning. It could have been any of these things, because at this very moment Akouo is probably appearing on all three, carving out a reputation as one of the hardest working electronic producers in Australia." – THUMP\n' +
-        '"The Tasmania-based producer combines brilliant reverberance with hip-hop sensibilities in a way that few other can match." – Kick Kick Snare\n' +
-        '"His influences are moody, deep and emotional at times – from Sampha to Drake, you start to get the sense of where he would like to take his career. The type of music he creates is certainly not within the typical electronic production structure." – DJ Mag Australia\n' +
-        '"’Last Time’ is a shimmering, head-nod inducing slice of future beat laced with an airy, sparse vocal hook that keeps the song from floating off into the slipstream of noodling Soundcloud production." – Pigeons & Planes\n' +
-        '"Akouo is like the little devil that pops up on the shoulder of a tune and encourages it to do naughty things." – Stoney Roads',
-      images: ['AKOUO1.jpg', 'AKOUO2.jpg', 'AKOUO3.jpg'],
-      social: {
-        facebook: {
-          link: 'https://www.facebook.com/akouo',
-          icon: 'facebook'
-        },
-        spotify: {
-          link: 'https://open.spotify.com/artist/5L6DQbqDEUmR92z68SjWd9?si=hTpq2aBNTsKG8jjgMvFIAA',
-          icon: 'spotify'
-        },
-        soundcloud: {
-          link: 'https://soundcloud.com/akouo',
-          icon: 'soundcloud'
-        }
-      }
-    },
-    {
+      bookings: true,
+      management: true,
       folder: 'Amastro',
       bio: 'Born in Canberra, Australia, 22- year-old Angus Murphy grew up in a musical family teaching himself how to play various instruments – ultimately giving himself the extensive background in piano, trumpet, drums, guitar and eventually everything required to produce electronic music.\n' +
         'Marking his first dynamic foray into the electronic music scene, this fresh face released his first single in May 2015, ‘Gods Of This Time Frame‘ which hit a quick 20 K views on Soundcloud and held the number one spot on the triple j Unearthed Charts.His second release, ‘Running To You‘ via Stoney Roads Records also turned heads, resulting in support slots' +
@@ -85,6 +88,7 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
       folder: 'Audiopaxx DJs',
       bio: `Audiopaxx DJs`,
       images: ['AUDIOPAXXDJS_THUMB.jpg'],
@@ -163,31 +167,34 @@ export const Domestic = {
     //     }
     //   }
     // },
-    // {
-    //   folder: 'Bajillionaire',
-    //   bio: `Somehwere on the salty fringes of Sydney’s northern beaches, Charlie, aka Bajillionaire, is brewing certified ear candy with a zesty kick.
-    //     Bubbling over with energy and a determinedly DIY approach to tune-making, Charlie builds his beats from the ground up, deliberately allowing for rough edges. The result is light, tropical melodies paired with chunky drops, all pulsing over a future-bass undercurrent; it’s this sound that’s had ears perking across the globe since his debut in 2016.
-    //     Charlie’s success first took shape online, with high profile playlist inclusions and a strong Spotify charting ensuring early creations like ‘Been Gone’ and ‘Not Enough’ reached the ears of hundreds of thousands worldwide. His reach suddenly exploding, Bajillionaire caught the attention of Triple J selectors with 2018 single ‘Goin On’.
-    //     A saxophone player since childhood, Charlie developed a strong grasp on music theory early on, which helped him find his feet in the production scene alone. These days his music draws on anyone from Tyler The Creator to Maroon 5, Louis The Child, and even Charlie’s toughest but fairest critic—his mum. And in case you didn’t pick it up from the tongue-in-cheek moniker, Bajillionaire takes his music far more seriously than himself.
-    //     His penchant for DIY-production and minimalism is not only reflected in his music, but also in his live sets. This year, Bajillionaire scored his first major gig booking at Sydney’s iconic Ivy club, sharing the bill with Northeast Party House, Wafia, E^st and SACHI. Flanked by his vocalist friends, Bajillionaire tore the crowd a new one - and whetted his appetite for a bigger live set up.
-    //     Whether it’s bus trip, road trip, barbecue or bedroom, Bajillionaire will hook you and hold you, soundtracking those introspective in-between moments with signature style.`,
-    //   images: ['BAJILLIONAIRE1.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/bajillionaire',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/1GPMjJFlpnO6hOHBhsX0qW?si=8-WNJmI2Tx2YdSsVU-MCYA',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/bajillionaire',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
+      bookings: true,
+      management: true,
+      folder: 'Bajillionaire',
+      bio: `Somehwere on the salty fringes of Sydney’s northern beaches, Charlie, aka Bajillionaire, is brewing certified ear candy with a zesty kick.
+        Bubbling over with energy and a determinedly DIY approach to tune-making, Charlie builds his beats from the ground up, deliberately allowing for rough edges. The result is light, tropical melodies paired with chunky drops, all pulsing over a future-bass undercurrent; it’s this sound that’s had ears perking across the globe since his debut in 2016.
+        Charlie’s success first took shape online, with high profile playlist inclusions and a strong Spotify charting ensuring early creations like ‘Been Gone’ and ‘Not Enough’ reached the ears of hundreds of thousands worldwide. His reach suddenly exploding, Bajillionaire caught the attention of Triple J selectors with 2018 single ‘Goin On’.
+        A saxophone player since childhood, Charlie developed a strong grasp on music theory early on, which helped him find his feet in the production scene alone. These days his music draws on anyone from Tyler The Creator to Maroon 5, Louis The Child, and even Charlie’s toughest but fairest critic—his mum. And in case you didn’t pick it up from the tongue-in-cheek moniker, Bajillionaire takes his music far more seriously than himself.
+        His penchant for DIY-production and minimalism is not only reflected in his music, but also in his live sets. This year, Bajillionaire scored his first major gig booking at Sydney’s iconic Ivy club, sharing the bill with Northeast Party House, Wafia, E^st and SACHI. Flanked by his vocalist friends, Bajillionaire tore the crowd a new one - and whetted his appetite for a bigger live set up.
+        Whether it’s bus trip, road trip, barbecue or bedroom, Bajillionaire will hook you and hold you, soundtracking those introspective in-between moments with signature style.`,
+      images: ['BAJILLIONAIRE1.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/bajillionaire',
+          icon: 'facebook'
+        },
+        spotify: {
+          link: 'https://open.spotify.com/artist/1GPMjJFlpnO6hOHBhsX0qW?si=8-WNJmI2Tx2YdSsVU-MCYA',
+          icon: 'spotify'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/bajillionaire',
+          icon: 'soundcloud'
+        }
+      }
+    },
+    {
+      bookings: true,
       folder: 'Cabu',
       bio: `Cabu is an artist/producer hailing from Sydney, Australia who has had recent releases and has been featured on Triple J, Dj Complexion’s Future beats radio, Soundistyle, 12 Tracks Tape, ThisSongIsSick, Majestic casual, Soulection Radio, BBC 1xtra, Pilerats, Maison Kitsune and many more.
         Cabu’s original "Gold Feat.Akacia" was his first major success with the help of Majestic Casual where it gained a lot traction along with streams and new ears and fans to Cabu's music.
@@ -209,6 +216,8 @@ export const Domestic = {
       }
     },
     {
+      bookings: true,
+      management: true,
       folder: 'Carmada',
       bio: 'L D R U and Yahtzel first joined forces to release The Only One on Sydney’s Future Classic label, to which their chemistry ultimately led to them planning the Carmada venture in absolute secrecy. It wasn’t until L D R U joined Yahtzel for a B2B set at Splendour in the Grass festival to the surprise of fans to debut Maybe in July 2014. It was then that the project was announced, leading to an OWSLA & Sony global signing.\n' +
         'Gaining nods from the likes of Skrillex and Diplo, a #1 debut on iTunes AU, Gold Certified Record (ARIA), a # 41 finish ' +
@@ -242,43 +251,46 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Colour Castle',
-    //   bio: 'Colour Castle’s signatures are striking with poolside grooves, late night tech rompers and melodic four to the floor rhythms. Driving dance floors with a prolific sound, this Sydneysider is accustomed to setting the mood whether it be house jams as the Sun is setting or banging tech as the Sun is rising.\n' +
-    //     'Setting stone, his original‘ Walk Right In’ on Ministry of Sound lead a rapid ascent ' +
-    //     'for him, spending seven consecutive weeks at #1 on the ARIA Club Chart while gaining eminent support from Danny Howard, Carl Cox, Hannah Wants, Billy Kenny and The Aston Shuffle. Endorsed by artists around the world, ‘Walk Right In’ has been spun at Amnesia Ibiza, Café Mambo, T In The Park as well as pulling in love from BBC Radio 1 and Triple J.\n' +
-    //     'The Colour Castle name has seen a full national tour with shows at Australia‘s best clubs, including Chinese Laundry, The Ivy, and Anyway, and festival sets at Lost Paradise and Listen Out. He has also lined up with Full Intention in Amsterdam encouraging a profound vision for his high quality work globally and opening space for his forthcoming production. \n' +
-    //     '‘Things’ peaked at # 6 on the ARIA Club Charts and‘ Like That’ with Pantheon took out #5. Remixing LO’99’s ‘Make Me Feel’ extended his diversity with an effortless high with a # 1 rank, encouraging more prodigious studio output.\n' +
-    //     'Sizing up chart spots and global playlists, Colour Castle has musically deviated from the norm dropping records on Tinted, Hussle and Medium Rare Recordings.',
-    //   images: ['COLOURCASTLE1.jpg', 'COLOURCASTLE2.jpg', 'COLOURCASTLE3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/colourcastlemusic/',
-    //       icon: 'facebook'
-    //     },
-    //     instagram: {
-    //       link: 'https://www.instagram.com/colourcastle/',
-    //       icon: 'instagram'
-    //     },
-    //     twitter: {
-    //       link: 'https://twitter.com/CastleColour',
-    //       icon: 'twitter'
-    //     },
-    //     youtube: {
-    //       link: 'https://www.youtube.com/channel/UCaJBg04Xu_EXymtcWcCTDbw',
-    //       icon: 'youtube'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/user/1291907257',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/colour-castle',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
+      management: true,
+      folder: 'Colour Castle',
+      bio: 'Colour Castle’s signatures are striking with poolside grooves, late night tech rompers and melodic four to the floor rhythms. Driving dance floors with a prolific sound, this Sydneysider is accustomed to setting the mood whether it be house jams as the Sun is setting or banging tech as the Sun is rising.\n' +
+        'Setting stone, his original‘ Walk Right In’ on Ministry of Sound lead a rapid ascent ' +
+        'for him, spending seven consecutive weeks at #1 on the ARIA Club Chart while gaining eminent support from Danny Howard, Carl Cox, Hannah Wants, Billy Kenny and The Aston Shuffle. Endorsed by artists around the world, ‘Walk Right In’ has been spun at Amnesia Ibiza, Café Mambo, T In The Park as well as pulling in love from BBC Radio 1 and Triple J.\n' +
+        'The Colour Castle name has seen a full national tour with shows at Australia‘s best clubs, including Chinese Laundry, The Ivy, and Anyway, and festival sets at Lost Paradise and Listen Out. He has also lined up with Full Intention in Amsterdam encouraging a profound vision for his high quality work globally and opening space for his forthcoming production. \n' +
+        '‘Things’ peaked at # 6 on the ARIA Club Charts and‘ Like That’ with Pantheon took out #5. Remixing LO’99’s ‘Make Me Feel’ extended his diversity with an effortless high with a # 1 rank, encouraging more prodigious studio output.\n' +
+        'Sizing up chart spots and global playlists, Colour Castle has musically deviated from the norm dropping records on Tinted, Hussle and Medium Rare Recordings.',
+      images: ['COLOURCASTLE1.jpg', 'COLOURCASTLE2.jpg', 'COLOURCASTLE3.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/colourcastlemusic/',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/colourcastle/',
+          icon: 'instagram'
+        },
+        twitter: {
+          link: 'https://twitter.com/CastleColour',
+          icon: 'twitter'
+        },
+        youtube: {
+          link: 'https://www.youtube.com/channel/UCaJBg04Xu_EXymtcWcCTDbw',
+          icon: 'youtube'
+        },
+        spotify: {
+          link: 'https://open.spotify.com/user/1291907257',
+          icon: 'spotify'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/colour-castle',
+          icon: 'soundcloud'
+        }
+      }
+    },
+    {
+      bookings: true,
+      management: true,
       folder: 'Commandeur',
       bio: `Artist / Drummer [Pnau] [Tkay Maidza]  / DJ`,
       images: ['COMMANDEUR_THUMB.jpg'],
@@ -309,41 +321,42 @@ export const Domestic = {
         }
       }
     },
+    // {
+    //   folder: 'Dallas Woods',
+    //   bio: `24 year old Dallas Woods’ got this special something about him when he raps. He lures you in with his cheeky vibe, inspires you with a positive skew and just as you’re smiling along  he’ll pack you with a punch to the guts rapping about confronting subjects in a manner so lightly you kinda feel confused.
+    //     The provocative film clip accompanying his debut track 9 times out of 10 was filmed at the Castlemaine Gaol, has a cameo appearance by his best mate Baker Boy and comes with the blessings of ex-Don Dale detainee Dylan Voller. "The fact that Dallas and the mob at Grand Trine bothered to talk to me before making this clip, and for Dallas and them to put their necks on the line is very powerful for us young fellas. We’re really grateful.  It shows us they care about us and our future," says Dylan Voller
+    //     At a young age Dallas Woods developed the uncanny ability to find humour in the most unlikely places. Poverty, suicide, abuses of all kinds are a common theme in his life yet its relentless exposure has provided him with the mettle to cut-through society’s demons so he can apply words to his tsunami of feelings and thoughts. Dallas writes with a wealth of humility, knowledge and experience; it’s his coping mechanism.
+    //     Debut track 9 times out of 10 raps about the power-trip police have in remote Aboriginal communities and how their overt presence is a normal occurrence to him and the residents living there. Dallas Woods raps with clever humour about the stigma of being young, black and breaking the cycle of oppression from within community.`,
+    //   images: ['DALLASWOODS1.jpg', 'DALLASWOODS2.jpg', 'DALLASWOODS3.jpg'],
+    //   social: {
+    //     facebook: {
+    //       link: 'https://www.facebook.com/DallaswoodsMC/',
+    //       icon: 'facebook'
+    //     },
+    //     instagram: {
+    //       link: 'https://www.instagram.com/woods.dallas/',
+    //       icon: 'instagram'
+    //     },
+    //     twitter: {
+    //       link: 'https://twitter.com/DallasWoodsmc',
+    //       icon: 'twitter'
+    //     },
+    //     youtube: {
+    //       link: 'https://www.youtube.com/channel/UC0sVTo8jMU6rJdCHBN426fg',
+    //       icon: 'youtube'
+    //     },
+    //     spotify: {
+    //       link: 'https://open.spotify.com/artist/7AlRsfXxw5GcXNob86rgnH?si=kBSk04PiS7SH1XXzZYNB4g',
+    //       icon: 'spotify'
+    //     },
+    //     website: {
+    //       link: 'https://www.dallaswoodsmc.com/',
+    //       icon: 'safari'
+    //     }
+    //   }
+    // },
     {
-      folder: 'Dallas Woods',
-      bio: `24 year old Dallas Woods’ got this special something about him when he raps. He lures you in with his cheeky vibe, inspires you with a positive skew and just as you’re smiling along  he’ll pack you with a punch to the guts rapping about confronting subjects in a manner so lightly you kinda feel confused. 
-        The provocative film clip accompanying his debut track 9 times out of 10 was filmed at the Castlemaine Gaol, has a cameo appearance by his best mate Baker Boy and comes with the blessings of ex-Don Dale detainee Dylan Voller. "The fact that Dallas and the mob at Grand Trine bothered to talk to me before making this clip, and for Dallas and them to put their necks on the line is very powerful for us young fellas. We’re really grateful.  It shows us they care about us and our future," says Dylan Voller
-        At a young age Dallas Woods developed the uncanny ability to find humour in the most unlikely places. Poverty, suicide, abuses of all kinds are a common theme in his life yet its relentless exposure has provided him with the mettle to cut-through society’s demons so he can apply words to his tsunami of feelings and thoughts. Dallas writes with a wealth of humility, knowledge and experience; it’s his coping mechanism.
-        Debut track 9 times out of 10 raps about the power-trip police have in remote Aboriginal communities and how their overt presence is a normal occurrence to him and the residents living there. Dallas Woods raps with clever humour about the stigma of being young, black and breaking the cycle of oppression from within community.`,
-      images: ['DALLASWOODS1.jpg', 'DALLASWOODS2.jpg', 'DALLASWOODS3.jpg'],
-      social: {
-        facebook: {
-          link: 'https://www.facebook.com/DallaswoodsMC/',
-          icon: 'facebook'
-        },
-        instagram: {
-          link: 'https://www.instagram.com/woods.dallas/',
-          icon: 'instagram'
-        },
-        twitter: {
-          link: 'https://twitter.com/DallasWoodsmc',
-          icon: 'twitter'
-        },
-        youtube: {
-          link: 'https://www.youtube.com/channel/UC0sVTo8jMU6rJdCHBN426fg',
-          icon: 'youtube'
-        },
-        spotify: {
-          link: 'https://open.spotify.com/artist/7AlRsfXxw5GcXNob86rgnH?si=kBSk04PiS7SH1XXzZYNB4g',
-          icon: 'spotify'
-        },
-        website: {
-          link: 'https://www.dallaswoodsmc.com/',
-          icon: 'safari'
-        }
-      }
-    },
-    {
+      bookings: true,
       folder: 'Dugong Jr',
       bio: `The Melbourne borne multi-disciplinary creative Dugong Jr’s sound has been described as "Like water dripping off a dinosaur’s back under a waterfall, something unheard of in history".
       In his young career Dugong’s work has taken him across the globe and seen him play at major festivals and events like Splendour In The Grass, Brownies & Lemonade & Groovin The Moo. His work has been plastered over all corners of the internet, and has received widespread support from tastemakers such as BBC Radio1, Vice, Triple J, and Complex to name a few.
@@ -368,28 +381,58 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Elk Road',
-    //   bio: 'Without deviation from the norm, progress is not possible says Rory Garton Smith, the West Coast based producer behind the internet sensation of Elk Road, as he sits watching the waves crash upon Perth’s Cottesloe beach.\n' +
-    //     'Since Elk Road launched his independent debut in February 2014, his music has touched more than a million listeners.Bored with the current trends in EDM and armed with a dozen crates of old vinyl, Rory created an original sound that clashes numerous cultures and fuses a dozen genres. Consequently, everyone has been coming ' +
-    //     'for a bite.\n' +
-    //     'Now producing with artists on all corners of the globe, and still not even half a year in existence, Elk Road is quietly but confidently taking over the production scene.Fall in love with the process and the results will come.He talks from experience, having just completed two months in the studio, resulting in a huge body of work to release over the Spring season, and a possible vitamin D deficiency.',
-    //   images: ['ELKROAD1.jpg', 'ELKROAD2.jpg', 'ELKROAD3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/elkroadmusic',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/3gR7KNFNsKnMg85WPOyAka?si=qzQFWf0RTDyd3eQoxzhIpQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/elkroad',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      management: true,
+      folder: 'Elk Road',
+      bio: 'Without deviation from the norm, progress is not possible says Rory Garton Smith, the West Coast based producer behind the internet sensation of Elk Road, as he sits watching the waves crash upon Perth’s Cottesloe beach.\n' +
+        'Since Elk Road launched his independent debut in February 2014, his music has touched more than a million listeners.Bored with the current trends in EDM and armed with a dozen crates of old vinyl, Rory created an original sound that clashes numerous cultures and fuses a dozen genres. Consequently, everyone has been coming ' +
+        'for a bite.\n' +
+        'Now producing with artists on all corners of the globe, and still not even half a year in existence, Elk Road is quietly but confidently taking over the production scene.Fall in love with the process and the results will come.He talks from experience, having just completed two months in the studio, resulting in a huge body of work to release over the Spring season, and a possible vitamin D deficiency.',
+      images: ['ELKROAD1.jpg', 'ELKROAD2.jpg', 'ELKROAD3.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/elkroadmusic',
+          icon: 'facebook'
+        },
+        spotify: {
+          link: 'https://open.spotify.com/artist/3gR7KNFNsKnMg85WPOyAka?si=qzQFWf0RTDyd3eQoxzhIpQ',
+          icon: 'spotify'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/elkroad',
+          icon: 'soundcloud'
+        }
+      }
+    },
+    {
+      bookings: true,
+      folder: 'Frames',
+      bio: `Frames makes/plays/enjoys music.
+Pushing the sounds of handclap disco, hipthrust house and letchairdown-techno, no genre is safe and nothing is taboo as Frames spins his magic in both the booth and the studio.
+Scouring for only the highest quality of tunes and an uncanny knack for choosing winners has given Frames an edge as both a dj and producer; earning him the attention, acclaim and respect of punters, critics and fellow artists alike. 
+Subtle percussive hooks, deep grooves and bright disco flicks are all regular features stamped on Frames’ sets and remixes, combining to create a distinctive yet eclectic style. He has had multiple original releases across tastemaker labels such as Sweat It Out, Blotter Artists and Of Leisure as well as several EPs on his own imprint, October Records. He’s been remixed by the likes of DJ Sneak, Behling & Simpson, Polographia and Moonbase Commander as well as completing remixes for the likes of RÜFÜS, Lancelot, Architecture In Helsinki, Yolanda Be Cool, Secondcity, FCL, Elizabeth Rose & Sinden.
+In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun records at Splendour in the Grass, Future Music Festival, Big Day Out, Laneway Festival, Playground Weekender & Secret Garden. He is also one half of new project, The Completely Boys.`,
+      images: ['FRAMES1.jpg', 'FRAMES2.jpg', 'FRAMES3.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/framesmusic',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/framesmusic/',
+          icon: 'instagram'
+        },
+        soundcloud: {
+          link: 'https://www.soundcloud.com/framesmusic/',
+          icon: 'soundcloud'
+        },
+        twitter: {
+          link: 'https://twitter.com/boonsworth',
+          icon: 'twitter'
+        }
+      }
+    },
     // {
     //   folder: 'Go Freek',
     //   bio: `Australian global dance exports, Go Freek, are about as fond as generic club music as they are correct spelling. After founding their signature "Gutter Tech", it was not long before the duo were playing boat parties in Croatia alongside the likes of Claude VonStroke and hitting stages at festival such as EDC Las Vegas, Paradisco and Beyond Wonderland.
@@ -435,6 +478,8 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
+      management: true,
       folder: 'Jesse Porsches',
       bio: 'If anyone’s got a Midas touch for pop music, it’s Australian producer Jesse Porsches.\n' +
         'With his knack for head - bopping hooks and a strong pop subtlety, Jesse Porsches is no stranger to delivering earworms that encompass both traditional structures and futuristic melodies.The Sydney - based DJ and producer is responsible for penning a myriad of hits over the past years; ' +
@@ -483,6 +528,8 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
+      management: true,
       folder: 'LDRU',
       bio: 'Hailing from Sydney’s sunny Northern Beaches, L D R U – AKA Drew Carmody – turned to music production after suffering a debilitating back injury during his late teens. In his recovery, L D R U spent enough time finely tuning his compositions and ultimately engineered his distinct sound that would eventually go on to captivate his city, his country, and fans from all corners.\n' +
         'This distinct sound, what L D R U describes as" trapical, "bounced through his debut 2013 single The Tropics, released via Sydney’ s Future Classic label.It was this breakthrough single that made waves and caught the attention of artists including Skrillex, A - Track, Diplo and What So Not.Since then L D R U has released official remixes for Flume, Lorde, Jack Ü and Miami Horror.Never resting, he collaborated with Yahtzel to release The Only One and eventually the two of them formed the OWSLA duo Carmada and earn themselves a Gold Record(ARIA) for Maybe.From one record to another, L D R U soon released Keeping Score featuring the defined vocals of Paige IV, soaring to Platinum Accreditation(ARIA) and coming in at a hot #22 on triple j’s 2015 Hottest 100.',
@@ -532,22 +579,24 @@ export const Domestic = {
     //     }
     //   }
     // },
-    // {
-    //   folder: 'The Lulu Raes',
-    //   bio: `Eddie and Taras met when they were in highschool, at different highschools. Taras went to a highschool in the city that noone has ever heard of for some reason, and Ed went to pretty much the prison highschool of the Eastern Suburbs. they were pretty much in a cult together when they were young, doing heaps of intense "spiritual workshopping", but that ended sort of badly (and goodly, but it was overall probably a good learning curve). A while passed and they had a few bands, but then decided to be serious, real serious. they met marcus at the beach one day, at the boat ramp, and knew that he played bass and he was noticeable cuz of a huge scar going down where his heart is. plus he was just chilling a lot and going to AIM a bit so it was easy to nab him. Taras met toms sister in india, and she said her brother wanted to learn some piano, so he taught him some piano, but he (tom) was a sick drummer as well so they got him in as well cuz taras promised that he'd take him in if he ever started a band (it wasnt a movie-like promise, it was just tom was a real quick learner and could play heaps of instruments so it was a no brainer). angus came last, he was a friend of toms, and he was pretty much in when he helped the band cover that earth wind and fire song that goes "and gliiiiiiideeee like a seven-forty-seven" (their song titles always are jumbled in my mind).`,
-    //   images: ['THELULURAES.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/theluluraes/',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/4LupifIobUAT1kPRHZB8k1?si=is8qqMxgRhSbZ1m6Ty3V4Q',
-    //       icon: 'spotify'
-    //     }
-    //   }
-    // },
     {
+      management: true,
+      folder: 'The Lulu Raes',
+      bio: `Eddie and Taras met when they were in highschool, at different highschools. Taras went to a highschool in the city that noone has ever heard of for some reason, and Ed went to pretty much the prison highschool of the Eastern Suburbs. they were pretty much in a cult together when they were young, doing heaps of intense "spiritual workshopping", but that ended sort of badly (and goodly, but it was overall probably a good learning curve). A while passed and they had a few bands, but then decided to be serious, real serious. they met marcus at the beach one day, at the boat ramp, and knew that he played bass and he was noticeable cuz of a huge scar going down where his heart is. plus he was just chilling a lot and going to AIM a bit so it was easy to nab him. Taras met toms sister in india, and she said her brother wanted to learn some piano, so he taught him some piano, but he (tom) was a sick drummer as well so they got him in as well cuz taras promised that he'd take him in if he ever started a band (it wasnt a movie-like promise, it was just tom was a real quick learner and could play heaps of instruments so it was a no brainer). angus came last, he was a friend of toms, and he was pretty much in when he helped the band cover that earth wind and fire song that goes "and gliiiiiiideeee like a seven-forty-seven" (their song titles always are jumbled in my mind).`,
+      images: ['THELULURAES.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/theluluraes/',
+          icon: 'facebook'
+        },
+        spotify: {
+          link: 'https://open.spotify.com/artist/4LupifIobUAT1kPRHZB8k1?si=is8qqMxgRhSbZ1m6Ty3V4Q',
+          icon: 'spotify'
+        }
+      }
+    },
+    {
+      bookings: true,
       folder: 'Naations',
       bio: `One part vocals, one part machines - NAATIONS consists of just that. A strong nod to an island grit and verses that delve into the human condition, sitting atop danceable rhythms and catchy hooks. A project spanning sounds as much as continents, NAATIONS shake up a sparkling cocktail of styles, melding melody with bass bin shaking bottom end. Nicky Night Time (Van She) & Nat Dunn’s musical chemistry was apparent from their first meeting and continued into a mutual muse relationship that is now NAATIONS.
         ‘Kingdom’ is the duo’s first missive, a powerful statement of intent that outlines the duo’s realm. With a finely tuned swagger reminiscent of an M.I.A., Elliphant, Rihanna or Rudimental track, Dunn riffs on reality and ambition, promising to move the empire.`,
@@ -591,6 +640,7 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
       folder: 'Nicky Night Time',
       bio: `Nicky Night Time former frontman to indie band Van She and now producer and beat maker for LA Based group NAATIONS, has been working on new dance records in between working with the likes of iLoveMakkonen, Baby Daddy from Scissor Sisters, Alex Metric and a plethora of other artists. 
         Responsible for the huge Ibiza 2017 anthem ‘Real Life’ (32 million Spotify streams) with Gorgon City & Duke Dumont, his group NAATIONS followed up the success of the track with their own single ‘Want Me More’, which propelled itself into the Top 20 UK Shazam Dance Chart following a wave of huge support from BBC Radio 1 & 1Xtra, with plays from Pete Tong, Danny Howard and Mistajam. 
@@ -613,6 +663,8 @@ export const Domestic = {
       }
     },
     {
+      bookings: true,
+      management: true,
       folder: 'The Nights',
       bio: `Residing somewhere between ambient electronica, techno and emotive house music, you’ll find The Nights. A Sydney based trio consisting of Tom Marland, Rob Campbell, and Walter Flamenco, three accomplished creatives in their own right.
         Their sophomore EP, ‘Beyond Desire’, was released in April 2017, and has since enjoyed critical acclaim from national and international channels, such as Nest HQ, Magnetic Magazine, Pilerats, and many more. Tracks from the EP have peaked at #2 on Spotify's Australia Viral Top 50, #26 on Spotify’s Global Viral 50, #3 on iTunes Electronic Chart, and #1 on the Electronic Chart for Triple J Unearthed. In addition, their singles ‘Other Issues’ and ‘Double SSlit’ have both received airplay on Triple J and Triple J Unearthed, with both singles being added to rotation on the latter.
@@ -657,6 +709,8 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
+      management: true,
       folder: 'Oriental Cravings',
       bio: 'Oriental Cravings (OC) is a project born through a mutual hunger for good music and food. Perth locals Quincy Patti and Yujin Choong, hailing from Indonesia and Malaysia respectively, have cooked up a storm in the Australian electronic scene with their sublime melodies and distinct Asian-inspired influence. Their breakthrough came in 2017 with the single ‘Nomad,’ which clocked over 240k listens on Spotify and skyrocketed to #4 on Canada’s Top Viral 50 chart. Chasing the momentum, the duo teamed up with Aussie producer Axen on their next track ‘Falling 4 You,’ showcasing Quincy’s vocals and subsequently amassing over 100k plays on Soundcloud. Their most recent banger, an unofficial remix of RL Grime’s ‘Stay For It’, saw them collaborate with fellow Perth producers TWERL. The track yielded incredible feedback from the likes of Alison Wonderland – the first to play the remix at EDC Las Vegas 2017 – and RL Grime himself, who dropped the track at Splendour In The Grass 2017.\n' +
         'Not afraid to push boundaries, OC’ s delicious synths and experimental beats have made them hot ones - to - watch within the local electronic scene.If their Soundcloud and Spotify plays are any indication, OC are here to stay– and plan to keep serving rich tunes that’ll have us asking for seconds.',
@@ -697,6 +751,8 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
+      management: true,
       folder: 'Pacific Avenue',
       bio: 'Based on the South Coast of New South Wales, Pacific Avenue are a four-piece garage rock band, blending authentic rock & roll with today’s modern sound.\n' +
         'Birthed in early 2017, the band have found themselves supporting artists like San Cisco, Thelma Plum, British India, The Belligerents, and touring with Tyne - James Organ.Their debut single‘ In Your Arms’ became a familiar track in their set, reachin #1 on Triple J Unearthed in early May, which led to the band landing a slot on 2017’s Sounds of the Suburbs festival lineup.\n' +
@@ -718,6 +774,7 @@ export const Domestic = {
       }
     },
     {
+      bookings: true,
       folder: 'Perto',
       bio: `At 16 years old with 5 years of music production under his belt already, it is evident that Perto is ready to establish himself in the scene for many years to come. Rubbing shoulders with some of music's elite, he has garnered support from industry heavyweights such as DIPLO, POST MALONE, TIMBALAND, CARNAGE, ALISON WONDERLAND, PEKING DUK, JAUZ, QUIX & GRAVES to name only a few.
         His early releases turned plenty of heads amongst his peers, including Enschway who was a collaborator on their recent tune 'Lose It' released via Sweat It Out. His breakout year has also seen him release official remixes for both FLOSSTRADAMUS & VALENTINO KHAN, amassing over 1 MILLION PLAYS as well as a collection of bootlegs which encapsulate the electronic/hip hop infused sound that he is becoming known for.
@@ -888,6 +945,8 @@ export const Domestic = {
     //   }
     // },
     {
+      bookings: true,
+      management: true,
       folder: 'Yahtzel',
       bio: 'Yahtzel first rose to prominence with his debut single Girls in 2013. The track gained major hype within the Australian indie-dance scene – so much that it was featured in Flume’s BBC6 Radio Mix as well as tight upload on Majestic Casual. Proving his success wasn’t by chance, Yahtzel’s follow-up single High With Me harvested over 13 million plays since TheSoundYouNeed posted it in 2013 as well as being named as one of InTheMix’s top tracks of the year. This catapulted him on a 26-stop Australasian tour that included sets at Australian boutique tastemaker festivals including Listen Out, Falls Festival, Your Paradise (Fiji) as well as jumping on the international stages of Holy Ship! and national touring support for ODESZA.\n' +
         'Aside from his phenomenal solo career, Yahtzel is also known as one half of the OWSLA and Gold - Accredited(ARIA) duo Carmada.Teaming up with mate L D R U, Carmada have achieved extraordinary success since their formation in 2014, gaining nods from the likes of Skrillex and Diplo, a #1 debut on iTunes AU, a # 41 finish for Maybe in the triple j Hottest 100 and sets at festivals across the globe from Ultra Miami, HARD Summer, Stereosonic to Holy Ship!.',
@@ -908,6 +967,7 @@ export const Domestic = {
       }
     },
     {
+      bookings: true,
       folder: 'YesYou',
       bio: `Australian electronic-soul duo YesYou present latest compelling single titled “Everybody’s Got To Learn Sometimes” set for release on September 21st via Onelove.  Originally written by English writer James Warren for 80’s act The Korgis and famously later covered by Beck for ‘Eternal Sunshine of the Spotless Mind’.  YesYou garnered an impressive 10 million collective streams to date as well as receving airplay on BBC 1’s Pete Tong and Australian radio station Triple J and garnering support from renowned tastemaker publications Consequence of Sound, Clash Mag, The Line Of Best Fit and Indie Shuffle.
         Upon exploring their own intuitive, distinctive nostalgia drenched brand of electronic, RnB and soul inspired music, YesYou have also expanded on their journey thus far by collaborating or working closely with artists such as Jordan Rakei (Ninja Tune), Noah Slee (Majestic Casual), Michael Marshall (Timex Social Club) and Damon Trueitt (FKJ, Todd Edwards) among many others, furthering their creative and unique palette of heart-warming composition and stylistic production into its lusciously evolved state it stands for today.
@@ -929,6 +989,8 @@ export const Domestic = {
       }
     },
     {
+      bookings: true,
+      management: true,
       folder: 'The Zilzies',
       bio: `Bright eyed 5 piece melodic groove machine The Zilzies spent 2017 solidifying what they started the year before, cementing themselves as one of the hottest new talents in the country, and earning the respect of many a fellow crowd pleasing act. With a national tour and sold out shows under their belt, the boys are looking to kick off the cycle all over again with a follow up single in the works for release in mid 2018.
         The group’s first E.P. - 'Shell City', produced by Dylan Adams (Sticky Fingers, DMA'S) was released in 2017, and garnered rave reviews from both independent blogs and Triple j alike. Taking influence from The Strokes, Tame Impala, Frank Ocean, Pink Floyd, Gang of Youths and SpongeBob SquarePants, and Backed up with TWO sold out single and E.P. launch shows at Wollongong’s 'Rad' - the record oozes potential. Sparse yet intricate instrumentation with lyrics Telling stories of simplistic wisdom culminate in a thought provoking, reflective, and highly danceable Five-Track Release.
@@ -953,9 +1015,11 @@ export const Domestic = {
 }
 
 export const International = {
-  title: 'International Artists',
-  text: 'Audiopaxx works with globally renowned international artists on a non-exclusive touring basis.\n' +
-    'Territories include all of Australasia, but also limited to Australia, New Zealand and Asia pending the artist management and artist goals, expectations and prior setup.',
+  title: 'Tours',
+  text: 'Audiopaxx has a team of 10 agents who specialise in booking a range of artists, as well as dealing with celebrity and touring propositions.\n' +
+    'Audiopaxx works with globally renowned international artists on a non- exclusive touring basis. ' +
+    'Territories include all of Australasia, but also limited to Australia, New Zealand and OR Asia pending the artist management and artist goals, expectations and prior setup.\n' +
+    'Audiopaxx has done tours for over 250 artists since the division was formed in 2012 which can be found below.',
   artists: [
     {
       name: '1788-L'
@@ -1468,15 +1532,34 @@ export const International = {
 }
 
 export const Events = {
-  title: 'Australian & International Events',
-  text: 'Audiopaxx books an array of events exclusively, but also places its artists on the biggest festivals and corporate events in the country.\n' +
-    'Exclusive events include your paradise, snow tunes, hidden, courtyard, Marco Polo. Festivals include Splendour In The Grass, Listen Out, Field Day, ORIGIN, Rhythm & Vines, Bay Dreams.',
+  title: 'Events & Venues',
+  text: `The Audiopaxx team share the common starting ground of promoters within the music industry. Sister company Swerve Productions began their initial foray in nightclub-based events in 2006, while Audiopaxx launched in 2010 with self-managed boat cruises.
+  Now, over 1,000,000 people attend events, tours and artist shows Audiopaxx represent annually. Their events cover everything, including festivals, club shows, corporate functions, pool parties, boat parties, rooftop parties and island parties and have always had doing unique concepts as a core ethos of the businesses.
+  Swerve Productions holds a nine-year contract with Merivale, and has worked with the global powerhouse brands such as Pacha and still runs Marco Polo at Pool Club coming into its tenth year, while Audiopaxx handles books an array of festivals and venues ranging from Your Paradise Fiji to Snowtunes Jindabyne on the festival front or Coogee Pavilion Rooftop Sydney to Crooked Rivery Winery Gerringong on the venue front.
+  Audiopaxx also work with external festivals providing Artists from Splendour In The Grass to Listen Out. Full list of events, venues & festivals the team of agents, managers, promoters and artists have worked with;`,
   events: [
-    'Your Paradise Events',
-    'Marco Polo, Ivy Pool',
-    'Courtyard, Ivy',
-    'Tash Sultana & Friends',
-    'ACCESS, Wollongong & Central Coast'
+    // 'Your Paradise Events',
+    // 'Marco Polo, Ivy Pool',
+    // 'Courtyard, Ivy',
+    // 'Tash Sultana & Friends',
+    // 'ACCESS, Wollongong & Central Coast'
+    'ACCESS',
+    'ACCESS Afloat',
+    'Beer & Burger Fest',
+    'Biggest Party Ever',
+    'Changeroom',
+    'Courtyard',
+    'Courtyard Live',
+    'Day On The Hill',
+    'Deadset',
+    'Ever After',
+    'Marco Polo',
+    'Rogue',
+    'Rooftop Fridays',
+    'Snowtunes',
+    'This',
+    'Winter Wine Festival',
+    'Your Paradise'
   ],
   festivals: [
     'Bablyon Festival',
@@ -1485,35 +1568,39 @@ export const Events = {
     'Beyond the Valley',
     'Big Pineapple Festival',
     'Bluesfest',
-    'Bohemian Beatfreaks',
-    'Breakfest',
-    'Earth Frequency',
-    'Falls',
+    // 'Bohemian Beatfreaks',
+    // 'Breakfest',
+    'Coachella',
+    'Corona SunSets',
+    'EDC Las Vegas',
+    // 'Earth Frequency',
     'Falls Festival',
-    'Festival of the Sun',
+    // 'Festival of the Sun',
     'Field Day',
-    'Groovin\' the Moo',
+    'Groovin the Moo',
     'Harbourlife',
+    'Hellow Festival',
     'Listen Out',
     'Lost Paradise',
-    'Maroochydore Music & Arts',
-    'Mountain Sounds',
+    // 'Maroochydore Music & Arts',
+    // 'Mountain Sounds',
     'NYE in the Park',
     'Party in the Paddock',
-    'Rhythm & Alps',
+    'Rhythm & Vines',
     'Snowtunes',
+    'Splash House',
     'Spilt Milk',
     'Splendour in the Grass',
     'Strawberry Fields',
-    'Subsonic',
-    'Sugar Mountain',
+    'Subsonic Music & Arts',
+    // 'Sugar Mountain',
     'Sydney City Limits',
     'The Grass Is Greener',
     'The Plot',
     'This That',
     'Touch Bass',
-    'Vanfest',
-    'Vivid',
+    'VANFEST',
+    'Vivid Sydney',
     'Your Paradise',
     'Yours & Owls'
   ],
@@ -1591,20 +1678,22 @@ export const About = {
   // In addition to breaking new Australian acts, we book tours for the most cutting edge international DJs and producers touring them throughout various countries in Australasia.\n\
   // The Audiopaxx roster has established presence at major Australian and International music festivals such as HARD LA, Your Paradise Fiji, Future Music Festival, Stereosonic, Splendour in the Grass and Field Day, and have also performed and toured across North America, Europe & Australasia.\n\
   // In addition, we have worked in conjunction with global brands such as Red Bull, Microsoft, SFX Totem, OWSLA, Sony Music Entertainment, Universal, William Morris Endeavor and Windish.',
-  text: `Audiopaxx operates as a division of Paxx Group & Swerve Group, representing a dynamic roster of international and domestic artists across the realms of bookings and touring, whilst also booking festivals, venues and corporate activations featuring internal and external Artists.
-    Utilising knowledge, relationships and contacts accumulated from over 20 years combined experience in the entertainment industry, Audiopaxx works closely with their artists, maintaining a sharp focus on the paramount goal to effectively express and connect their brand to the public, maximising potential and achieving longterm sustainable success throughout Australasian territories.
-    The Audiopaxx roster has established presence at major Australasian festivals including Bay Dreams, Bluesfest, Falls Festival,  Listen Out, Spilt Milk, Splendour In The Grass, Your Paradise, Yours & Owls and brands including Budweiser, Corona, GQ, General Pants, FIFA, Mumm Champagne, Optus, Ralph Lauren, Red Bull and Vogue.
-    Founded in 2012 and headquartered in Sydney with Agent presence in Brisbane, Melbourne, Adelaide and Auckland,  Audiopaxx works across all genres including electronic, pop, rock and urban.`,
+  text: `Founded in 2010 and headquartered in Sydney; Audiopaxx is a Music Group with a team of agents, managers, promoters, talent buyers and creatives that specialise in Artist Management, Bookings, Corporate, Creative, Events and Touring.
+Audiopaxx has since rapidly expanded, with a focus on becoming the preeminent outlet for music, entertainment and culture within Australasia. Utilising knowledge, relationships and contacts accumulated from over 40 years combined experience in the entertainment industry, Audiopaxx works closely with their artists, venues and promoters maintaining a sharp focus on the paramount goal to effectively express and connect their brand to the public, maximising potential and achieving long-term sustainable success.
+Audiopaxx through its various forms, has booked, toured or managed globally renowned artists including: Skrillex, Nora En Pure, L D R U, Tash Sultana, Flume, Elk Road, The Chainsmokers, Gorillaz, Zeds Dead, Jack U, Diplo, Hardwell, Peking Duk, Carl Cox, Perto, Naughty By Nature, Carmada, and Yahtzel. The team’s management clients have achieved multi-platinum recording certifications, received GRAMMY and ARIA nominations, and sold out shows across the world.
+Audiopaxx management, and corporate has worked with brands spanning Louis Vutton, Microsoft, Smirnoff, Captain Morgan, Coca Cola, Red Bull, Sony Music, OWSLA, Dirtybird, Ultra Miami, HARD, Coachella, Listen Out, Spilt Milk, Budweiser, GQ, General Pants, FIFA, Mumm Champagne, Optus, Ralph Lauren, Red Bull and Vogue.
+Audiopaxx weekly events, venues and festivals work in unique locations include wineries, glass boats, pools, rooftops and islands achieving record breaking bar revenue.
+The company has a team of 16 listed below who work across the various divisions.`,
   images: ['about-1.jpg'],
   teamList: [
     {
-      name: 'Dom Furber',
-      position: 'CEO',
+      name: 'Dominic Furber',
+      position: 'Founder & Director – Agent / Talent Buyer',
       email: 'dom@audiopaxx.com'
     },
     {
       name: 'Ignacio Garcia',
-      position: 'Director',
+      position: 'Director - CFO',
       email: 'ignacio@audiopaxx.com'
     },
     {
@@ -1613,59 +1702,190 @@ export const About = {
       email: 'hadi@audiopaxx.com'
     },
     {
-      name: 'Tom Granger',
-      position: 'General Manager',
+      name: 'Thomas Granger',
+      position: 'Head of Management',
       email: 'tom@audiopaxx.com'
     },
     {
+      name: 'Martin Doorly',
+      position: 'Head of Talent / A&R',
+      email: 'doorly@audiopaxx.com'
+    },
+    {
       name: 'Helena Ho',
-      position: 'Head of Touring / Domestic Agent',
+      position: 'Head of Touring / Management',
       email: 'helena@audiopaxx.com'
     },
     {
-      name: 'Oscar Collingwood-Smith',
-      position: 'Partner of Corporate (USA)',
-      email: 'oscar@audiopaxx.com'
+      name: 'Hugh Cruickshank',
+      position: 'Touring / Management / Events',
+      email: 'hugh@audiopaxx.com'
     },
     {
-      name: 'Alex Tate',
-      position: 'Touring Agent / Domestic Agent (QLD)',
-      email: 'alex@audiopaxx.com'
-    },
-    {
-      name: 'Josh Gilliand',
-      position: 'Touring Agent (VIC)',
-      email: 'josh@audiopaxx.com'
-    },
-    {
-      name: 'Daniel Farley',
-      position: 'Touring Agent (NZ)',
-      email: 'daniel@audiopaxx.com'
+      name: 'Denzel Sterling',
+      position: 'Touring',
+      email: 'denzel@audiopaxx.com'
     },
     {
       name: 'Blake Gilchrist',
-      position: 'Touring Agent (Adelaide)',
+      position: 'Touring',
       email: 'blake@audiopaxx.com'
     },
     {
-      name: 'Stacey Queefert',
-      position: 'Domestic Agent',
-      email: 'stacey@audiopaxx.com'
+      name: 'Ryan Ayres',
+      position: 'Touring',
+      email: 'ryan@audiopaxx.com'
     },
     {
       name: 'Edward Watson',
-      position: 'Domestic Agent',
-      email: 'ed@audiopaxx.com'
+      position: 'Touring Coordinator / Events',
+      email: 'edward@audiopaxx.com'
+    },
+    {
+      name: 'Stacey Queefert',
+      position: 'Management Coodinator / Events',
+      email: 'stacey@audiopaxx.com'
+    },
+    {
+      name: 'Anthony Mazveski',
+      position: 'Design',
+      email: 'anthony'
+    },
+    {
+      name: 'Chanel Urbano',
+      position: 'Accounts',
+      email: 'chanel'
     }
   ]
 }
 
 export const Contact = {
   title: 'Contact the Team',
-  text: 'For employment, investments, collaborations and general enquires on any of the services or Paxx Group businesses, artists and events, please get in contact with us:'
+  text: 'For touring, management, venue, employment, investment, collaboration and general enquires on any of the divisions at Audiopaxx, please get in contact with us:'
 }
 
 export const TeamList = {
   title: 'Contact the Team',
   text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, cumque consequuntur officiis sequi esse illo. Consectetur dolore ab, sapiente, consequatur earum vitae ea quas praesentium, hic ullam sequi. Nisi, reprehenderit.'
+}
+
+export const Corporate = {
+  title: 'Corporate',
+  titleTwo: 'What We Do',
+  text: `Audiopaxx Corporate is a full-service corporate agency dedicated to delivering exceptional programming and branding solutions for any corporate requirement.
+    Operating as a newly established third division of the company, next to our well-founded touring and management arms, Audiopaxx Corporate endeavours to operate as a one-stop shop for major corporations seeking excellence in brand partnerships, entertainment bookings, music licensing and copyright.
+    From awards nights, fashion shows, product launches, private functions, red carpet events, sports and media galas, our team of agents can secure national and international talent for any scale or budget. Not only are we able to provide DJs, vocalists and MCs, Audiopaxx Corporate also offers a consultancy service for brands seeking social media influencers and brand partnerships, or developing long-term campaigns.
+    Led by Audiopaxx director Dominic Furber and company partner Lexy Dobbin, Audiopaxx Corporate’s current client list proudly includes Coca-Cola, Adidas, Moet & Chandon, Apple, GQ and Merivale.
+
+    Audiopaxx Touring, Audiopaxx Management and sister companies Swerve Productions & Your Paradise Events have toured and or booked these artists for their previous tours or events, and also worked with the following brands;`,
+  pastClients: [
+    'ALH Group',
+    'AMPR Public Relations',
+    'ASOS',
+    'Adidas',
+    'Apple',
+    'Australian Radio Network',
+    'Australian Turf Club',
+    'Bauer Media',
+    'Belvedere',
+    'Blackmores',
+    'Brisbane Racing Club',
+    'Camilla & Marc',
+    'Canberra FM',
+    'Carlton Dry',
+    'Cat Ramno PR',
+    'Chanel',
+    'Christian Dior',
+    'Coca-Cola',
+    'Contiki',
+    'Converse',
+    'David Jones',
+    'Doltone House',
+    'Elle',
+    'Forever 21',
+    'Four Seasons',
+    'Foxtel',
+    'GQ',
+    'General Pants',
+    'Glue Store',
+    'Go Pro',
+    'H&M',
+    'Jack Daniels',
+    'Lexus',
+    'Luna Park',
+    'MTV Australia',
+    'MUMM Champagne',
+    'Marie Clare',
+    'Melbourne Cup Birdcage',
+    'Melbourne Racing Club',
+    'Merivale',
+    'Microsoft',
+    'Moet Asia',
+    'Moet Australia',
+    'Network Ten',
+    'Nike',
+    'Red Bull',
+    'Southern Cross Austereo',
+    'Tennis Australia',
+    'The Iconic',
+    'V.B',
+    'Virgin Australia',
+    'Vogue',
+    'Warner Music'
+  ],
+  pastArtists: [
+    'Adrian Lux',
+    'Afrojack',
+    'Alison Wonderland',
+    'Baauer',
+    'Busy P',
+    'Carl Cox',
+    'Claptone',
+    'Claude VonStroke',
+    'Diplo',
+    'Felix Jaehn',
+    'Flume',
+    'Fred Falke',
+    'GTA',
+    'Getter',
+    'Golden Features',
+    'Gorillaz',
+    'Hardwell',
+    'Hayden James',
+    'Hermitude',
+    'Hot Dub Time Machine',
+    'J Kwon',
+    'JAUZ',
+    'Ja Rule',
+    'Jack U',
+    'Jamie Jones',
+    'Joris Voorn',
+    'Justin Martin',
+    'Klingande',
+    'Laidback Luke',
+    'Little May',
+    'Mansionare',
+    'NERVO',
+    'NGHTMRE',
+    'Nina Las Vegas',
+    'Nora En Pure',
+    'Peking Duk',
+    'RUFUS',
+    'Rezz',
+    'Robin Schluz',
+    'SAFIA',
+    'SLUMBERJACK',
+    'Shiba San',
+    'Sigala',
+    'Skrillex',
+    'Snakehips',
+    'Soul Clap',
+    'Steve Lawler',
+    'Tash Sultana',
+    'Tensnake',
+    'The Chainsmokers',
+    'Tkay Maidza',
+    'What So Not',
+    'Zeds Dead'
+  ]
 }
