@@ -153,7 +153,7 @@ export default {
     background-color: #3273dc;
     // border-top-color:#3273dc;
     // border-color:#222;
-    color: #222;
+    color: #fff;
   }
   &.is-active {
     color: #fff;
