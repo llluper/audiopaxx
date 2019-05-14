@@ -11,6 +11,10 @@
     "twitter": {
       "link": "https://twitter.com/audiopaxx",
       "icon": "twitter"
+    },
+    "youtube": {
+      "link": "https://www.youtube.com/user/Audiopaxx",
+      "icon": "youtube"
     }
   }
 }
