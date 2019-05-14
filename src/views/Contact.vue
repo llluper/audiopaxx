@@ -7,7 +7,7 @@
         <ContactForm class="contactF"/>
       </div>
       <div class="column is-8">
-        <iframe src="https://maps.google.com/maps?q=501%2F64%20Kippax%20St%2064%20Kippax%20St%2C%20Surry%20Hills%20NSW%202010%2C%20Australia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://maps.google.com/maps?q=Unit%20211%2F53%20Great%20Buckingham%20Street%2C%C2%A0Redfern%2C%20NSW%2C%202016&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
   </section>
