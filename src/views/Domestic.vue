@@ -4,8 +4,8 @@
       <div class="column is-8">
           <div class="scroller">
         <div class="columns is-gapless is-multiline is-flex">
-            <div v-resize class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in selectedList">
-              <img @click="goToDetail(value.folder.replace(/\s+/g, '-'))" :src="require('../../public/img/domestic/' + value.folder + '/' + value.folder.replace(/\s+/g, '').toUpperCase() + '_THUMB.jpg')" :alt="value.folder">
+            <div v-resize class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in selectedList" @click="goToDetail(value.folder.replace(/\s+/g, '-'))">
+              <img :src="require('../../public/img/domestic/' + value.folder + '/' + value.folder.replace(/\s+/g, '').toUpperCase() + '_THUMB.jpg')" :alt="value.folder">
             <div class="overlay">
               <p>
               {{ value.folder }}
