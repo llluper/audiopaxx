@@ -4,8 +4,14 @@
       <div class="column is-8">
           <div class="scroller">
         <div class="columns is-gapless is-multiline is-flex">
-            <div class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in artists">
+            <div v-resize class="column is-half-mobile is-one-quarter" :key="'domes-'+key" v-for="(value, key) in selectedList">
               <img @click="goToDetail(value.folder.replace(/\s+/g, '-'))" :src="require('../../public/img/domestic/' + value.folder + '/' + value.folder.replace(/\s+/g, '').toUpperCase() + '_THUMB.jpg')" :alt="value.folder">
+            <div class="overlay">
+              <p>
+              {{ value.folder }}
+              </p>
+            </div>
+              
             </div>
           </div>
         </div>
@@ -15,6 +21,13 @@
         <p v-for="(product, index) in text.split('\n')" :key="'domestic-artist-bio'+index">
           {{product}}
         </p>
+        <div>
+          <ul class="type-list">
+            <li @click="typeSelected = 'All'" :class="{'active-type': (typeSelected == 'All')}">ALL</li>
+            <li @click="typeSelected = 'Bookings'" :class="{'active-type': typeSelected == 'Bookings'}">BOOKINGS</li>
+            <li @click="typeSelected = 'Management'" :class="{'active-type': typeSelected == 'Management'}">MANAGEMENT</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -28,12 +41,42 @@ export default {
     return {
       title: Domestic.title,
       text: Domestic.text,
-      artists: Domestic.artists
+      artists: Domestic.artists,
+      typeSelected: 'All'
+    }
+  },
+  computed: {
+    bookingsArtists () {
+      return this.artists.filter((artist) => {
+        return artist.bookings === true
+      })
+    },
+    managementArtists () {
+      return this.artists.filter((artist) => {
+        return artist.management === true
+      })
+    },
+    selectedList () {
+      if (this.typeSelected === 'Bookings') {
+        return this.bookingsArtists
+      } else if (this.typeSelected === 'Management') {
+        return this.managementArtists
+      } else {
+        return this.artists
+      }
     }
   },
   methods: {
     goToDetail (proId) {
       this.$router.push({ name: 'domestic-artist', params: { Pid: proId } })
+    }
+  },
+  directives: {
+    resize: {
+      // directive definition
+      inserted: function (el) {
+        el.style.height = (el.clientWidth - 1) + 'px'
+      }
     }
   }
 }
@@ -47,12 +90,13 @@ export default {
   }
 }
 .is-one-quarter {
+  position: relative;
   min-height: 100%;
   img {
     min-height: 100%;
     width: auto;
   }
-  max-height: 300px;
+  // max-height: 300px;
   @media only screen and (min-width: 600px) {
     height: 200px;
   }
@@ -78,5 +122,44 @@ export default {
 }
 p {
   padding-bottom: 15px;
+}
+.type-list {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  li {
+    color: #363636;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    &.active-type {
+      color: #fff;
+    }
+  }
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  width: 101%;
+  height: 101%;
+  opacity: 0;
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+  &:hover {
+    opacity:1;
+  }
+  margin: 0 auto;
+  p {
+    padding-bottom: 0;
+    text-align: center;
+    margin: auto;
+  }
+  background-color: rgba(0, 0, 0, 0.7);
 }
 </style>
