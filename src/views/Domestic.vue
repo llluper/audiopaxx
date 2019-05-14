@@ -11,7 +11,6 @@
               {{ value.folder }}
               </p>
             </div>
-              
             </div>
           </div>
         </div>
