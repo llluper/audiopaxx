@@ -39,6 +39,7 @@
             </router-link>
             <br>
             <SocialMediaIcons :class="{'social menu': true, 'menuClosed' : !open2}"/>
+            <p class="copyright">Audiopaxx &copy; Copyright</p>
           </div>
         </div>
       </div>
@@ -357,28 +358,12 @@ section.view {
   min-height: 60px;
   padding-left: 4px;
 }
-// .menu-item:first-child {
-//   background: linear-gradient(270deg, #66c3ab, #6678c3, #aa66c3);
-//   background-size: 600% 600%;
-
-//   -webkit-animation: AnimationName 30s ease infinite;
-//   -moz-animation: AnimationName 30s ease infinite;
-//   animation: AnimationName 30s ease infinite;
-
-//   @-webkit-keyframes AnimationName {
-//       0%{background-position:0% 50%}
-//       50%{background-position:100% 50%}
-//       100%{background-position:0% 50%}
-//   }
-//   @-moz-keyframes AnimationName {
-//       0%{background-position:0% 50%}
-//       50%{background-position:100% 50%}
-//       100%{background-position:0% 50%}
-//   }
-//   @keyframes AnimationName {
-//       0%{background-position:0% 50%}
-//       50%{background-position:100% 50%}
-//       100%{background-position:0% 50%}
-//   }
-// }
+.copyright {
+  font-size: 8px;
+  position: absolute;
+  bottom: 0.1%;
+  padding: 4px;
+  text-align: center;
+  color: #222;
+}
 </style>
