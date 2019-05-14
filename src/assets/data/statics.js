@@ -4,32 +4,6 @@ export const Domestic = {
   'The team’s management clients have achieved multi-platinum recording certifications, received GRAMMY and ARIA nominations, and sold out shows across the world.\n' +
   'Booking territories include all of Australasia, but also limited to either Australia, New Zealand and or Asia pending the artist management and artist goals, expectations and prior setup.',
   artists: [
-    // {
-    //   folder: 'AKOUO',
-    //   bio: 'Launceston, Tasmania-based producer Akouo (ah-koo-oh) was locally recognized as a beatmaker and DJ in Australia’s underground hip-hop scene before gaining national and worldwide attention as a solo act in 2013.\n' +
-    //     'His breakthrough came after his reworks of Flume and Childish Gambino effortlessly floated into Hype Machine’ s top 5 most popular charts, and he has since become an in -demand remixer, appearing on official releases by ZHU, SAFIA, Indian Summer and more.\n' +
-    //     'Beyond his remix capabilities, Akouo has proven his worth as an artist with his debut EP, "Mesa" climbing straight to #1 on iTunes’ electronic albums chart upon release. Lead by the infectious single "Last Time", "Mesa" is a soulful, downtempo journey into the post-hip-hop inspired world of Akouo, featuring spaced out synths, cleverly crafted percussion, and brilliant hooks sung by himself.\n' +
-    //     '"Maybe you caught his startling productions on the radio, or even found yourself holding your phone aloft in the middle of a dancefloor trying to Shazam what on earth he’s spinning. It could have been any of these things, because at this very moment Akouo is probably appearing on all three, carving out a reputation as one of the hardest working electronic producers in Australia." – THUMP\n' +
-    //     '"The Tasmania-based producer combines brilliant reverberance with hip-hop sensibilities in a way that few other can match." – Kick Kick Snare\n' +
-    //     '"His influences are moody, deep and emotional at times – from Sampha to Drake, you start to get the sense of where he would like to take his career. The type of music he creates is certainly not within the typical electronic production structure." – DJ Mag Australia\n' +
-    //     '"’Last Time’ is a shimmering, head-nod inducing slice of future beat laced with an airy, sparse vocal hook that keeps the song from floating off into the slipstream of noodling Soundcloud production." – Pigeons & Planes\n' +
-    //     '"Akouo is like the little devil that pops up on the shoulder of a tune and encourages it to do naughty things." – Stoney Roads',
-    //   images: ['AKOUO1.jpg', 'AKOUO2.jpg', 'AKOUO3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/akouo',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/5L6DQbqDEUmR92z68SjWd9?si=hTpq2aBNTsKG8jjgMvFIAA',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/akouo',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
       bookings: true,
       management: true,
@@ -57,36 +31,24 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Amy-Jane Brand',
-    //   bio: 'Australian Model & Social Influencer, ‘Amy - Jane Brand’ is on route unleashing the sounds of heavy bass music as she performs across the globe.Born & Raised in Perth, now living in Brisbane, Australia– Her passion ' +
-    //     'for bass music was founded from her early days as a festival regular ' +
-    //     'while always attending the underground bass nights at her favourite clubs.\n' +
-    //     'Since the beginning, Amy - Jane Brand has fallen in love with the powerful movement of the bass culture behind the music setting her sights to make her mark on the scene as a female spinning heavy tracks.\n' +
-    //     'Amy - Jane Brand, A.K.A Australian Model, Blonde Bombshell is not only a firepower behind the decks, she is a creative director, stylist, innovative creator & a social media influence continually uploading originality to her pallet displaying the upmost creative side of her beauty.In the last 3 years, she has gained national / international attraction with magazine covers, features and publications such as, MAXIM, Galore, Playboy, Esquire, GQ, Autre, FHM, Ralph, Arsenic, Zoo Weekly, Nuts, Yume, Sticks And Stones, C - Heads, DSS and Wheels and Dollbaby. \n' +
-    //     'Her Debut Mix is a representation of her love ' +
-    //     'for bass music whilst exploring the avenues of trap & hiphop.Major Support suddenly flooded her social media platforms all in ore\n' +
-    //     'for her unexpected direction to not follow the common trend or expectations ' +
-    //     'while gaining features and Articles from Life With Out Andy, Galore Magazine & Sticks and Stones Agency.\n' +
-    //     '2016, Amy - Jane Brand has smashed the Australian Bass Scene taking many punters by surprise from her high energy & powerful sets.With an army of over 800, 000 following her every move, this creative step forward has captivated her strong audience ' +
-    //     'while leading the way in breaking the industry stereo type.From start to finish, her sets are not only bass heavy they keep the crowd moving & entertained as she hypes the crowd on the mic ' +
-    //     'while mixing the finest selection of music from Dubstep, Trap & HipHop.',
-    //   images: ['AMY-JANEBRAND1.jpg', 'AMY-JANEBRAND2.jpg', 'AMY-JANEBRAND3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/AmyJaneBrand/',
-    //       icon: 'facebook'
-    //     },
-    //     instagram: {
-    //       link: 'https://www.instagram.com/amyjanebrand',
-    //       icon: 'instagram'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/amyjanebrand',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      folder: 'Amine Edge & DANCE',
+      bio: `After blazing into the hearts and minds of the international music community with a modernized twist on low-end house and indebted four-to-the-floor, Amine Edge & DANCE look set to continue their meteoric rise with another string of sell out shows and prime-time festival slots in 2017.
+Hailing from Southern France, Amine Edge & DANCE have built their own musical empire, drawing inspiration from early House, Phili Soul, Hip-Hop and everything in between. The men from Marseille have set about developing their own signature sound and are starting to show their true talent and versatility as producers. The pair recently released the, ‘FCK UR OPINION’ EP via independent label Desolat, helmed by the legendary Loco Dice, which featured three monster techno tracks oozing hard bass and showcasing another slightly darker side of the AE&D sound. 2017 will see a slew of new singles including the landmark 50th release on their burgeoning label CUFF, a collaboration with velvet vocalist SerGy that has already garnered support from Pete Tong at Radio 1 and beyond.
+In 2016, the globe-trotting duo capped another phenomenal year by being crowned winners of the “Bass” category at the 2016 DJ Awards. To become the cream of the sub-laden crop, Amine Edge & DANCE had to fend off the challenge of an internationally renowned group of bass-heavy heavyweights including Andy C, Chase and Status, Hannah Wants, DJ EZ and more. This was testament to their longevity and musical evolution, from bass-heavy hip-hop infused up-starts to heavyweight headline act.`,
+      images: ['AMINEEDGE&DANCE1.jpg', 'AMINEEDGE&DANCE2.jpg', 'AMINEEDGE&DANCE3.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/AmineEdgeAndDANCE',
+          icon: 'facebook'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/AmineEdgeAndDANCE',
+          icon: 'soundcloud'
+        }
+      }
+    },
     {
       bookings: true,
       folder: 'Audiopaxx DJs',
@@ -107,66 +69,6 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Axen',
-    //   bio: 'When it comes to new and exciting Australian producers, full focus is on AXEN.Showcasing an array of experimental sounds, plenty of emotion and hard hitting robotic bass – AXEN is set to light things up! Steadily building his following over the past couple of years, offthe back of a string of well received releases and being named as an InTheMix’s The New Breed - Top 10 Producers You Need to Hear.\n' +
-    //     'Recently having struck up an official remix for Flux Pavillion & NGHTMRE, out on Circus Records, this direction has been further underscored by signing with the label.Axens debut EP ‘Droid Bass’ hit the number 3 spot on Beatports Dubstep Releases, as well as receiving worldwiderecognition from some of the biggest artists in the world such as Excision, Herobust, Figure, Downlink, Flux Pavilion, David Guetta and Dack Janiels as well as Mainstage plays at Ultra Music Festival.\n' +
-    //     'On top of enviable skills in the studio AXEN is also no stranger to the DJ booth, with incredibly energetic stage presence and sets that range from melodic trap and breakbeat to late night drum & bass and Dubstep.It comes as no surprise then, that he has notched up an impressive list of guest sets and international supports for the likes of; Porter Robinson, Marshmello, Ricky Remedy, Ghastly, Nick Thayer, Mat Zo, Getter and Valentino Khan.\n' +
-    //     'With a huge amount of collaborations and solo releases lined up, as well as ongoing support from heavyweight artists and platforms like Triple J.Axen shows no sign of slowing down watch this space: 2018 is shaping up to be his biggest year yet!',
-    //   images: ['AXEN1.jpg', 'AXEN2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/axenofficialpage/',
-    //       icon: 'facebook'
-    //     },
-    //     twitter: {
-    //       link: 'https://www.twitter.com/ThisIsAxen/',
-    //       icon: 'twitter'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/6JHNAPuxS36GObqF84lsX0?si=MptgH5G1SKOE8pIbDAlx5A',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://www.soundcloud.com/axenofficial/',
-    //       icon: 'soundcloud'
-    //     },
-    //     website: {
-    //       link: 'http://axenmusic.com',
-    //       icon: 'safari'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'AYWY',
-    //   bio: `Aywy /eɪwaɪ/ is the project of 23 year old Sydney producer Ananthu Nair, known for his abstract, electronic, genre bending compositions. Aywy is also the co-founder of the record label/collective, Flow-Fi. His productions are notably an amalgam of bass, house, hip hop and soul music.
-    //     Working in frequent collaboration with label-mates, Ekali, EphRem & Fortune to create tracks that have amassed millions of plays online. The last year has seen official Aywy remixes for GoldLink and recognition from Maxwell for his remix of 'Ascension' with London based, Sh?m, as well as receiving airplay on BBC1 & BBC1Xtra for singles 'Opiate' & 'Adderall'.
-    //     The figurehead of Sydney’s own FLUX events, comes equipped with an arsenal of original compositions, remixes and notable selections, both old and new, Aywy’s acclaimed live show has seen him play interstate and internationally, sharing the boards and hosting events alongside some of the most exciting artists in the genre including; Hucci, Ekali and UV Boi.
-    //     With a cult following from fans, producers and industry pundits alike anticipating future moves from this producer, Aywy is set to make his mark.`,
-    //   images: ['AYWY1.jpg', 'AYWY2.jpg', 'AYWY3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/aywymusic/',
-    //       icon: 'facebook'
-    //     },
-    //     twitter: {
-    //       link: 'https://www.twitter.com/aywymusic/',
-    //       icon: 'twitter'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/6r38VaW3wElzmIlJ69Cz2L',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/aywymusic',
-    //       icon: 'soundcloud'
-    //     },
-    //     bandcamp: {
-    //       link: 'https://aywy.bandcamp.com/',
-    //       icon: 'bandcamp'
-    //     }
-    //   }
-    // },
     {
       bookings: true,
       management: true,
@@ -189,6 +91,51 @@ export const Domestic = {
         },
         soundcloud: {
           link: 'https://soundcloud.com/bajillionaire',
+          icon: 'soundcloud'
+        }
+      }
+    },
+    {
+      bookings: true,
+      folder: 'Billy Kenny',
+      bio: `You did good m8. You have arrived at the ear melting sounds of house music’s favourite partyboi, Billy Kenny. From Leeds to Hannover to Los Angeles, this Gin Sippin’tower of hair has spent time soaking it all in. Now in his prime, with total mastery of the nobs and dials, Billy Kenny is raging all over the world. With absolutely no regard for convention, every sound he designs in the studio is a unique blend of everywhere he’s touched. Between shows and even at his own shows, you can often find Mr. Kenny sharing your dance floor and banging his head right alongside you and your crew when he’s not playing. Juan could say he likes to have his share of fun and that FOMO is NOT an option. 
+As co­owner of the highly respected Germany­based This Ain’t Bristol, Billy is also responsible for scouting many of the hits that the record label has disseminated. His high energy mixing, sampling, and scratching with four CDJ’s is as thrilling to see as it is to hear. Even a bathroom break during a Billy Kenny set is a challenge as you won’t want to miss a single transition. This prolific British producer has also created a reputation for topping the charts, grabbing him quite a few accolades from the likes of  Beatport, the BMA’s, and more. This is just the start of your relationship with Billy Kenny and we have no doubt that the sex is fantastic.`,
+      images: ['BILLYKENNY1.jpg', 'BILLYKENNY2.jpg', 'BILLYKENNY3.jpg'],
+      social: {
+        soundcloud: {
+          link: 'https://soundcloud.com/billykennymusic',
+          icon: 'soundcloud'
+        },
+        facebook: {
+          link: 'https://www.facebook.com/billykennymusic',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/billykennymusic',
+          icon: 'instagram'
+        },
+        twitter: {
+          link: 'https://www.twitter.com/billykennymusic',
+          icon: 'twitter'
+        },
+        website: {
+          link: 'https://billykennymusic.com',
+          icon: 'safari'
+        }
+      }
+    },
+    {
+      bookings: true,
+      folder: 'Breakbot & Irfane',
+      bio: `...`,
+      images: ['BREAKBOT&IRFANE1.jpg', 'BREAKBOT&IRFANE2.jpg', 'BREAKBOT&IRFANE3.jpg'],
+      social: {
+        soundcloud: {
+          link: 'https://soundcloud.com/breakbot',
+          icon: 'soundcloud'
+        },
+        soundcloud2: {
+          link: 'https://soundcloud.com/irfane',
           icon: 'soundcloud'
         }
       }
@@ -248,6 +195,39 @@ export const Domestic = {
         website: {
           link: 'http://carmadamusic.com',
           icon: 'safari'
+        }
+      }
+    },
+    {
+      management: true,
+      folder: 'Chase Zera',
+      bio: `Chase Zera has been spreading her talents across the performing arts scene since the age of six. She grew up excelling in every dance genre from commercial jazz to hip-hop and cabaret. She then began singing and writing her own original material at the age of thirteen as well as learning the piano to refine her craft.
+Chase Zera was accepted into the Australian Institute of Music and studied Composition and Audio Engineering as well as attending Ableton Live School where she learned the basics of music production. This helped spark her passion for pop and electronic music and allowed her to experiment and find her signature brooding, pop-house sound.
+She has also collaborated in writing and production with various artists such as Xavier Dunn, Stu Turner from Set Mo, Commandeur, Bajillionaire & GANZ.
+Chase Zera's sound can be described as upbeat and electrifying, with the addition of her airy vocals, consistent with a distinct vibrato. Her live shows are packed with high energy as Chase showcases powerful, bold choreography alongside her dancers.
+‘Clovers’, the debut single by Chase Zera was premiered by Purple Sneakers on 1st March 2019. ‘Clovers’ made its mark on Spotify’s prestigious ‘New Music Fridays’, ‘House Party’, ‘Office Stereo’ and ‘Pop Edge’ playlists. The single was also played on Declan Byrne’s ‘Home and Hosed’ on Triple J and added to the Triple J Unearthed weekly podcast, charting on Triple J Unearthed in its first week of upload. 
+“It’s a pop anthem that works hard to showcase her songwriting abilities, vocal prowess and production skill. The complexities of the lyrical content are reflected very aptly in the hard-hitting production, and the slick sheen of this one comes through with years of experience.” – Purple Sneakers.`,
+      images: ['CHASEZERA1.jpg', 'CHASEZERA2.jpg', 'CHASEZERA3.jpg'],
+      social: {
+        instagram: {
+          link: 'https://www.instagram.com/chasezera/',
+          icon: 'instagram'
+        },
+        twitter: {
+          link: 'https://www.twitter.com/chasezera/',
+          icon: 'twitter'
+        },
+        facebook: {
+          link: 'https://www.facebook.com/chasezera/',
+          icon: 'facebook'
+        },
+        music: {
+          link: 'https://www.triplejunearthed.com/artist/chase-zera',
+          icon: 'music'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/user-435695054',
+          icon: 'soundcloud'
         }
       }
     },
@@ -321,40 +301,28 @@ export const Domestic = {
         }
       }
     },
-    // {
-    //   folder: 'Dallas Woods',
-    //   bio: `24 year old Dallas Woods’ got this special something about him when he raps. He lures you in with his cheeky vibe, inspires you with a positive skew and just as you’re smiling along  he’ll pack you with a punch to the guts rapping about confronting subjects in a manner so lightly you kinda feel confused.
-    //     The provocative film clip accompanying his debut track 9 times out of 10 was filmed at the Castlemaine Gaol, has a cameo appearance by his best mate Baker Boy and comes with the blessings of ex-Don Dale detainee Dylan Voller. "The fact that Dallas and the mob at Grand Trine bothered to talk to me before making this clip, and for Dallas and them to put their necks on the line is very powerful for us young fellas. We’re really grateful.  It shows us they care about us and our future," says Dylan Voller
-    //     At a young age Dallas Woods developed the uncanny ability to find humour in the most unlikely places. Poverty, suicide, abuses of all kinds are a common theme in his life yet its relentless exposure has provided him with the mettle to cut-through society’s demons so he can apply words to his tsunami of feelings and thoughts. Dallas writes with a wealth of humility, knowledge and experience; it’s his coping mechanism.
-    //     Debut track 9 times out of 10 raps about the power-trip police have in remote Aboriginal communities and how their overt presence is a normal occurrence to him and the residents living there. Dallas Woods raps with clever humour about the stigma of being young, black and breaking the cycle of oppression from within community.`,
-    //   images: ['DALLASWOODS1.jpg', 'DALLASWOODS2.jpg', 'DALLASWOODS3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/DallaswoodsMC/',
-    //       icon: 'facebook'
-    //     },
-    //     instagram: {
-    //       link: 'https://www.instagram.com/woods.dallas/',
-    //       icon: 'instagram'
-    //     },
-    //     twitter: {
-    //       link: 'https://twitter.com/DallasWoodsmc',
-    //       icon: 'twitter'
-    //     },
-    //     youtube: {
-    //       link: 'https://www.youtube.com/channel/UC0sVTo8jMU6rJdCHBN426fg',
-    //       icon: 'youtube'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/7AlRsfXxw5GcXNob86rgnH?si=kBSk04PiS7SH1XXzZYNB4g',
-    //       icon: 'spotify'
-    //     },
-    //     website: {
-    //       link: 'https://www.dallaswoodsmc.com/',
-    //       icon: 'safari'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      folder: 'DOORLY',
+      bio: `It’s been just a few years since Pete Tong touted Doorly as a future star, but not even the Radio 1 icon could have predicted just how rapid his ascent would be. As of 2016, he can already add two Essential Mixes, multiple Beatport and Traxsource No.1s, including a month-long stint at No.1 in the Beatport Chart with ‘Gravity Check’ (2016’s Biggest Selling Tech House Record on the site), production for Usher and Nicki Minaj, sharing the stage with The Prodigy & LCD Soundsystem, acclaimed releases on Cajual, Dirtybird and Hot Creations and studio collaborations with Green Velvet, Switch & Grandmaster Flash to his ever-growing list of achievements.
+Doorly cut his teeth in his native Huddersfield, running his own after hours warehouse party and booking the likes Armand Van Helden, Fatboy Slim, 2 Many DJs and eventually Pete Tong, who was so impressed by his ability behind the decks that he offered him a Live Radio 1 Essential Mix direct from the club. Following this seal of approval, Doorlys gig schedule took on a life of its own, with DJing in Time Square New York, and every major festival plus touring regularly alongside Fatboy Slim & Soulwax just some of the highlights. 
+At the same time as touring, Doorly was working hard honing his craft in the studio, establishing himself as a versatile, in-demand producer. Remix work for an enviable list of A-list acts followed, with imaginative reworkings of tracks from Kanye West, The Prodigy, Claude Vonstroke, Groove Armada and Basement Jaxx setting Doorly on a different creative level to many of his peers`,
+      images: ['DOORLY1.jpg', 'DOORLY2.jpg', 'DOORLY3.jpg', 'DOORLY4.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/doorlydj',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/doorlydj',
+          icon: 'instagram'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/doorly',
+          icon: 'soundcloud'
+        }
+      }
+    },
     {
       bookings: true,
       folder: 'Dugong Jr',
@@ -433,50 +401,6 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'Go Freek',
-    //   bio: `Australian global dance exports, Go Freek, are about as fond as generic club music as they are correct spelling. After founding their signature "Gutter Tech", it was not long before the duo were playing boat parties in Croatia alongside the likes of Claude VonStroke and hitting stages at festival such as EDC Las Vegas, Paradisco and Beyond Wonderland.
-    //     Signing early to electronic label, and global tastemaker in dance music, Sweat It Out, it didn’t take long before some of the worlds biggest artists took note as Go Freek shot from label young bloods, to Sweat It Out main men.
-    //     With multiple ARIA Club Chart Top 10s, including their record breaking #1 collaboration with Dom Dolla on ‘Define’ and #2 on ‘Call Out’ and ‘Put It Down’ in 2016 and 2017 respectively,Go Freek show no signs of slowing down after releasing new single, "Love Is The Weapon". After receiving early playlist support from the likes of New Music Friday, Best Of The Week, New Dance Beats & Monster Dance Beats, it did not take long for radio to follow suit with plays on The Martin Garrix Show and rotation adds on Triple J and EDC iHeart Radio.
-    //     With all of this success, it wasn’t long before some of the worlds highest profile artists and labels came knocking for the Gutter Tech touch; with the boys being hand picked to work with icon’s like Crookers, Steve Aoki, Astonomar, and Bart B More, to remixes on industry juggernaughts like Mad Decent, Dim Mak, and Ministry of Sound.
-    //     Having received consistent support from the likes of Idris Elba, FISHER, Camelphat, Claptone, Anna Lunoe, Christian Martin, Porter Robinson and Diplo to name a few, Go Freek have readily filled a gap in modern dance music with their own unique sound and an unforgettable live presence. With a 13 date AU & NZ tour and massive EP in the works, the future looks bright for Go Freek.`,
-    //   images: ['GOFREEK1.jpg', 'GOFREEK2.jpg', 'GOFREEK3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/gofreek/',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/2aRd7rRSUjtZ6WPG5GsBO6?si=a4LUOrr2T1GqAYoVSyz6lQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/gofreek',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Hydraulix',
-    //   bio: 'Hydraulix is the alter ego of Sydney based producer Damien Williams. Damien’s obsession with music began at a young age growing up listening to hip hop, rap and punk rock but it wasn’t until he was 20 when he put everything he had into music and decided to become a DJ.\n' +
-    //     'It wasn’ t long after getting in to mixing records that Hydraulix decided to put his hand to production, crafting dance floor destroyers but also drawing inspiration from the records mad by his childhood hip - hop idols such as DJ Premier, Dr Dre and Pete Rock.Despite making bass music, the roots of his sound can really be heard in the percussive and rhythmic nature of his tracks.\n' +
-    //     'Over the years Hydraulix has received airplay from Triple J and BBC’ s Radio 1, as well as support on his tunes from some of the biggest artists in Bass Music such as Bro Safari, UZ, Excision, Snails, Rico Tubbs, Alex Young, Party Favor and many more.',
-    //   images: ['HYDRAULIX1.jpg', 'HYDRAULIX2.jpg', 'HYDRAULIX3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/hydraulixdub',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/0v6pkn5nWfqK3vgeg0gl0W?si=cjamNtJcQPmUifZIVxbL0w',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/hydraulix-dub',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
       bookings: true,
       management: true,
@@ -505,28 +429,36 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'Kayex',
-    //   bio: 'Expertly walking the line between a myriad of electronic music tangents, Sydney duo Kayex recently signed with Audiopaxx for management and WME for bookings for Australasia, compel with their approach to sonic delivery. Tom Derickx and Palassi Kailis joined forces last year and released their debut single, "My Friends", which has clocked over 1 million streams on Spotify and 253k listens on Soundcloud, the track was also added onto Triple J spot rotation. The pair were also lucky enough to be given the opportunity to play at their first major festival in 2017 at Sydney’s Listen Out and Vansfest in Forbes.\n' +
-    //   'Laying down an indie electronic - esque vision, they carry with them a solid vision, embracing a humble relationship with life, culture and experience via their music.From 4 - foot school friends to studio partners, the Kayex fundamental truly embraces the epitome of art, fusing electronic music with the daily facets of humanity, while engaging a plethora of widely talented icons within the music industry.\n' +
-    //   'Powerful and rich, yet humble and welcoming, Kayex’ s Palassi Kailis and Tom Derickx introduce their music with a timeless, fluid and thought provoking aura where the abundance of cross - coveted genres from indie pop to funky electronic notions speak volumes.Delving into the ideas pool, the pair introduces their debut single‘ My Friends’ shaping the slice of life of an individual who has overcome adversity through family, friendship and union, leaving listeners with a funky, glowing record.Co - written by Dennis Dowlut(Deutsch Duke), Lionel Towers(Gypsy & The Cat), mixed by Peter Mayes(Pnau) and mastered by Mike Marsh(The Exchange)‘ My Friends’ radiates warmth and uniqueness.\n' +
-    //   'Exchanging cultural experimentation with creativity, Kayex are true to their emotionally dense intention and in turn bear enthusiasts distinct studio output.This year, they will be working a follow up single and a potential debut tour!',
-    //   images: ['KAYEX1.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/kayexlife',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/1GVJmIyVt2GHZAgv9Zqiuy?si=ZmNETHD5S1WeoNtZxWsUig',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/kayexlife',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      folder: 'Kyle Watson',
+      bio: `Kyle is undoubtedly one of South Africa’s biggest dance music exports. For over a decade he has spent his time cultivating a unique and eclectic sound which has garnered a strong following of loyal fans spanning the globe. 
+Whether you’re in a small, sweaty club in the heart of the USA or a 15,000-strong open air festival in Brazil, you’re likely to hear a Watson record. His music has featured on some of dance music’s strongest record labels - from Ultra to Atlantic, Dirtybird to This Ain’t Bristol - which has given him the privilege of being one of the very few South African artists to break out of the local scene and tour globally.
+Kyle’s career so far has seen him sell out club shows across the world, top local radio charts, and remix some of dance music’s biggest acts such as Rudimental, Zhu, Oliver Heldens, Justin Martin and Malaa. A broad spectrum of influences has helped evolve his craft into a unique style of forward thinking house music that blends the dark with the light, sweeping melody and musicality effortlessly amongst the grit and energy of a raw bassline.`,
+      images: ['KYLEWATSON1.jpg', 'KYLEWATSON2.jpg', 'KYLEWATSON3.jpg'],
+      social: {
+        soundcloud: {
+          link: 'https://soundcloud.com/kyle-watson',
+          icon: 'soundcloud'
+        },
+        facebook: {
+          link: 'https://www.facebook.com/kylewatsonmusic',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/kylewatsonmusic',
+          icon: 'instagram'
+        },
+        twitter: {
+          link: 'https://www.twitter.com/kylewatsonmusic',
+          icon: 'twitter'
+        },
+        website: {
+          link: 'https://www.kylewatsonmusic.com',
+          icon: 'safari'
+        }
+      }
+    },
     {
       bookings: true,
       management: true,
@@ -549,36 +481,6 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'Leotrix',
-    //   bio: `2018 finds 18 year old Blue Mountains local, Leotrix on an exciting tip: tearing up the standard Bass Music blueprint and digging into his experimental core. Known for pushing the boundaries of sound design as we know it, the youngster is irrepressibly drawn to this creative axis as a prodigy and as a rebel.
-    //     Producing since the age of 12, he has honed his skills to display a signature sound that encompasses infectious topline leads, crunching drum patterns and luscious melodic soundscapes. The message in his music is clear "I try to show everything around me through my music and ultimately I want to take people on an emotional journey to different places and memories.. I want them to FEEL something and overall I want it to always be fun"
-    //     His upcoming release ‘Swimboy’ is being premiered on Triple J & see’s him head off on his debut Australian tour. Following from that release he backs it right up with an Enschway collaboration ‘Stay Here’ via Sweat It Out plus a steady flow of originals and collabs with some of the world’s hottest electronic acts.
-    //     With huge dreams and aspirations, Leotrix is undoubtedly one to watch and the beauty of it all is that this is just the beginning for this inspired young talent.`,
-    //   images: ['LEOTRIX1.jpg', 'LEOTRIX2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/leotrixofficial',
-    //       icon: 'facebook'
-    //     },
-    //     instagram: {
-    //       link: 'https://www.instagram.com/leotrixofficial/',
-    //       icon: 'instagram'
-    //     },
-    //     twitter: {
-    //       link: 'https://www.twitter.com/leotrixofficial/',
-    //       icon: 'twitter'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/3mVL1qynaYs31rgyDTytkS?si=pG1EiUesSR-SmqgZPTbFUQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/leotrixofficial',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
       management: true,
       folder: 'The Lulu Raes',
@@ -687,27 +589,29 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'NOY',
-    //   bio: `NOY, the Brisbane bass native is quickly ascending the Australian dance music scene and transcending musical boundaries with his bass-predominant beats.
-    //     NOY has featured on some of Australia's biggest festival stages and club lineups; billing with artists such as Yellow Claw, RL Grime, Excision, Jauz, Major Lazer to Marshmello. NOY is best known for his versatility and celebration of a BPM overload.
-    //     Back in the studio NOY’s flips are firing in the clubs, boosted by his originals and remixes on Be Rich Records & other Australian record labels.With more new music forthcoming, NOY is undoubtedly one of Australia's most explosive artists on the rise.`,
-    //   images: ['NOY1.jpg', 'NOY2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/Noyofficial/',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/2nUPTDTXAdwBWkK03y4I8w?si=Ir2w0TFIQTGNZmad6SkSqg',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/noyofficial',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      folder: 'Nora En Pure',
+      bio: `Nora En Pure is the deep house & indie dance music sensation that is rippling through the sonic sphere with her beautiful blend of electronic beats. A core member of the Helvetic Nerds group, Nora leads listeners out of the darker realms of deep house with intricate instrumentals and enlightening melodies. Every track she gets her hands on turns to gold and every performance she gives leaves the audience in awe.
+Gracing the decks of some of the most revered dance music spots over the years, Nora has played sets at the likes of Ultra Music Festival, Coachella, Tomorrowland, Ushuaïa Ibiza, Mysteryland USA and held residencies at the world’s largest club Privilege Ibiza and Marquee Dayclub Las Vegas. Touring relentlessly all over the globe to bring her scintillating sound to as many countries as humanly possible, her loyal and ever-growing fan base is scattered all across the planet.
+Meeting many career milestones over the past two years, 2016 saw Daniela deliver her breathtaking BBC Radio 1 Essential Mix. In 2017 she delivered a long list of sensational releases, including her diverse 4-track ‘Conquer Yosemite’ EP, funk-driven cuts ‘Waves’ and ‘Fever’, and touching creations ‘Tears In Your Eyes’ and ‘Trailblazer’. Making her debut at Coachella and being the only female artist to play Tomorrowland’s Mainstage Daybreak Session, she closed the year on an all-time high.
+Striding into 2018, Nora landed her own weekly radio show on SiriusXM Chill and hosted her first Purified Miami Music Week Opening Party. Her first track of the year ‘Sphinx’ rapidly became a fan favourite and led her around the world on her Sphinx Tour. With a long list of festival appearances on the horizon, including Panorama Festival NYC, both weekends of Tomorrowland, Street Parade Zürich and her debut UK festival performance at SW4, Nora En Pure continues to impress with every move she makes.`,
+      images: ['NORAENPURE1.jpg', 'NORAENPURE2.jpg', 'NORAENPURE3.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/NoraEnPure',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/NoraEnPure',
+          icon: 'instagram'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/NoraEnPure',
+          icon: 'soundcloud'
+        }
+      }
+    },
     {
       bookings: true,
       management: true,
@@ -730,26 +634,6 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'Oski',
-    //   bio: 'Sporting a mischievous grin and a magnetic set, Oski’s unique take on dance music infusing elements of Hip-Hop, Trap, Dubstep and Drum & Bass into his production style has earned him the recognition from the likes of DJ Snake, Milo & Otis, UZ, Bro Safari, TWRK and DJ Craze to name a few.\n' +
-    //   '2015 has been a breakthrough year for Oski with constant touring and releasing some monster collaborations with UZ, Apashe as well as fellow Sydney sider Hydraulix; leading up to the release of a masterfully crafted EP due out at the beginning of 2016.',
-    //   images: ['OSKI1.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/OskiMusic',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/7ERTOmWXRyme5WJUpXVVSl?si=wmj7hS_RRQicYy1_tagCEQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/oskimusic',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
     {
       bookings: true,
       management: true,
@@ -795,155 +679,55 @@ In addition, Frames regularly hosts a radio show on FBI 94.5fm and has spun reco
         }
       }
     },
-    // {
-    //   folder: 'PhaseOne',
-    //   bio: 'Sydney based producer PhaseOne had asserted himself as one of the most consistent and significant talents to emerge from the Australian bass scene in the last few years by making a name for himself internationally with his head turning original productions and remixes. His punk and hardcore roots can be heard in his guttural synths, catchy chords and soaring leads.\n' +
-    //     'PhaseOne has released a diverse range of songs securing releases on Disciple, Buygore, Rottun, Kannibalen, Vicious Bitch and with the last two EP’ s‘ Touching The Stars’ and‘ Matter of Time’, as well as collaborations with BAR9 and Protohype coming out on Firepower Records as well as official remixes for Excision, Barely Alive and Northlane; all to great critical acclaim.\n' +
-    //     'Gaining love from major music blogs / YouTube promotional channels and artists by the likes of Datsik, Borgore, Excision, Foreign Beggars, Trolley Snatcher, Virtual Riot, Fractal, Jackal, Apashe and Kai Wachi(just to name a few), The future is looking very bright for this young 25 year old from Sydney’ s North Shore.',
-    //   images: ['PHASEONE1.jpg', 'PHASEONE2.jpg', 'PHASEONE3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/PhaseOneAU',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/0mO3Yf5XIPHfAbHh8yWLFk?si=-1XaGntJS0-poLKJExxn-A',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/phaseoneau',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Seek N Destroy',
-    //   bio: `From unwavering electro house and trap beats, to metal, dubstep and drum n’ bass - Christopher who birthed this thumping artist vibe called ‘poo rave’ has got it nailed across the musical spectrum. Signed to legendary label ‘Kannibalen Records’ this bearded loco has some sure heat to lift bass amongst the masses! Releasing tracks alongside Kayzo, Command Q & Lektrique as well as writing the official White Stage anthem this year for Defqon.1, Seek N Destroy is sure to have you quenching your butt cheeks together so your bowels won’t give way.`,
-    //   images: ['SEEKNDESTROY1.jpg', 'SEEKNDESTROY2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/seekndestroyofficial',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/2H0GPTuTiQnmbzifsIE3hB?si=N8wnvDlKQfis6yBNmRVncg',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/seek-n-destroy',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Senor Roar',
-    //   bio: `Senor Roar is a part of a new breed of artists following a refreshing approach to music. Not limited by boundaries, Señor Roar embraces an open format to both his production and performances. Encapsulating a kaleidoscope of sounds and all round certified club jams – it’s the kinda stuff that’s guaranteed to set the vibe high on the dance floor.
-    //     Slave to no BPM, Senor Roar channels his love of taking inspiration from various musical walks of life; clearly identifiable via his official remixes for the likes of Major Lazer, DJ Snake, Tchami & Malaa, Tiga & Boys Noize, Wuki, and Blonde. The Señor Roar originals resume does not read to badly either; mammoth club jams ‘Bang In The Club’, ‘Flash Bang’. ‘Trigga’, ‘Pop That‘ & ‘Jenga’ doing the business via imprints such as Dim Mak, Main Course & Onelove.
-    //     Señor Roar’s approach to club music has resonated super well in such a short span with Industry heavy hitters & tastemakers alike welcoming them with open arms. Dillon Francis, DJ Snake, Diplo, Wiwek, Tchami, Mightyfools, Astronomar & more are tried & tested supporters.
-    //     You never quite know what you are going to get next from Señor Roar… And that’s just the way he likes it.`,
-    //   images: ['SENORROAR1.jpg', 'SENORROAR2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/senorroar',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/7CJmFy2JMKfRhNtzOOis7h?si=V38rlm_7RQePTrnx0x1uLA',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/senorroar',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Signal Noize',
-    //   bio: `signal:noize is a project from Melbourne producer Nick Thayer. Showing that his musical influences draw upon an array of genres, signal:noize effortlessly blends the sounds of UK garage, 2 step, house, and breakbeat into a fusion that stands alone. After a debut release, Trunk, with Jay Fay on OWSLA's sister label, The Nest, signal:noize keeps this beast rolling with a four track EP, Home, charged with no-nonsense grooves. Title track Home recalls techno in its arrangement, with a warping bassline that refuses to sit still. Rudeboy has guts in excess, Tomorrow strips things back to the bare minimum, and Control Your Mind just oozes attitude. With a collaboration with SBCR / Bloody Beetroots about to drop, and a remix for Felix Cartal, there’s certainly no easing off the gas here. Turn up the signal. Wipe out the noize.`,
-    //   images: ['SIGNALNOIZE1.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'http://www.facebook.com/signalnoize',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/7fQc3ZqV4r826uJuGfgSwJ?si=zcDniF_0SxGRMzJL2inhQA',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/signalnoize',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'SUB-human',
-    //   bio: 'FKA Trumpdisco',
-    //   images: ['SUB-HUMAN1.jpg', 'SUB-HUMAN2.jpg', 'SUB-HUMAN3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/subhumanmusic',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/05ekpLtsCMtrb8A9Drhifw?si=m2qv6yZySX2hAAdSYQ3QfQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/subhumanmusic',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Truth',
-    //   bio: `Something of a rarity in today's fast moving music culture, Truth have managed to both stick to their roots and yet remain highly in demand as touring DJs throughout their career, cementing them as one of New Zealand's finest creative exports. Since the act's inception in 2007, Andre Fernandez and Tristan Roake have cut a clear pathway through the international dubstep and bass music scene.
-    //     No stranger to the nightclub and festival circuits, the guys tour all year-round covering Europe, The USA, New Zealand and Australia, as well as managing to crack scenes traditionally not extensively covered by Dubstep acts, such as Asia and South America. Truth have extensive DJ support from Mala, Datsik, Excision, Skream, Youngsta, Hatcha, Om Unit and N - Type, to name a few, giving their music an advance presence at key club nights across the world and through seminal radio stations such as BBC Radio One, Kiss Fm and Rinse FM.
-    //     Truth have seen releases on a wide range of labels, with their recent album 'Hollow World' coming out on Firepower Records, as well as appearances on Deep Medi Muzik, Tempa Records, Rottun Recordings, SMOG, and more.Through these, Truth have found themselves in -demand as remixers and collaborators to Datsik, Alix Perez, Shapeshifter, Taso(Teklife), Silkie, Kromestar, Flowdan and countless other figures of note within the international bass music community.`,
-    //   images: ['TRUTH1.jpg', 'TRUTH2.jpg', 'TRUTH3.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'http://www.facebook.com/truthnz',
-    //       icon: 'facebook'
-    //     },
-    //     twitter: {
-    //       link: 'https://www.twitter.com/truthdubstep/',
-    //       icon: 'twitter'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/0ZDCCJSvjcdJZH9hOl1uYc?si=KK76-jrWQhSZztSGbok-JQ',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/truthdubstep',
-    //       icon: 'soundcloud'
-    //     },
-    //     website: {
-    //       link: 'http://www.truthdubstep.com/',
-    //       icon: 'safari'
-    //     }
-    //   }
-    // },
-    // {
-    //   folder: 'Twerl',
-    //   bio: `TWERL is fast becoming one of Australia's hottest exports. In less than a year he’s racked up millions of plays across all platforms, had triple j play and has backing from huge acts such as RL Grime, DJ Snake, Dillon Francis, Alison Wonderland, Ekali, Skrillex's Nest HQ, Mad Decent and Buygore.\n
-    //     Known for his massive sets and having played shows along side Marshmello, What so not, Shockone and even filling in for Chance The Rapper on MainStage at Origin NYE, be sure to get down to a TWERL show and see him tear apart your city.`,
-    //   images: ['TWERL1.jpg', 'TWERL2.jpg'],
-    //   social: {
-    //     facebook: {
-    //       link: 'https://www.facebook.com/twerlbeats%20/',
-    //       icon: 'facebook'
-    //     },
-    //     spotify: {
-    //       link: 'https://open.spotify.com/artist/3pJlam8yODJN1AEzmTVGko?si=dT89B2EUTJqpd-zxFLXuxg',
-    //       icon: 'spotify'
-    //     },
-    //     soundcloud: {
-    //       link: 'https://soundcloud.com/twerlbeats',
-    //       icon: 'soundcloud'
-    //     }
-    //   }
-    // },
+    {
+      bookings: true,
+      folder: 'Prok | Fitch',
+      bio: `In the past few years, Prok & Fitch have cemented their position as one of the most respected and successful DJ/productions outfits in electronic music. Regularly cited as one of Beatport’s highest selling artists annually – with 2016’s Green Velvet collab ‘Sheeple’ remaining at No.1 for an impressive 10 weeks  – their music strikes an appealing balance between melodic intricacy and dance floor heft. The success of their music and prowess behind the decks has lead to regular appearances at many of the world’s most renowned venues and festivals. 
+Hailing from the UK’s south coast, Ben Prok and James Fitch shared a mutual love of house music that led to them working together on debut release ‘Outro Lugar’, a remake of the Salomé de Bahia original. These early studio sessions formed the basis of the tough, groove-led sound with which that went on to make their names, eventually becoming one of the UK’s most celebrated proponents of Tech House. 
+Prok & Fitch fast established themselves as both prolific and with the talent to match their output, working with highly credible labels such a Relief, Toolroom, Suara and Stereo. Talent like this didn’t go unnoticed for long, leading to collaborations with the likes of Green Velvet, Dosem, Dajae and Mark Knight on various projects in the last couple of years. 
+Prok & Fitch’s music also finds consistent support across Radio One’s full spectrum of dance shows; notably Pete Tong & Annie Mac airing pretty much everything that comes from their Brighton studio, and DJ’s like Nic Fanciulli, Carl Cox, Joris Voorn, Marco Carola, Matthias Tanzmann and more all professing to heavy rotation of their addictive club cuts in their sets. 
+This hype and consistency has earned them the respect to grace some of the finest dance floors and festivals in the world including BPM Mexico, Green Valley Brazil, Space and Amnesia Ibiza, Womb Tokyo, Exchange LA, Heart Miami, Ultra Music Festival, EDC, Sunburn & more.
+"We're in the best place we've ever been with our sound, we're making the music we love and it's effortless, it fuels our passion for house and techno, a passion that we've carried since day one."`,
+      images: ['PROK|FITCH1.jpg', 'PROK|FITCH2.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/prokfitch',
+          icon: 'facebook'
+        },
+        twitter: {
+          link: 'https://www.twitter.com/prokfitch',
+          icon: 'soundcloud'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/prokfitch',
+          icon: 'instagram'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/prokfitch',
+          icon: 'soundcloud'
+        }
+      }
+    },
+    {
+      bookings: true,
+      folder: 'Stööki Sound',
+      bio: `...`,
+      images: ['STÖÖKISOUND1.jpg', 'STÖÖKISOUND2.jpg', 'STÖÖKISOUND3.jpg', 'STÖÖKISOUND4.jpg'],
+      social: {
+        facebook: {
+          link: 'https://www.facebook.com/stookisound',
+          icon: 'facebook'
+        },
+        instagram: {
+          link: 'https://www.instagram.com/stookisound',
+          icon: 'instagram'
+        },
+        soundcloud: {
+          link: 'https://soundcloud.com/stookisound',
+          icon: 'soundcloud'
+        }
+      }
+    },
     {
       bookings: true,
       management: true,
