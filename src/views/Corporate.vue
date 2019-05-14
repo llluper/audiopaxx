@@ -41,16 +41,15 @@ Events include awards nights, fashion shows, product and album launches, private
         </div>
 
 <div class="services">
-<h1 class="is-size-3 is-size-3-mobile title">Services</h1>
+<h1 class="is-size-3 is-size-3-mobile title services-title">Services</h1>
 LINE UP CURATION, BOOKING &amp; TOURING
-<p>Audiopaxx has proven itself as a leading force in Australian, New Zealand and Asia touring across both domestic bookings and international tours.</p>
-<p>
-It has supplied artists for global corporations including FIFA, Moët &amp; Chandon, GQ, Vogue and Corona – the companies also run venues and book festivals with a serious competitive advantage, allowing booking agents to ensure brands and corporations pay fair fees for artists and avoid often-inflated rates.</p>
+<p>Audiopaxx has proven itself as a leading force in Australian, New Zealand and Asia touring across both domestic bookings and international tours.</p>
+<p>It has supplied artists for global corporations including FIFA, Moët &amp; Chandon, GQ, Vogue and Corona – the companies also run venues and book festivals with a serious competitive advantage, allowing booking agents to ensure brands and corporations pay fair fees for artists and avoid often-inflated rates.</p>
 
 MUSIC LICENSING &amp; COPYRIGHT
-<p>Audiopaxx possesses a catalogue of music with rights to both the Master and Publishing aspects of recordings.</p> 
+<p>Audiopaxx possesses a catalogue of music with rights to both the Master and Publishing aspects of recordings.</p>
 
-<p>Their management clients afford the rare opportunity to offer its clients a one-stop shop for licensed music available for use in advertising, branding and social media campaigns. The managers have created bespoke songs for campaigns and events, as has previously been provided for the Microsoft ‘Imagine Cup’ through having the Artists producing music and signing over the copyright perpetually.</p>
+<p>Their management clients afford the rare opportunity to offer its clients a one-stop shop for licensed music available for use in advertising, branding and social media campaigns. The managers have created bespoke songs for campaigns and events, as has previously been provided for the Microsoft ‘Imagine Cup’ through having the Artists producing music and signing over the copyright perpetually.</p>
 
 ART DIRECTION &amp; MARKETING
 <p>Audiopaxx Agents, Managers &amp; Promoters pride themselves in their ability to develop unique, trend-leading and eye-catching campaigns, boasting world-class assets to fit any brief. Past videos, artwork and graphics can be found here.</p>
@@ -60,7 +59,7 @@ ART DIRECTION &amp; MARKETING
 EVENT FORMAT &amp; PRODUCTION
 <p>Audiopaxx has a wealth of experience across a range of event models for clients of all sizes to take advantage of having launched the company in 2010 doing events.</p>
 
-<p>Offering anything from an intimate dinner event between your closest partners, to an awards ceremony with a strictly curated guest list, to a large conference or branded event in which to share industry expertise; Audiopaxx can confidently meet your needs.</p>
+<p>Offering anything from an intimate dinner event between your closest partners, to an awards ceremony with a strictly curated guest list, to a large conference or branded event in which to share industry expertise; Audiopaxx can confidently meet your needs.</p>
 
 <p>Catering to a wide range of business events that draw anything from 10 to 10,000 people; no job is too small or too large for our event management team.</p>
 
@@ -70,7 +69,6 @@ SPONSORSHIPS &amp; BRAND PARTNERSHIPS
 <p>They have experience with different levels of involvement ranging from presenting partners to brand ambassadors and endorsement deals.</p>
 
 </div>
-
 
         <!-- <div class="teamSection">
           <h1 class="is-size-3 is-size-3-mobile title">What We Do</h1>
@@ -197,5 +195,8 @@ ul {
 .past {
   height: 100%;
   min-height: 100%;
+}
+.services-title {
+  margin-bottom: 20px !important;
 }
 </style>
