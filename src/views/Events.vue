@@ -33,7 +33,8 @@
           <p class="has-text-weight-bold top20">- The Sydney Glass Island</p>
           <img :src="require('../../public/img/events/glasshouse.jpg')" alt="Audiopaxx Events">
           <p class="top20">The ultimate Sydney Harbour venue for your dance party, celebration or corporate event. The Sydney Glass Island is a magnificent venue for dining &amp; celebrations, in one of the world's most spectacular settings - Sydney Harbour. With an unrestricted 360 degree outlook, you will be captivated by breathtaking harbour views throughout the duration of your event.</p>
-
+          <p class="has-text-weight-bold top20">- Coogee Pavilion, Sydney</p>
+          <p class="has-text-weight-bold">- Crooked River Winery, Gerringong</p>
         </div>
         <div class="sectio">
           <h1 class="is-size-3 is-size-4-mobile title">Festivals</h1>
