@@ -7,6 +7,10 @@
           <p v-for="(product, index) in text.split('\n')" :key="'international-text-'+index">
             {{product}}
           </p>
+<p></p>
+<h1 class="is-size-3 is-size-4-mobile title">No. of Tours:</h1>
+<p> 2012 - 4  |  2013 - 11  |  2014 - 27  |  2015 - 45  |  2016 - 63  |  2017 - 50  |  2018 - 47  |  2019 - 12</p>
+
         </div>
         <div v-for="(product, index) in artists" :key="'international-artist-'+index" v-if="$route.params.Pid != undefined && $route.params.Pid == product.name.replace(/\s+/g, '-')">
           <carousel :navigationPrevLabel="prev" :navigationNextLabel="next" :autoplay="true" :autoplayTimeout="5000" :autoplayHoverPause="true" :speed="3000" :minSwipeDistance="20" :perPage="1" :navigationEnabled="true" :paginationEnabled="false">
@@ -31,7 +35,7 @@
 import { International } from '../assets/data/statics.js'
 
 export default {
-  name: 'international',
+  name: 'tours',
   data () {
     return {
       title: International.title,
